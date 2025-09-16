@@ -1,6 +1,6 @@
 YouTube敏感内容分析日志
 ==================================================
-开始时间: 2025-09-16 02:22:02.213503
+开始时间: 2025-09-16 13:13:53.539194
 
 重点关注以下内容进行敏感词匹配：
 1. 视频标题和描述
@@ -9,3 +9,1967 @@ YouTube敏感内容分析日志
 4. 用户消息和文本内容
 ==================================================
 
+{
+  "timestamp": "2025-09-16T13:16:40.574291",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.W8m1lotAEdE.2019.O/rt=j/m=qgl,q_dnp,qmd,qcwid,qbd,qapid,qald,qads,q_dg/exm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/rs=AA2YrTtPgSqVZDs5alfSoqico2Ba5syeuw",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "[].concat(h),w=function(ca,sb){if(m)return 0;so.clearTimeout(l);p.push.apply(p,D);const Pc=((Ao||{}).config||{}).update;Pc?Pc(e):e",
+      "c;const w=!!(2",
+      "c(a[p]);q!=null",
+      "0;q<64;q+=4)r[q/4]=p[q]<<24|p[q+1]<<16|p[q+2]<<8|p[q+3];for(q=16;q<80;q++)p=r[q-3]^r[q-8]^r[q-14]^r[q-16],r[q]=(p<<1|p>>>31)",
+      "0;q<80;q++){if(q<40)if(q<20){var H=Q^w",
+      "[],w=0,D=p.length;w<D;++w)q.push(p.charCodeAt(w));p=q}r||(r=p.length);q=0;if(l==0)for(;q+64<r;)b(p.slice(q,q+64)),q+=64,m+=64;for(;q<r;)if(f[l++]=p[q++],m++,l==64)for(l=0,b(f);q+64<r;)b(p.slice(q,q+64)),q+=64,m+=64}function d(){var p=[],\nr=m*8;l<56?c(h,56-l):c(h,64-(l-56));for(var q=63;q>=56;q--)f[q]=r",
+      "r=0;q<5;q++)for(var w=24;w>=0;w-=8)p[r++]=e[q]>>w",
+      "0;q<p.length;q++)r+=\"0123456789ABCDEF\".charAt(Math.floor(p[q]/16))+\"0123456789ABCDEF\".charAt(p[q]\u0016);return r}}};\n_.Tj=function(a,b=Oj){if(!Pj){let d;a=(d=a.navigator)==null?void 0:d.userAgentData;if(!a||typeof a.getHighEntropyValues!==\"function\"||a.brands",
+      "c[l+1];p=c[l+2];m=f[r>>2];\nr=f[(r",
+      "f[(q",
+      "JSON.stringify(JSON.parse(p.replace(\")]}'\\n\",\"\")));r=Ok(q)}catch(D){}if(r){p=Number(dk(r,1,_.ia(\"-1\")));p>0",
+      "_.Wa(_.Xa);var w;q",
+      "p[_.Xa])",
+      "q.Be))try{q(p,w,Yj)}catch(D){_.ka(D)}r=Pk.j?Pk.o(r,Pk.j,Pk.i,Pk.v):Pk.o(r,Pk.i,null,Pk.v);if(r=r===null?void 0:r)r=_.Z(r,1,-1),r!==-1",
+      "_.Bj(e,_.Fk,3,_.Aj());var w=Number(dk(e,14));_.Nk(this.B);pk(this.o,this.B.i);p===401",
+      "_.zc",
+      "Math.max(p.top,w.top),w=Math.min(p.top+p.height,w.top+w.height),q<=w",
+      "new _.Il(0,0);w=_.qe(_.ke(D));if(_.Ol(w,\"parent\")){do{if(w==r)var Q=_.Tl(D);else Q=_.Tf(D),Q=new _.Il(Q.left,Q.top);q.x+=Q.x;q.y+=Q.y}while(w",
+      "new _.Cs(1,\"Aborted\");q.cause=h.reason;m(q)}else{var p={},r=dt(a,k,g);Us(r,\"error\",q=>void m(q));Us(r,\"metadata\",q=>{p=q});Us(r,\"data\",q=>{l(Gs(q,p))});h",
+      "new _.Cs(1,\"Aborted\");q.cause=h.reason;m(q)})}}),a.Rf).call(a,Fs(e,c,d)).then(k=>k.Bi)};\n_.ft=function(a,b,c,d,e,f={}){return et(a,b,c,d,e,f)};_.gt=class{constructor(a={}){this.Nf=a.Nf||_.Ib(\"suppressCorsPreflight\",a)||!1;this.withCredentials=a.withCredentials||_.Ib(\"withCredentials\",a)||!1;this.Rf=a.Rf||[];this.Ie=a.Ie;this.i=a.il||!1}};\n}catch(e){_._DumpException(e)}\ntry{\n_.Re=function(a){this.id=a};_.Re.prototype.toString=function(){return this.id};_.$v={[64]:\"ma\",[73]:\"ogb\",[89]:\"cr\",[21]:\"test\",[0]:\"unkn\",[137]:\"con\",[155]:\"hl\",[78]:\"yt\",[171]:\"lp\",[172]:\"ap\",[177]:\"amo\",[178]:\"pqe\",[74]:\"gg\",[1]:\"gm\",[140]:\"am\",[193]:\"sc\"};for(const a of Object.keys(_.$v));_.aw=new _.Re(\"c\");_.bw=new _.Re(\"d\");_.cw=new _.Re(\"e\");_.dw=new _.Re(\"f\");_.t.U3bHHf!=null||(_.t.U3bHHf=0);_.t.U3bHHf++;_.ew=Promise;\n}catch(e){_._DumpException(e)}\ntry{\nvar fw,gw,iw,jw,mw,pw,qw,rw,xw,yw,zw,Bw,Ew,Fw,Gw,Hw,Iw,Jw,Lw,Mw,Ow,Pw,Sw,Uw,Vw,Xw,Yw,Zw,$w,ax,bx,cx,nx,ox,hw,px,Dw,qx,rx,sx,ww,Aw,Cw,tx,ux,uw,kw,lw,sw,tw,nw,ow,vx,wx,xx,yx,zx,Rw,Ax,Qw,Bx,Cx,Kw,Nw,Dx,Ex,Fx,Ix,Jx,Ox,Px,Rx,Qx,Sx,Tx,Ux,Vx,Wx,Xx,Yx,$x,Zx,jy,ky,ly,oy,my,qy,ry,ty,wy,vy,uy,xy,yy,zy,py,Ey,By;fw=function(){throw Error(\"d\");};gw=function(a,b){b=String.fromCharCode.apply(null,b);return a==null?b:a+b};\niw=function(a,b){if(typeof a===\"string\")return new hw(_.Mm(a),b);if(Array.isArray(a))return new hw(new Uint8Array(a),b);if(a.constructor===Uint8Array)return new hw(a,!1);if(a.constructor===ArrayBuffer)return a=new Uint8Array(a),new hw(a,!1);if(a.constructor===_.gb)return b=_.Zm(a)||new Uint8Array(0),new hw(b,!0,a);if(a instanceof Uint8Array)return a=a.constructor===Uint8Array?a:new Uint8Array(a.buffer,a.byteOffset,a.byteLength),new hw(a,!1);throw Error();};\njw=function(a,b,c){const d=b",
+      "h[k];l?c(e,k,p,l,q):b(e,k,p,q)}}return d[a]=e};qw=function(a){return Array.isArray(a)?a[0]instanceof _.fn?a:[_.hn,a]:[a,void 0]};rw=function(a,b,c,d){const e=c.i;a[b]=d?(f,g,h)=>e(f,g,h,d):e};\nxw=function(a,b,c,d){var e=this[sw];const f=this[tw],g=_.Pm(void 0,e.ed,!1),h=_.Ya(a);if(h){var k=!1,l=e.Zd;if(l){e=(m,p,r)=>{if(r.length!==0)if(l[p])for(const q of r){m=uw(q);try{k=!0,f(g,m)}finally{ww(m)}}else d==null||d(a,p,r)};if(b==null)h.xd(e);else if(h!=null){const m=h[b];m",
+      "new JF(c,g,h,k,l,d,e,m,p,r,a)}catch(w){q=null}else q=null;\nswitch(f){case 2:case 6:b=q;break a;case 1:b=new KF(b,g,h,p);break a;default:b=new _.Nn(g,h,l)}}return b},QF=function(a,b,c){!a.j",
+      ">\n_.uf(q,17)!==3);if(_.F(a,12)",
+      ">_.uf(q,17)===1)[0];k=EC(h,k,a,1)}g=_.qg(\"dd\");var l=_.F(a,23);for(let q=0;q<e.length;q++){const w=e[q];if(!w.getUrl()){b.log(Error(\"sb\"));continue}if(_.uf(w,17)===3){l||_.XG(this,a,b,d,c,w);continue}var m=g.j;const D=new rF(w,c,d,!!_.F(a,21),m===null?f:m,h),Q=k?k:EC(D.H(),w,a);var p=[],r=_.uf(w,17)===1;m=_.uf(w,17)===2;if(r)p=(p=document.querySelector(\"#gb [data-ogsr-alt]\"))?[p]:[],_.nh(g,\nnew CD(\"app\",D));else if(m",
+      "[^",
+      "\"+encodeURIComponent(c)}))}else a.C.log(new fs)},hs=class extends _.vg{constructor(a,b){super(a,b);this.D=this.j.getAttribute(\"data-pid\");this.i=_.Cg(this.j,\"gb_oa\");this.A=_.Cg(this.j,\"gb_la\");this.v=new _.ds(_.Bl,!1);_.zg(this,this.j,(0,_.z)(this.B,this));if(a=_.T(\"gb_9\",this.j))if(a=a.style.backgroundPosition.split(\" \"),\na=\"#\"+this.j.id+\" .gb_9::before{left:\"+a[0]+\";top:\"+a[1]+\"}\",es){b=es;var c=void 0;if(c==void 0||c<0){c=null;try{c=b.cssRules||b.rules}catch(e){if(e.code==15)throw e.styleSheet=b,e;}c=c.length}if(b.insertRule)b.insertRule(a,c);else if(a=/^([^\\{]+)\\{([^\\{]+)\\}/.exec(a),a.length==3)b.addRule(a[1],a[2],c);else throw Error(\"Ea\");}else{var d=_.le();b=d.i;c=_.re(d.i,\"STYLE\");const e=_.de(\"style\",b);e",
+      "_.F(a.i,15);_.J(r,16,q);var w=a.j,D=_.G(a.i,18);_.L(w,7,D);var Q=a.j,M=_.G(a.i,17);_.L(Q,6,M)}a.F=_.C(H,yH,4)||null;a.A=_.C(H,uH,\n5)||null;a.C=_.F(H,3);a.B=_.Cj(H,6);a.N=_.F(H,11);a.K=_.F(H,12);if(a.K){const ca=_.G(a.A,1),sb=_.Z(H,13);a.v=new _.Nn(ca,4096,sb)}a.o=_.Cj(H,9)||null;a.D=_.Cj(H,10)||null}}catch(H){throw H instanceof _.Cs?(H.code===16||H.code===7)"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:44.049893",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "Tall Man Run",
+      "确定",
+      "开始游戏",
+      "Solar Smash",
+      "Cut The Rope",
+      "Hill Climb Racing Lite",
+      "Crossy Road",
+      "My Mini Mart",
+      "Build a Queen",
+      "Magic Tiles 3",
+      "Bridge Race",
+      "Attack Hole",
+      "Bee Factory Lite",
+      "Stacky Dash"
+    ],
+    "description": [
+      "Tall Man Run is a game where you collect the highest numbers to grow taller and stronger as you race towards a giant enemy.",
+      "The ultimate physics-based sandbox simulation game",
+      "Cut the Rope, catch a start and feed Om Nom candy in the award-winning game!",
+      "Play Hill Climb Racing lite! Take on endless hills in this physics-based driving game. Battle the terrain and master the art of uphill racing!",
+      "Crossy Road is the 8-bit endless arcade hopper that started it all. Collect custom characters and navigate freeways, railroads, rivers and much more.",
+      "\\",
+      "Make the right choices to build the most beautiful queen.",
+      "Magic Tiles 3 is a rhythm-based mobile game where players tap black tiles in synchronization with the music",
+      "Stack your bricks and create a bridge. Compete against other characters in order to win the race!",
+      "Swallow all the objects to beat the final enemy and progress in the game!",
+      "Manage your own tycoon factory to make money and unlock more bees",
+      "Swipe your finger to dash your hero across the mazes, stack up the tiles higher and higher and reach for the skies!!!"
+    ],
+    "content": [
+      "Level 1 Troops vs Max Level Troop | clash of clans",
+      "Coc 99",
+      "41万次观看",
+      "10个月前",
+      "添加到待播列表",
+      "保存到“稍后观看”",
+      "保存到播放列表",
+      "分享",
+      "不感兴趣",
+      "不要推荐此频道",
+      "举报",
+      "中共外宣最慘打臉現場!「收復台灣後要趕走230萬人!」被英國記者全程吊打！（中文字幕）",
+      "Leonard",
+      "487万次观看",
+      "1年前",
+      "View Privacy Policy",
+      "View Terms of Service",
+      "But what is a neural network? | Deep learning chapter 1",
+      "3Blue1Brown",
+      "2059万次观看",
+      "7年前",
+      "野蛮人之歌",
+      "Clash of Clans",
+      "5551万次观看",
+      "8年前",
+      "来自李克强去世的曙光医院现场信息｜新闻特写20231027",
+      "王志安 ",
+      "222万次观看",
+      "6300+ TROPHY TH17 LEGEND LEAGUE BASE | TOWN HALL 17 NEW LEGEND BASE LAYOUT |COC BEST TH17 WAR BASE",
+      "Gaming Dynasty",
+      "1460次观看",
+      "3天前",
+      "We Are Football",
+      "赞助商广告",
+      "Under Armour",
+      "93万次观看 • 2周前",
+      "发送反馈",
+      "How many levels of Air defence can beat electric dragon Solo? Clash of Clans",
+      "47万次观看",
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 #shorts 】",
+      "225万次观看",
+      "「遊戲王」 開箱出大事！青眼白龍預組 大獎三頭神龍降臨！",
+      "69万次观看",
+      "Root Rider Vs Every Walls | #shorts",
+      "117万次观看",
+      "افضل شعور لاعبين كلاش اوف كلانس Clash of Clans #فريد_كلاش",
+      "65万次观看",
+      "Who can survive this trap | clash of clans #shorts #shortsfeed #clashofclans",
+      "371万次观看",
+      "Archer Tower one to the highest level vs Archer Queen. Let's see what happens. #shorts JS-Joy",
+      "149万次观看",
+      "Best equipment with Electro Boots Royal Champion? | Clash of Clans | r great #coc #gaming",
+      "109万次观看",
+      "100 Clone + 1 Skeleton vs TH16!! #shorts #clashofclans #supercell #coc #cocshorts #viralshorts",
+      "462万次观看",
+      "The Korean War using Google Earth [Extended]",
+      "mapsinanutshell",
+      "1058万次观看",
+      "2年前",
+      "Ultimate Base Formation vs All Max Troops | Clash of Clans",
+      "Clashing Beast",
+      "95万次观看",
+      "11个月前",
+      "wizard Level max 1120 attacking #clashofclans #coc #wizard",
+      "9.9万次观看",
+      "Infinite Bat 🦇 😱😱 VS Town Hall 16 in Clash of clans  #th16 #clashofclans #gaming",
+      "1025万次观看",
+      "#gaming #كلاش_اوف_كلانس #العاب #clashofclans #clashroyale #gamer",
+      "556万次观看",
+      "Who can beat these Hidden Tesla from Electro Family? Clash of Clans",
+      "223万次观看",
+      "QUAD HERO CHARGE is INSANE: 3 STAR with MASS HEALERS #clashofclans",
+      "84万次观看",
+      "250 gems got wasted ll Clash of clans ll #shorts #clashofclans #coc",
+      "807万次观看",
+      "Who Can finish this Bomb Tower Formation? Clash of Clans",
+      "50万次观看",
+      "#gaming #gamer #game #clashofclans #clashroyale #كلاش_اوف_كلانس",
+      "71万次观看",
+      "Log Launcher vs Walls After Update( Clash of Clans) | #shorts #clashofclans",
+      "161万次观看",
+      "拒绝中国国行阉割  iPhone 17 海外版本该如何选择？|  港版、台版 、日版、美版选择指南",
+      "大特",
+      "12万次观看",
+      "4天前",
+      "1美元 vs 1亿美元的车！",
+      "MrBeast",
+      "4.8亿次观看",
+      "Start your breakout now on Steam. Join the global community of hardcore fighters.",
+      "Arena Breakout: Infinite",
+      "下载",
+      "观看",
+      "胡錦濤在中共二十大閉幕會中途被攙扶離場－ BBC News 中文",
+      "BBC News 中文",
+      "454万次观看",
+      "Can I Gem from TH1 to TH17 in 1 Hour?",
+      "Judo Sloth Gaming",
+      "547万次观看",
+      "8个月前",
+      "零元購 治安差 物價高 不方便 為何一堆人想去美國 【美國到底好在哪?】",
+      "cheap",
+      "208万次观看",
+      "Stewie and Brian imprisoned in China | Family guy s23 |",
+      "3gomaniac ",
+      "57万次观看",
+      "4个月前",
+      "Largest Armies in the World 1820-2022  WW1, WW2",
+      "Gozhda",
+      "1804万次观看",
+      "3年前",
+      "New Temporary Troop K.A.N.E vs P.E.K.K.A vs Every Town Hall - Clash of Clans",
+      "COC Mosh",
+      "25万次观看",
+      "5个月前",
+      "Take your hair styling routine to the next level with the Dyson Airwrap Co-anda2x™.",
+      "Best Buy",
+      "167万次观看 • 2周前",
+      "一带一路12年：共同繁荣还是债务陷阱？一万亿美元砸出了什么？ | 一带一路 | BRI | 债务陷阱 | 经济殖民 | 中国对外援助 | 大撒币 | 93阅兵 | 老周横眉",
+      "老周横眉",
+      "36万次观看",
+      "Clash of Clans: Live Action Movie Trailer Commercial",
+      "Bellpond",
+      "6323万次观看",
+      "11年前",
+      "【少爷和我系列】史上最高分小品！少爷和我冠军赛告诉你什么是降维打击！",
+      "奇趣综艺局",
+      "74万次观看",
+      "3周前",
+      "ML Foundations for AI Engineers (in 34 Minutes)",
+      "Shaw Talebi",
+      "20万次观看",
+      "Clash of Clans 600 Hero Challenge! 🔥 Who's the Strongest?",
+      "clash legends",
+      "61万次观看"
+    ],
+    "text": [
+      "11:32",
+      "告诉我们原因",
+      "我们不会再向你推荐此频道中的推荐视频",
+      "33:01",
+      "YouTube 游戏大本营",
+      "保存到游戏大本营",
+      "已保存到游戏大本营",
+      "查看",
+      "分享",
+      "查看游戏信息",
+      "不感兴趣",
+      "游戏已移除",
+      "发送反馈",
+      "无需下载和安装，即时畅玩游戏",
+      "查看全部",
+      "好的。我们会努力向你推荐更符合你喜好的内容。",
+      "展开",
+      "收起",
+      "18:40",
+      "9:55",
+      "4:07",
+      "8:09",
+      "1:01",
+      "Shorts",
+      "视频已移除",
+      "撤消",
+      "知道了，我们会在首页减少 Shorts 短视频",
+      "8:41",
+      "22:42",
+      "6:56",
+      "16:28",
+      "1:24",
+      "23:13",
+      "15:59",
+      "4:33",
+      "9:02",
+      "20:55",
+      "0:51",
+      "28:23",
+      "3:21",
+      "30:29",
+      "34:50",
+      "全部",
+      "游戏",
+      "播客",
+      "直播",
+      "卡通",
+      "最近上传",
+      "已观看",
+      "发现新视频",
+      "Arena Breakout Infinite",
+      "首页",
+      "YouTube 首页",
+      "搜索",
+      "创建",
+      "上传视频",
+      "开始直播",
+      "键盘快捷键",
+      "播放",
+      "在播放和暂停之间切换",
+      "快退 10 秒",
+      "快进 10 秒",
+      "上一个视频",
+      "下一个视频",
+      "上一帧（暂停时）",
+      "下一帧（暂停时）",
+      "减慢播放速度",
+      "加快播放速度",
+      "跳转至视频中的某个时间点（例如，输入 7 表示前进至总时长的 70% 处）",
+      "跳到上一章",
+      "跳到下一章",
+      "常规",
+      "切换全屏模式",
+      "切换影院模式",
+      "切换迷你播放器",
+      "关闭迷你播放器或当前对话框",
+      "静音/取消静音",
+      "字幕",
+      "如果视频支持字幕，开启/关闭字幕",
+      "调整文字不透明度",
+      "调整窗口不透明度",
+      "放大字体",
+      "缩小字体",
+      "全景视频",
+      "向上平移",
+      "向左平移",
+      "向下平移",
+      "向右平移",
+      "放大",
+      "缩小",
+      "关闭",
+      "跳过导航",
+      "正在听取…",
+      "没听清，请重试。",
+      "“播放 Dua Lipa 的音乐”",
+      "“显示我订阅的频道的视频”",
+      "点按麦克风重试",
+      "正在处理…",
+      "无网络连接",
+      "请检查你的网络连接，然后重试",
+      "等待授予权限",
+      "允许使用麦克风，以便通过语音进行搜索",
+      "通过语音搜索内容",
+      "要执行语音搜索，请转至浏览器的设置部分，然后授予麦克风使用权限",
+      "取消",
+      "麦克风已关闭，请重试。"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:47.020571",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.zh_CN.T_ClfBBfUDQ.es5.O/ck=boq-one-google.OneGoogleWidgetUi.DHePi937uKc.L.B1.O/am=AIAAAgP7AAAg/d=1/exm=A7fCU,BVgquf,EFQ78c,GkRiKb,IZT63,JNoxi,KUM7Z,LEikZe,MI6k7c,MdUzUe,MpJwZc,NwH0H,O1Gjze,O6y8ed,ORlaSe,OTA3Ae,PrPYRd,QIhFr,RMhBfe,RyvaUb,SdcwHb,SpsfSb,UUJqVe,Uas9Hd,Ujeq8,Ulmmrd,V3dDOb,XVMNvd,Z5uLle,ZDZcre,ZwDk9d,_b,_tp,aW3pY,byfTOb,e5qFLc,gychg,hKSk3e,hc6Ubd,kjKdXe,lazG7b,lsjVmc,lwddkf,mI3LFb,mdR7q,n73qwf,noLxJb,pjICDe,pw70Gc,qTnoBf,w9hDv,wmnU7d,ws9Tlc,xQtZb,xUdipf,zbML3c,zr1jrb/excm=_b,_tp,appwidgetauthview/ed=1/wt=2/ujg=1/rs=AM-SdHtsfI60a-RTASEaK1hGLpSq-sLbCA/ee=EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:SdcwHb;Me32dd:MEeYgc;NJ1rfe:qTnoBf;NPKaK:SdcwHb;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:QIhFr;lOO0Vd:OTA3Ae;oGtAuc:sOXFj;pXdRYb:MdUzUe;qafBPd:yDVVkb;qddgKe:xQtZb;tbg2ob:nMC03e;wR5FRb:O1Gjze;xqZiqf:wmnU7d;yxTchf:KUM7Z;zxnPse:GkRiKb/dti=1/m=p3hmRc,LvGhrf,RqjULd",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "0,u=0,r=0;r<b.length;r++){var v=b[r],y=v.responseEnd-v.startTime;if(y>=0)switch(v.initiatorType){case \"css\":d++;e+=y;break;case \"img\":f++;g+=y;break;case \"script\":h++;\nl+=y;break;case \"link\":m++;p+=y;break;default:q++,u+=y}}d",
+      "e;m=m.value;if(!m.hadRecentInput){var u=q.l[0],r=q.l.at(-1);q.j",
+      "p.next();!q.done;q=p.next())zja(e,q.value);(p=e.v())",
+      "function(r){var v;if((v=r.It)!=null",
+      "p.next();!q.done;q=p.next())addEventListener(q.value,m,{capture:!0});PI(function(u){d=XI(\"LCP\");h=QI(a,d,oJ,b.Og);RI(function(){d.value=performance.now()-u.timeStamp;h(!0)})})}})};var Dja=function(a,b){b=b===void 0?{}:b;b=Object.assign({},b);var c=zI(b,nJ),d=new WeakMap;c.j=function(f){var g=f.element;if(g){var h,l,m,p=(m=(l=(h=b).Jy)==null?void 0:l.call(h,g))!=null?m:NI(g);d.set(f,p)}};var e=function(f){var g={Qn:0,yA:0,zA:0,py:f.value};if(f.entries.length){var h=LI();if(h){var l=h.activationStart||0,m=f.entries.at(-1),p=m.url",
+      "Math.max(g,p?(p.requestStart||\np.startTime)-l:0);l=Math.min(f.value,Math.max(q,p?p.responseEnd-l:0));g={target:d.get(m),Qn:g,yA:q-g,zA:l-q,py:f.value-l,Vz:h,a8:m};m.url"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:47.067434",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.zh_CN.T_ClfBBfUDQ.es5.O/ck=boq-one-google.OneGoogleWidgetUi.DHePi937uKc.L.B1.O/am=AIAAAgP7AAAg/d=1/exm=A7fCU,BVgquf,EFQ78c,GkRiKb,IZT63,JNoxi,KUM7Z,LEikZe,LvGhrf,MI6k7c,MdUzUe,MpJwZc,NwH0H,O1Gjze,O6y8ed,ORlaSe,OTA3Ae,PrPYRd,QIhFr,RMhBfe,RqjULd,RyvaUb,SdcwHb,SpsfSb,UUJqVe,Uas9Hd,Ujeq8,Ulmmrd,V3dDOb,XVMNvd,Z5uLle,ZDZcre,ZwDk9d,_b,_tp,aW3pY,byfTOb,e5qFLc,gychg,hKSk3e,hc6Ubd,kjKdXe,lazG7b,lsjVmc,lwddkf,mI3LFb,mdR7q,n73qwf,noLxJb,p3hmRc,pjICDe,pw70Gc,qTnoBf,w9hDv,wmnU7d,ws9Tlc,xQtZb,xUdipf,zbML3c,zr1jrb/excm=_b,_tp,appwidgetauthview/ed=1/wt=2/ujg=1/rs=AM-SdHtsfI60a-RTASEaK1hGLpSq-sLbCA/ee=EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:SdcwHb;Me32dd:MEeYgc;NJ1rfe:qTnoBf;NPKaK:SdcwHb;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:QIhFr;lOO0Vd:OTA3Ae;oGtAuc:sOXFj;pXdRYb:MdUzUe;qafBPd:yDVVkb;qddgKe:xQtZb;tbg2ob:nMC03e;wR5FRb:O1Gjze;xqZiqf:wmnU7d;yxTchf:KUM7Z;zxnPse:GkRiKb/dti=1/m=sOXFj,q0xTif,IiCRgf",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "function(a){var b=this.Wk(),c=jD(this);Tha(a);this.o.Md(a,c,b);this.Ee().Nd(a);this.mh()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:48.155110",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.zh_CN.T_ClfBBfUDQ.es5.O/ck=boq-one-google.OneGoogleWidgetUi.DHePi937uKc.L.B1.O/am=AIAAAgP7AAAg/d=1/exm=A7fCU,BVgquf,EFQ78c,GkRiKb,IZT63,IiCRgf,JNoxi,KUM7Z,LEikZe,LvGhrf,MI6k7c,MdUzUe,MpJwZc,NwH0H,O1Gjze,O6y8ed,ORlaSe,OTA3Ae,P6sQOc,PrPYRd,QIhFr,RMhBfe,RqjULd,RyvaUb,SdcwHb,SpsfSb,UUJqVe,Uas9Hd,Ujeq8,Ulmmrd,V3dDOb,XVMNvd,Z5uLle,ZDZcre,ZwDk9d,_b,_tp,aW3pY,byfTOb,e5qFLc,gychg,hKSk3e,hc6Ubd,kjKdXe,lazG7b,lsjVmc,lwddkf,mI3LFb,mdR7q,n73qwf,noLxJb,p3hmRc,pjICDe,pw70Gc,q0xTif,qTnoBf,sOXFj,w9hDv,wmnU7d,ws9Tlc,xQtZb,xUdipf,zbML3c,zr1jrb/excm=_b,_tp,appwidgetauthview/ed=1/wt=2/ujg=1/rs=AM-SdHtsfI60a-RTASEaK1hGLpSq-sLbCA/ee=EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:SdcwHb;Me32dd:MEeYgc;NJ1rfe:qTnoBf;NPKaK:SdcwHb;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:QIhFr;lOO0Vd:OTA3Ae;oGtAuc:sOXFj;pXdRYb:MdUzUe;qafBPd:yDVVkb;qddgKe:xQtZb;tbg2ob:nMC03e;wR5FRb:O1Gjze;xqZiqf:wmnU7d;yxTchf:KUM7Z;zxnPse:GkRiKb/dti=1/m=Wt6vjf,hhhU8,FCpbqb,WhJNk",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "a.Wo!==\"\"",
+      "window.setTimeout((0,_.bj)(a.j,a),Math.max(3,a.Zo)*1E3)},jB=function(a){a.Tq",
+      "0)};_.k=iB.prototype;_.k.Zo=0;_.k.Tq=0;_.k.Wo=null;_.k.aq=!1;_.k.Ou=!1;_.k.os=null;_.k.pB=\"/_/idv/\";\n_.k.yr=\"\";_.k.Bt=!1;_.k.El=!1;_.Me(_.ju,iB);_.yb().zd(function(a){var b=new iB;_.eu(a,_.ju,b);if(_.Zu()){a=_.Zu();var c=_.dh(\"WZsZ1e\").string(null);b.yr=a;c!==void 0"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:49.770411",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "Solar Smash",
+      "确定",
+      "开始游戏",
+      "Tall Man Run",
+      "Hill Climb Racing Lite",
+      "Cut The Rope",
+      "Dessert DIY",
+      "Magic Tiles 3",
+      "Build a Queen",
+      "Bridge Race",
+      "Sculpt People",
+      "Jetpack Joyride",
+      "Snake Clash!",
+      "Farm Land"
+    ],
+    "description": [
+      "The ultimate physics-based sandbox simulation game",
+      "Tall Man Run is a game where you collect the highest numbers to grow taller and stronger as you race towards a giant enemy.",
+      "Play Hill Climb Racing lite! Take on endless hills in this physics-based driving game. Battle the terrain and master the art of uphill racing!",
+      "Cut the Rope, catch a start and feed Om Nom candy in the award-winning game!",
+      "From lollipop-inspired cake designs to mastering the art of the ice cream roll, your journey as a cooking master and cake maker is endless.",
+      "Magic Tiles 3 is a rhythm-based mobile game where players tap black tiles in synchronization with the music",
+      "Make the right choices to build the most beautiful queen.",
+      "Stack your bricks and create a bridge. Compete against other characters in order to win the race!",
+      "A simulation pottery game where you can satisfy customers by sculpting amazing 3D models with clay dough!",
+      "Multi-award winning, insane, and high flying endless runner game. Fast, furious, and fun arcade gameplay known and beloved by 100M+ devoted fans.",
+      "Eat others and be the strongest in this snake battle zone!",
+      "Explore the world to find new produces and increase your farming empire! It's time for you to go green!"
+    ],
+    "content": [
+      "Chrome is a fast and secure browser for all your devices. Download Now.",
+      "赞助商广告",
+      "Google Chrome",
+      "下载",
+      "观看",
+      "Level 1 Troops vs Max Level Troop | clash of clans",
+      "Coc 99",
+      "41万次观看",
+      "10个月前",
+      "添加到待播列表",
+      "保存到“稍后观看”",
+      "保存到播放列表",
+      "分享",
+      "不感兴趣",
+      "不要推荐此频道",
+      "举报",
+      "发送反馈",
+      "How many levels of Air defence can beat electric dragon Solo? Clash of Clans",
+      "47万次观看",
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 #shorts 】",
+      "225万次观看",
+      "Root Rider Vs Every Walls | #shorts",
+      "117万次观看",
+      "افضل شعور لاعبين كلاش اوف كلانس Clash of Clans #فريد_كلاش",
+      "65万次观看",
+      "#gaming #كلاش_اوف_كلانس #العاب #clashofclans #clashroyale #gamer",
+      "556万次观看",
+      "Who can stop max king | clash of clans #shorts #clashofclans #shortsfeed",
+      "1.1万次观看",
+      "Best equipment with Electro Boots Royal Champion? | Clash of Clans | r great #coc #gaming",
+      "109万次观看",
+      "250 gems got wasted ll Clash of clans ll #shorts #clashofclans #coc",
+      "807万次观看",
+      "100 Clone + 1 Skeleton vs TH16!! #shorts #clashofclans #supercell #coc #cocshorts #viralshorts",
+      "462万次观看",
+      "中共外宣最慘打臉現場!「收復台灣後要趕走230萬人!」被英國記者全程吊打！（中文字幕）",
+      "Leonard",
+      "487万次观看",
+      "1年前",
+      "View Privacy Policy",
+      "View Terms of Service",
+      "But what is a neural network? | Deep learning chapter 1",
+      "3Blue1Brown",
+      "2059万次观看",
+      "7年前",
+      "野蛮人之歌",
+      "Clash of Clans",
+      "5551万次观看",
+      "8年前",
+      "We've been making Lay's Classic Potato Chips since 1938.",
+      "Lay's",
+      "65万次观看 • 1个月前",
+      "3 STAR in just 2min. Best Root Rider Overgrowth TH17 Attack Strategy. Clash of Clan 2025.",
+      "SHADOW_44",
+      "102次观看",
+      "3天前",
+      "来自李克强去世的曙光医院现场信息｜新闻特写20231027",
+      "王志安 ",
+      "222万次观看",
+      "The Korean War using Google Earth [Extended]",
+      "mapsinanutshell",
+      "1058万次观看",
+      "2年前",
+      "Infinite Bat 🦇 😱😱 VS Town Hall 16 in Clash of clans  #th16 #clashofclans #gaming",
+      "1025万次观看",
+      "wizard Level max 1120 attacking #clashofclans #coc #wizard",
+      "9.9万次观看",
+      "QUAD HERO CHARGE is INSANE: 3 STAR with MASS HEALERS #clashofclans",
+      "84万次观看",
+      "Who can beat these Hidden Tesla from Electro Family? Clash of Clans",
+      "223万次观看",
+      "Archer Tower one to the highest level vs Archer Queen. Let's see what happens. #shorts JS-Joy",
+      "149万次观看",
+      "Who can beat these fast archer towers? Clash of Clans",
+      "19万次观看",
+      "#gaming #gamer #game #clashofclans #clashroyale #كلاش_اوف_كلانس",
+      "71万次观看",
+      "Th 17 base",
+      "284万次观看",
+      "Log Launcher vs Walls After Update( Clash of Clans) | #shorts #clashofclans",
+      "161万次观看",
+      "Clash of Clans 600 Hero Challenge! 🔥 Who's the Strongest?",
+      "clash legends",
+      "61万次观看",
+      "How to complete Drills and Spills New Clash of Clans Event 100% Attack in One Go 😎 COC New Events",
+      "Gaming 4life",
+      "64次观看",
+      "The tools pros trust - power tools, hand tools, storage, and more.",
+      "Harbor Freight",
+      "2252万次观看 • 3个月前",
+      "世界上最疯狂的摄影棚？我们参观了野兽先生工作室！",
+      "Mediastorm影视飓风",
+      "3个月前",
+      "「牆內嚴禁」中國現代十大禁書，讓當權者如坐針氈丨翻牆必看丨毛澤東丨溫家寶丨大饑荒丨秦暉丨劉曉波",
+      "墻外音",
+      "10万次观看",
+      "4周前",
+      "Ryley at CRL 2024 World Finals Journey's - over 2 million 🙌 views !",
+      "Hiro237 mobgaming",
+      "245万次观看",
+      "【少爷和我系列】史上最高分小品！少爷和我冠军赛告诉你什么是降维打击！",
+      "奇趣综艺局",
+      "74万次观看",
+      "3周前",
+      "年薪百万的央视主播，为啥非要移民加拿大？",
+      "56BelowTV 零下56",
+      "124万次观看",
+      "Clash of Clans: Live Action Movie Trailer Commercial",
+      "Bellpond",
+      "6323万次观看",
+      "11年前",
+      "昨晚的決定",
+      "McDonald's",
+      "1.4万次观看 • 5个月前",
+      "Stewie and Brian imprisoned in China | Family guy s23 |",
+      "3gomaniac ",
+      "57万次观看",
+      "4个月前",
+      "Can I Gem from TH1 to TH17 in 1 Hour?",
+      "Judo Sloth Gaming",
+      "547万次观看",
+      "8个月前",
+      "一带一路12年：共同繁荣还是债务陷阱？一万亿美元砸出了什么？ | 一带一路 | BRI | 债务陷阱 | 经济殖民 | 中国对外援助 | 大撒币 | 93阅兵 | 老周横眉",
+      "老周横眉",
+      "36万次观看",
+      "4天前",
+      "拒绝中国国行阉割  iPhone 17 海外版本该如何选择？|  港版、台版 、日版、美版选择指南",
+      "大特",
+      "12万次观看",
+      "Simulating Black Holes in C++",
+      "kavan",
+      "87万次观看",
+      "1个月前",
+      "在朝鲜里竟然包着一个中国村！朝鲜发展太快！老百姓很幸福？",
+      "十三要和拳头",
+      "72万次观看",
+      "7个月前"
+    ],
+    "text": [
+      "11:32",
+      "告诉我们原因",
+      "我们不会再向你推荐此频道中的推荐视频",
+      "Shorts",
+      "视频已移除",
+      "撤消",
+      "知道了，我们会在首页减少 Shorts 短视频",
+      "展开",
+      "收起",
+      "33:01",
+      "YouTube 游戏大本营",
+      "保存到游戏大本营",
+      "已保存到游戏大本营",
+      "查看",
+      "分享",
+      "查看游戏信息",
+      "不感兴趣",
+      "游戏已移除",
+      "发送反馈",
+      "无需下载和安装，即时畅玩游戏",
+      "查看全部",
+      "好的。我们会努力向你推荐更符合你喜好的内容。",
+      "18:40",
+      "9:55",
+      "0:07",
+      "15:55",
+      "4:07",
+      "8:41",
+      "8:09",
+      "5:17",
+      "0:16",
+      "30:35",
+      "10:20",
+      "57:10",
+      "30:29",
+      "37:46",
+      "3:21",
+      "4:33",
+      "23:13",
+      "28:23",
+      "6:56",
+      "12:28",
+      "21:14",
+      "全部",
+      "游戏",
+      "播客",
+      "直播",
+      "卡通",
+      "最近上传",
+      "发现新视频",
+      "首页",
+      "YouTube 首页",
+      "搜索",
+      "创建",
+      "上传视频",
+      "开始直播",
+      "键盘快捷键",
+      "播放",
+      "在播放和暂停之间切换",
+      "快退 10 秒",
+      "快进 10 秒",
+      "上一个视频",
+      "下一个视频",
+      "上一帧（暂停时）",
+      "下一帧（暂停时）",
+      "减慢播放速度",
+      "加快播放速度",
+      "跳转至视频中的某个时间点（例如，输入 7 表示前进至总时长的 70% 处）",
+      "跳到上一章",
+      "跳到下一章",
+      "常规",
+      "切换全屏模式",
+      "切换影院模式",
+      "切换迷你播放器",
+      "关闭迷你播放器或当前对话框",
+      "静音/取消静音",
+      "字幕",
+      "如果视频支持字幕，开启/关闭字幕",
+      "调整文字不透明度",
+      "调整窗口不透明度",
+      "放大字体",
+      "缩小字体",
+      "全景视频",
+      "向上平移",
+      "向左平移",
+      "向下平移",
+      "向右平移",
+      "放大",
+      "缩小",
+      "关闭",
+      "跳过导航",
+      "正在听取…",
+      "没听清，请重试。",
+      "“播放 Dua Lipa 的音乐”",
+      "“显示我订阅的频道的视频”",
+      "点按麦克风重试",
+      "正在处理…",
+      "无网络连接",
+      "请检查你的网络连接，然后重试",
+      "等待授予权限",
+      "允许使用麦克风，以便通过语音进行搜索",
+      "通过语音搜索内容",
+      "要执行语音搜索，请转至浏览器的设置部分，然后授予麦克风使用权限",
+      "取消",
+      "麦克风已关闭，请重试。"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:50.197841",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/web-reports?context=eJwNy0tIVFEcBnCPn5jeOzP3nvOvJI0ymbKHI6OmYGpGkoowKWIhjTG-RjF1Rqc7o8K0CTESkWpRqRFEpFJkERSFmtAiwUWGj0X5QiVCkB6LTIyys_htvofyMaxl5BI7NFPPGrcbmTXfw5oUL3t-pZmVxftYS4ePnZm8zLpyDbbRb7CnwwZbjw0wZ1yA3Z0NsIalVvZntZXd10tDW6NLQ4cvKKipUfCrR8HPeQVt3xU4j6nQElVMF6hYP6uivkzFqwEVwy9UdI6oWPiqwu804Ue5Ccf9Jng3TFgrMmO0x4ypaTMqVsxIKLEgs8uCwTcWFI1bcFP69teCYLqGtCwNQ3kaAm4NakBD73UNSXc0RDzQMDeuIWpCw6hVR0S5DkWa6tOx45mO-d86MrZ0XCQO4yhHdypH2gmO9myOe-c4FlwcjlqOYFBm0ulujpO3OcYec8QMcWy_5aAZDucSx941jpVNjhshApZIgcY9AikpAgM5Ai9zBT5L2wUCg8WyLxFwOAWaXAKeZoHaRwLXBgUWRwTejQlkfRCInhTInBI4MCtgnROYXhBYlXqWBTr_CdhDCMWhBF8YITucYIokzKgEy06CfRdhazehP4pQGE3okmYlRwzh1H7CE-l8LIHiCDlWQv5BQrUUfpiw74j8JRDGUwifMgh9DoJRSNiU4ivl1k1IqCWoXsKtZsKiVO4jtEtXg4S8DoIwRYx-efg-XH_dO7HM4mxtXr_hr3QntrgrbTU-r8ewuT3VtipfnVFXVdHgSrYnp9rTk-yJ9nRXk_0_InKx5Q&authuser=0",
+  "host": "www.youtube.com",
+  "path": "/web-reports",
+  "is_youtube": true,
+  "sensitive_content": {
+    "message": [
+      "Permissions policy violation: unload is not allowed in this document."
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:50.312139",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/att/get?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/att/get",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_UNKNOWN\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}]}}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:50.442895",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:50.550698",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/guide?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/guide",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_UNKNOWN\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}]}},\"fetchLiveState\":true}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:51.019470",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/notification/get_unseen_count?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/notification/get_unseen_count",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_UNKNOWN\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"clickTracking\":{\"clickTrackingParams\":\"CAwQovoBGAEiEwiA0q_Pw9yPAxWH3j8EHbJ8PQ7KAQRqjl6y\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}]}}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:51.053094",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:51.520497",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/player",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"clientScreen\":\"WATCH\",\"mainAppWebInfo\":{\"graftUrl\":\"/watch?v=ZC5BEY0AHFI\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_UNKNOWN\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"clickTracking\":{\"clickTrackingParams\":\"CPIFEPKkCiITCIDSr8_D3I8DFYfePwQdsnw9DsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}]}},\"videoId\":\"ZC5BEY0AHFI\",\"params\":\"CkkIDxAGQhd2ZkxJYVBIM0hfblQwX3dQbGJiSnFRMIoDKSAZKAIwBzgEShMIscqxz8PcjwMV-emUCR0VWzLVUgYIBTABWAJoAXBkYAHIAQHCA80lcsolcisKKSAZKAIwBzgEShMIscqxz8PcjwMV-emUCR0VWzLVUgYIATABWAJoAXBLsgOZJQqSJVLPEQrJEWh0dHBzOi8vd3d3Lmdvb2dsZWFkc2VydmljZXMuY29tL3BhZ2VhZC9hY2xrP3NhPUwmYWk9Q1poRm92ZkxJYVBIM0hfblQwX3dQbGJiSnFRM29tS1gzZ1FHcjU4bW1taE5rRUFFZ0FHREpodjZMektUVUdZSUJGMk5oTFhCMVlpMDJNakU1T0RFeE56UTNNRFE1TXpjeG9BR09rTnl4S0tnREJNZ0RDcW9FM2dGUDBIOWU3M1piQ29tUlpBN3pWNUI0dnRsX2hfaTc2cllXRmlHdEsyZ0tNYnhFU1QzeU1qTl9nUzM1U2RQYjFoeHl6YnppMUh1VDNHa0F2Sm1RUHpaTFp0aWJfLVZGeHA5X0pJVFVlSzZVdEZPd08xOHp6bzM2TFFsdTRPODAwdXJlRUJpUnB1Yk9MV2oxSDFSc2JzckpVR1RkU0pGZFl1SmVVSlpGdzlZa3JaRl9UNWdEUkdVaTRESnlaSGROUmVXUjFRSkRmVlEtUURDWTRPZXZYYnBHel9EeVZnWnlfT1RFWVJNQmd0SVZjS1AzTldlbTJaUzZLSGRJOFh2UlBJMGgySzUxaV90UVpwdFdrUWpBNXU2T3FyRzBxbkhGUERtQ1dGRnVYSTZJQmVtU3hKaFJrZ1VKQ0JOb0FYaXIxYk1qb0FhaEFZQUg0NG5OSW9nSEFaQUhBcWdIOHNDeEFxZ0h1TVN4QXFnSDRiYXhBcWdIcGMteEFxZ0g1NTJ4QXFnSDZKMnhBcWdINzdXeEFxZ0g4TFd4QXFnSC1kT3hBcWdIZ3FxeEFxZ0hoQWlvQjZiVXNRS29CNmpTRzZnSHRnZW9CN0hjRzZnSHNKdXhBcWdIcnJHeEFxZ0g1cnl4QXFnSHlycXhBcWdIX2JLeEFxZ0g5N2l4QXFnSC1MaXhBcWdIeU0teEFxZ0h5Yy14QXFnSHpjZXhBcWdIOGRHeEFxZ0hfTld4QXFnSC05V3hBcWdIak5heEFxZ0hpOWF4QXFnSG5kZXhBcWdIbmRTeEFxZ0hnY1licUFmOHI3RUNxQWZWemh1b0I2dkZHNmdIbk53YnFBZTNvYkVDcUFmVnFiRUNxQWZldGJFQ3FBZnFzYkVDcUFlLXQ3RUNxQWVadGJFQ3FBZUZ3YkVDcUFmcnBiRUNxQWZLcWJFQ3FBZkN5TEVDa2dnTFdrTTFRa1ZaTUVGSVJrbW9DQUhTQ0N3SUFCQUNHRm95QVFBNkVZX1FnSUNBZ0FTQXdJQ0FnSUNBZ0FJcVNObWcwalZRRkZqSW1iSFB3OXlQQTVvSkxtaDBkSEJ6T2k4dmQzZDNMbWR2YjJkc1pTNWpiMjB2WTJoeWIyMWxMMlJ2ZDI1c2IyRmtMV05vY205dFpTLXhDYVRRUmZlM1M0N2F5QWtYeUFtUEFjZ0p3Z0c2QzFNSUFoQUZHQVFnQnlnQk1CbEFBVWdBV0dSZ0FHZ0FjQUdJQVFDWUFRR2lBU1lLR3lBRDJyZ0VGVElUT2hFS0R5Z3dTTG42MWRUdUQ1Z1pBYmdnQWRBQkFhZ0NCY0FDQXFnQkFkZ0JBWUFDQVlnQ0J0QUxFdUFMQWRvTUpnb0xFSkRQNjZuT203R20zQUVTQWdFREdnMFk2WkxFbUZFZ2laU0EtX0VFUUFGS0FoQWZtZzBCRXFvTkFsVlR5QTBCMGcyTEEyaDBkSEJ6T2k4dllXUXVaRzkxWW14bFkyeHBZMnN1Ym1WMEwyUmtiUzkwY21GamEyTnNheTlPTlRJNU5TNDFNRGczT0RFelJFVk5RVTVFUjBWT0wwSXpNamMxT0RBek15NDBNRGsyTVRNek5EZzdaR05mZEhKclgyRnBaRDAyTURFM01EZzNOemM3WkdOZmRISnJYMk5wWkQweU1qWTBOVFU1TXpnN1pHTmZiR0YwUFR0a1kxOXlaR2xrUFR0MFlXZGZabTl5WDJOb2FXeGtYMlJwY21WamRHVmtYM1J5WldGMGJXVnVkRDA3ZEdaMVlUMDdaMlJ3Y2owa2UwZEVVRko5TzJka2NISmZZMjl1YzJWdWREMGtlMGRFVUZKZlEwOU9VMFZPVkY4M05UVjlPMngwWkQwN1pHTmZkR1IyUFRFN1pHTmZjblZwUFRFN1pHTmZaWEJ6UFVGSVlYTTRZMEYzUVc5VWVEUkRSRVprZW5rdFNEQTNORTFQTW14SFgydFNTWEJJYWpNeVRFRndNVVJOTFZCeFNHdzRlR1ZFWlcxeFVtZHdiWFpXTWpZM2NGSlhMWGxoTFVneWJVWmFkVTAwVEhkbE9HdEJPMlJqWDNCMVltbGtQVFlfWjJGa1gzTnZkWEpqWlQweUptZGhaRjlqWVcxd1lXbG5ibWxrUFRJeE56azBOekl3TVRBMXVCUF9fX19fX19fX19fOEJpQlFGc0JRQ3dCV0JnSUJBMEJVQjJCVUJtQllCNGhZQ0NBR0FGd0dLRnhnSUF4Z0JJQUVvQVRBQk9BRkFBVWdCVUFGWUFXQUNhQUdnRndHNkZ3WW9BREFBT0FIUUdBSHdHQUhDR1FJSUFRJmFzZT0yJmdjbGlkPUNqMEtDUWp3OHA3R0JoQ2pBUklzQUVoZ2haM3NqdUZrSE1MRVVqbGx2Mks1Q3ZsbHBPQXVFa1QxZEV2cVBabWNjM3F2OGYzbUhTNnRCbzhhQXBkTEVBTHdfd2NCJm51bT0xJmNpZD1DQUVTRC1EMk5IbldOV0J2YW9Rb2EzUlRzUSZhZF9jcG49JTVCQ1BOJTVEJnNpZz1BT0Q2NF8yaXNLUUxrbjd6bFdteGt0bmlJRFhrUnBWcy1nJmN0eXBlPTExMCZ2aWRlb19pZD1aQzVCRVkwQUhGSSZsYWJlbD12aWRlb18xMHNfZW5nYWdlZF92aWV3Jm1zPSU1QkNMSUNLX01TJTVEJmFkX210PSU1QkFEX01UJTVEJmFjdnc9JTVCVklFV0FCSUxJVFklNUQmZ3Y9JTVCR09PR0xFX1ZJRVdBQklMSVRZJTVEGIgnUt4JCtkJaHR0cHM6Ly93d3cueW91dHViZS5jb20vcGFnZWFkL2ludGVyYWN0aW9uLz9haT1DUENaLXZmTElhUEgzSF9uVDBfd1BsYmJKcVEzb21LWDNnUUdyNThtbW1oTmtFQUVnQUdESmh2Nkx6S1RVR1lJQkYyTmhMWEIxWWkwMk1qRTVPREV4TnpRM01EUTVNemN4b0FHT2tOeXhLS2dEQk1nRENxb0Uyd0ZQMEg5ZTczWmJDb21SWkE3elY1QjR2dGxfaF9pNzZyWVdGaUd0SzJnS01ieEVTVDN5TWpOX2dTMzVTZFBiMWh4eXpiemkxSHVUM0drQXZKbVFQelpMWnRpYl8tVkZ4cDlfSklUVWVLNlV0Rk93TzE4enpvMzZMUWx1NE84MDB1cmVFQmlScHViT0xXajFIMVJzYnNySlVHVGRTSkZkWXVKZVVKWkZ3OVlrclpGX1Q1Z0RSR1VpNERKeVpIZE5SZVdSMVFKRGZWUS1RRENZNE9ldlhicEd6X0R5VmdaeV9PVEVZUk1CZ3RJVmNLUDNiV1o1TEFkdGYtWHNSNENobW5aRUV4WXVRR3V4ZnJOZnZ4Qm1kZzMtREdoaWtGM2RqOFlpQTVxU0JRa0lFMmdCZUt2VnN5T2dCcUVCZ0FmamljMGlpQWNCa0FjQ3FBZnl3TEVDcUFlNHhMRUNxQWZodHJFQ3FBZWx6N0VDcUFmbm5iRUNxQWZvbmJFQ3FBZnZ0YkVDcUFmd3RiRUNxQWY1MDdFQ3FBZUNxckVDcUFlRUNLZ0hwdFN4QXFnSHFOSWJxQWUyQjZnSHNkd2JxQWV3bTdFQ3FBZXVzYkVDcUFmbXZMRUNxQWZLdXJFQ3FBZjlzckVDcUFmM3VMRUNxQWY0dUxFQ3FBZkl6N0VDcUFmSno3RUNxQWZOeDdFQ3FBZngwYkVDcUFmODFiRUNxQWY3MWJFQ3FBZU0xckVDcUFlTDFyRUNxQWVkMTdFQ3FBZWQxTEVDcUFlQnhodW9CX3l2c1FLb0ItUFpHNUlJQzFwRE5VSkZXVEJCU0VaSnFBZ0IwZ2dzQ0FBUUFoaGFNZ0VBT2hHUDBJQ0FnSUFFZ01DQWdJQ0FnSUFDS2tqWm9OSTFVQlJZeUpteHo4UGNqd1BJQ1JmSUNZOEJ5QW5DQWJvTFV3Z0NFQVVZQkNBSEtBRXdHVUFCU0FCWVpHQUFhQUJ3QVlnQkFKZ0JBYUlCSmdvYklBUGF1QVFWTWhNNkVRb1BLREJJdWZyVjFPNFBtQmtCdUNBQjBBRUJxQUlGd0FJQ3FBRUIyQUVCZ0FJQmlBSUd1QlBfX19fX19fX19fXzhCaUJRRnNCUUN3QldCZ0lCQWloY1lDQU1ZQVNBQktBRXdBVGdCUUFGSUFWQUJXQUZnQW1nQm9CY0J1aGNFS0FBd0FBJnNpZ2g9WTJDaDdHRGtkSVEmY2lkPUNBRVNELUQyTkhuV05XQnZhb1FvYTNSVHNRJmxhYmVsPWRpc2NvdmVyeV9pbmxpbmVfbXV0ZWRfcGxheWJhY2tfc3RhcnQmbXM9JTVCQ0xJQ0tfTVMlNUQmYWRfbXQ9JTVCQURfTVQlNUQmYWN2dz0lNUJWSUVXQUJJTElUWSU1RCZndj0lNUJHT09HTEVfVklFV0FCSUxJVFklNUQYAFLcCQrWCWh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3BhZ2VhZC9pbnRlcmFjdGlvbi8_YWk9Q1BDWi12ZkxJYVBIM0hfblQwX3dQbGJiSnFRM29tS1gzZ1FHcjU4bW1taE5rRUFFZ0FHREpodjZMektUVUdZSUJGMk5oTFhCMVlpMDJNakU1T0RFeE56UTNNRFE1TXpjeG9BR09rTnl4S0tnREJNZ0RDcW9FMndGUDBIOWU3M1piQ29tUlpBN3pWNUI0dnRsX2hfaTc2cllXRmlHdEsyZ0tNYnhFU1QzeU1qTl9nUzM1U2RQYjFoeHl6YnppMUh1VDNHa0F2Sm1RUHpaTFp0aWJfLVZGeHA5X0pJVFVlSzZVdEZPd08xOHp6bzM2TFFsdTRPODAwdXJlRUJpUnB1Yk9MV2oxSDFSc2JzckpVR1RkU0pGZFl1SmVVSlpGdzlZa3JaRl9UNWdEUkdVaTRESnlaSGROUmVXUjFRSkRmVlEtUURDWTRPZXZYYnBHel9EeVZnWnlfT1RFWVJNQmd0SVZjS1AzYldaNUxBZHRmLVhzUjRDaG1uWkVFeFl1UUd1eGZyTmZ2eEJtZGczLURHaGlrRjNkajhZaUE1cVNCUWtJRTJnQmVLdlZzeU9nQnFFQmdBZmppYzBpaUFjQmtBY0NxQWZ5d0xFQ3FBZTR4TEVDcUFmaHRyRUNxQWVsejdFQ3FBZm5uYkVDcUFmb25iRUNxQWZ2dGJFQ3FBZnd0YkVDcUFmNTA3RUNxQWVDcXJFQ3FBZUVDS2dIcHRTeEFxZ0hxTklicUFlMkI2Z0hzZHdicUFld203RUNxQWV1c2JFQ3FBZm12TEVDcUFmS3VyRUNxQWY5c3JFQ3FBZjN1TEVDcUFmNHVMRUNxQWZJejdFQ3FBZkp6N0VDcUFmTng3RUNxQWZ4MGJFQ3FBZjgxYkVDcUFmNzFiRUNxQWVNMXJFQ3FBZUwxckVDcUFlZDE3RUNxQWVkMUxFQ3FBZUJ4aHVvQl95dnNRS29CLVBaRzVJSUMxcEROVUpGV1RCQlNFWkpxQWdCMGdnc0NBQVFBaGhhTWdFQU9oR1AwSUNBZ0lBRWdNQ0FnSUNBZ0lBQ0tralpvTkkxVUJSWXlKbXh6OFBjandQSUNSZklDWThCeUFuQ0Fib0xVd2dDRUFVWUJDQUhLQUV3R1VBQlNBQllaR0FBYUFCd0FZZ0JBSmdCQWFJQkpnb2JJQVBhdUFRVk1oTTZFUW9QS0RCSXVmclYxTzRQbUJrQnVDQUIwQUVCcUFJRndBSUNxQUVCMkFFQmdBSUJpQUlHdUJQX19fX19fX19fX184QmlCUUZzQlFDd0JXQmdJQkFpaGNZQ0FNWUFTQUJLQUV3QVRnQlFBRklBVkFCV0FGZ0FtZ0JvQmNCdWhjRUtBQXdBQSZzaWdoPVkyQ2g3R0RrZElRJmNpZD1DQUVTRC1EMk5IbldOV0J2YW9Rb2EzUlRzUSZsYWJlbD1kaXNjb3ZlcnlfaW5saW5lX211dGVkX3BsYXliYWNrXzJzJm1zPSU1QkNMSUNLX01TJTVEJmFkX210PSU1QkFEX01UJTVEJmFjdnc9JTVCVklFV0FCSUxJVFklNUQmZ3Y9JTVCR09PR0xFX1ZJRVdBQklMSVRZJTVEGNAPGAEgAboGFQF2kspgNPzDEGWxAlG5_RY_KliVtQ==\",\"playbackContext\":{\"contentPlaybackContext\":{\"currentUrl\":\"/watch?v=ZC5BEY0AHFI\",\"vis\":5,\"splay\":false,\"autoCaptionsDefaultOn\":false,\"autonavState\":\"STATE_NONE\",\"html5Preference\":\"HTML5_PREF_WANTS\",\"signatureTimestamp\":20341,\"autoplay\":true,\"autonav\":true,\"referer\":\"https://www.youtube.com/\",\"lactMilliseconds\":\"-1\",\"watchAmbientModeContext\":{\"hasShownAmbientMode\":true,\"watchAmbientModeEnabled\":true}},\"devicePlaybackCapabilities\":{\"supportsVp9Encoding\":true,\"supportXhr\":true}},\"racyCheckOk\":false,\"contentCheckOk\":false,\"serviceIntegrityDimensions\":{\"poToken\":\"MljvemttD6w32-87TNahupctU8VembMWJ8Z_eKlZs4R1ESOp6dymdxtNy5xG0S5NkOQMVbWdNsxGWp8fBZspLXUUayo_bcbioJDK9Tf1MQBZUGDplDdCV21e\"}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:51.572457",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/player",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"clientScreen\":\"WATCH\",\"mainAppWebInfo\":{\"graftUrl\":\"/watch?v=Qr4q69Qwc4U"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:52.433617",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "Get Chrome for your computer"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:52.480045",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "Level 1 Troops vs Max Level Troop | clash of clans"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:52.521562",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/account/get_setting_values?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/account/get_setting_values",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999811048\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"settingItemIds\":[\"483\"]}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:52.544893",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=ljLsPK4RSdVVBySk&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=Qr4q69Qwc4U&ei=wvLIaMOBOISKjbYPps6MgQ8&event=streamingstats&feature=g-high-rec&plid=AAY-5Do_ZjqGFkxq&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.009:B,0.027:N,0.030:SU,0.030:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1,profile:t.30;winit.1.5&cmt=0.009:0.000,0.021:0.000,0.027:0.000,0.030:0.000,0.030:0.000&bwe=0.021:475144&vis=0.021:5&bh=0.021:0.000,0.030:0.000&qclc=ChBsakxzUEs0UlNkVlZCeVNrEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "Qr4q69Qwc4U"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:52.618396",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:55.105650",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=55f4Bn8eUSzDwegE&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=Qr4q69Qwc4U&ei=wvLIaMOBOISKjbYPps6MgQ8&event=streamingstats&feature=g-high-rec&plid=AAY-5Do_ZjqGFkxq&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.005:B,2.556:N,2.558:SU,2.558:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1,wasmsw:t.2558;,profile:t.2558;winit.1.1&cmt=0.005:0.000,2.556:0.000,2.558:0.000,2.558:0.000&bat=2.558:1:1&vis=2.558:5&bh=2.558:0.000&qclc=ChA1NWY0Qm44ZVVTekR3ZWdFEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "Qr4q69Qwc4U"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:55.495877",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=EF5WP_JtUX4IbRok&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=Qr4q69Qwc4U&ei=wvLIaMOBOISKjbYPps6MgQ8&event=streamingstats&feature=g-high-rec&plid=AAY-5Do_ZjqGFkxq&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.006:B,0.041:N,0.042:SU,0.042:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.006:0.000,0.041:0.000,0.042:0.000,0.042:0.000&bat=0.042:1:1&vis=0.042:5&bh=0.042:0.000&qclc=ChBFRjVXUF9KdFVYNEliUm9rEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "Qr4q69Qwc4U"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:55.791573",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=zcq0_d2Y97El_j6r&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&adformat=15_6&seq=1&adcontext=CAESEwixyrHPw9yPAxX56ZQJHRVbMtUgBygE&docid=ZC5BEY0AHFI&ei=wvLIaPb6Nqv9quwPm6SmiAM&event=streamingstats&plid=AAY-5Do_KHtMSVgo&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.007:B,0.123:N,0.125:SU,0.125:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.007:0.000,0.123:0.000,0.125:0.000,0.125:0.000&bat=0.125:1:1&vis=0.125:5&bh=0.125:0.000&qclc=ChB6Y3EwX2QyWTk3RWxfajZyEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ZC5BEY0AHFI"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:55.849600",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/player",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"clientScreen\":\"WATCH\",\"mainAppWebInfo\":{\"graftUrl\":\"/watch?v=ciqNb0E0tYs"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:56.452054",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/cONy52ocpoA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAq19ZW6o5SzpeEAmu5hmH8A_G5ZQ",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "`\u0019|·\u0015Jl'\t N÷^Ü3ÇØ¡÷þ\f\u001d\baõË0¢Å=\r¸]éþ®J={ÀIÌ«$ÝôªÎïËE¹¡+¦\u0007\r+5UÊ\n|B\u001aøÄ¿\u001e»\u001f¥ü/û\u0011\u0019Ì¤ÁÞ\u001dÙNe\u0016å §E:KhCIÕ'*Þå3JÅ_(oV\u0003¾¾^\u0017¿AjJ¾¥Ú-âÚ¥G||·\u0005\u001b©·ý\u0016\u0016p>a)ßíêÓ¥óSÆ\u000f)îÂ\u0006¿\f¤\u0019¤¨8ÒûqD$\u000b|0»ô<Ð\u0011\u001fû?dð5/ºÚô]d^ß\u0005Õ(Ç¡;\u0003àÜZÃz?Õz9[á\n\u0010¯Å6ºy{SÆ\u001aÙÙÞÂ\u0018.`<\t\få®½ÜRÏlD'v'ùÙ×Ô\u00198óxýINé¦úâ±\u0005"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:56.538725",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/aircAruvnKk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-TCmx9kFQRn9oJrAd1yhzJHKkuA",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "?\u0016\u001b\u0015\u0012\u000fpôg\u00033Ó]\\ÀÓ\u0017{<°é-)Êç±ÖDÚÂ\u0019¸\u000f%¤`Dú¼òÊ\u0003ø^ÇU§\u001csÕØ¼ï¸täÉ6eïõ\u0003ÖÿM¶F,ÚÙ_\tÙmr"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:56.695786",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 #shorts 】"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:16:57.726891",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=3_oeuPSkpsi6bI2U&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=x_LIaJXjA4mPjbYP4p3h2AM&event=streamingstats&feature=g-high&plid=AAY-5Dp-rFotCpxT&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.006:B,1.009:N,1.011:SU,1.011:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.006:0.000,1.009:0.000,1.011:0.000,1.011:0.000&bat=1.011:1:1&vis=1.011:5&bh=1.011:0.000&qclc=ChAzX29ldVBTa3BzaTZiSTJVEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:00.699472",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=YKJCSVrpevb8Agwn&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=x_LIaJXjA4mPjbYP4p3h2AM&event=streamingstats&feature=g-high&plid=AAY-5Dp-rFotCpxT&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.004:B,1.595:N,1.597:SU,1.598:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.004:0.000,1.595:0.000,1.597:0.000,1.598:0.000&bat=1.598:1:1&vis=1.598:5&bh=1.598:0.000&qclc=ChBZS0pDU1ZycGV2YjhBZ3duEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:04.768830",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=nCQaJNIJ1EkQRL8P&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=x_LIaJXjA4mPjbYP4p3h2AM&event=streamingstats&feature=g-high&plid=AAY-5Dp-rFotCpxT&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.005:B,0.793:N,0.795:SU,0.796:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.005:0.000,0.793:0.000,0.795:0.000,0.796:0.000&bat=0.796:1:1&vis=0.796:5&bh=0.796:0.000&qclc=ChBuQ1FhSk5JSjFFa1FSTDhQEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:04.788842",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/player",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"clientScreen\":\"WATCH\",\"mainAppWebInfo\":{\"graftUrl\":\"/shorts/ciqNb0E0tYs\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"clickTracking\":{\"clickTrackingParams\":\"CNMFEIf2BBgBIhMIgNKvz8PcjwMVh94_BB2yfD0OWg9GRXdoYXRfdG9fd2F0Y2iaAQUIJBCOHsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"videoId\":\"ciqNb0E0tYs\",\"params\":\"8AEBoAMByAMkuAQFogYVAXaSymCC9e6TO3UHB9CH6yLaM2HQkAcC\",\"playbackContext\":{\"contentPlaybackContext\":{\"currentUrl\":\"/shorts/ciqNb0E0tYs\",\"vis\":0,\"splay\":false,\"autoCaptionsDefaultOn\":false,\"autonavState\":\"STATE_NONE\",\"html5Preference\":\"HTML5_PREF_WANTS\",\"signatureTimestamp\":20341,\"referer\":\"https://www.youtube.com/\",\"lactMilliseconds\":\"-1\",\"watchAmbientModeContext\":{\"hasShownAmbientMode\":true,\"watchAmbientModeEnabled\":true}},\"devicePlaybackCapabilities\":{\"supportsVp9Encoding\":true,\"supportXhr\":true}},\"racyCheckOk\":false,\"contentCheckOk\":false,\"serviceIntegrityDimensions\":{\"poToken\":\"MliDMHefB3SiYYNxUCSpYgKXP49Ca7vOsnwTMrWru1zgq0_j9S6ur473p9ZaIyaVBV5gH6lvPhTT4PNVGWkh9eCuB2Ajn846NSqmvysQNfCn1w4ZWfVgrC9q\"}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:04.792445",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_item_watch?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/reel/reel_item_watch",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"clickTracking\":{\"clickTrackingParams\":\"CNMFEIf2BBgBIhMIgNKvz8PcjwMVh94_BB2yfD0OWg9GRXdoYXRfdG9fd2F0Y2iaAQUIJBCOHsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"playerRequest\":{\"videoId\":\"ciqNb0E0tYs\",\"params\":\"8AEBoAMByAMkuAQFogYVAXaSymCC9e6TO3UHB9CH6yLaM2HQkAcC\"},\"params\":\"CAUwAroBGFVDLXo5Qkk4aE1ITlBydm5jY3lXZ2p5Zw==\",\"disablePlayerResponse\":true}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:04.795061",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_watch_sequence?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/reel/reel_watch_sequence",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"clickTracking\":{\"clickTrackingParams\":\"CNMFEIf2BBgBIhMIgNKvz8PcjwMVh94_BB2yfD0OWg9GRXdoYXRfdG9fd2F0Y2iaAQUIJBCOHsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"2\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"869\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"sequenceParams\":\"CgtjaXFOYjBFMHRZcyoCGAVQGWgA\",\"playbackContext\":{\"contentPlaybackContext\":{\"currentUrl\":\"/shorts/ciqNb0E0tYs\",\"vis\":0,\"splay\":false,\"autoCaptionsDefaultOn\":false,\"autonavState\":\"STATE_NONE\",\"html5Preference\":\"HTML5_PREF_WANTS\",\"signatureTimestamp\":20341,\"referer\":\"https://www.youtube.com/\",\"lactMilliseconds\":\"-1\",\"watchAmbientModeContext\":{\"hasShownAmbientMode\":true,\"watchAmbientModeEnabled\":true}}}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:04.847691",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:05.779407",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 #shorts 】"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:05.803451",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=14HZayZA8q1uaof3&el=detailpage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=x_LIaJXjA4mPjbYP4p3h2AM&event=streamingstats&feature=g-high&plid=AAY-5Dp-rFotCpxT&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.004:B,0.999:N,1.006:SU,1.006:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.004:0.000,0.999:0.000,1.006:0.000,1.006:0.000&bat=1.006:1:1&vis=1.006:5&bh=1.006:0.000&qclc=ChAxNEhaYXlaQThxMXVhb2YzEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:05.842045",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/account/get_setting_values?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/account/get_setting_values",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/shorts/ciqNb0E0tYs\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[]},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999811048\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"3\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"884\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"settingItemIds\":[\"483\"]}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:05.975115",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_item_watch?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "最热门",
+      "最新",
+      "保存",
+      "已保存"
+    ],
+    "content": [
+      "原创音效",
+      "@我愛貓大KangsiComing",
+      "【#ㄎㄧㄤ精彩 1702】主持人不太想問 來賓卻很想回答?!",
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 #shorts 】"
+    ],
+    "text": [
+      "点赞",
+      "不喜欢",
+      "说明",
+      "保存到播放列表",
+      "氛围模式",
+      "字幕",
+      "不推荐此频道",
+      "我们不会再向你推荐此频道中的视频",
+      "撤消",
+      "举报",
+      "发送反馈",
+      "分享",
+      "退订“",
+      "@我愛貓大KangsiComing",
+      "”？",
+      "退订",
+      "取消",
+      "评论",
+      "265",
+      "最近一次什麼時候 范冰冰李晨想回答?!【康熙來了 ",
+      "#shorts",
+      " 】",
+      "#康熙來了",
+      " ",
+      "#小S",
+      "#蔡康永",
+      "#陳漢典",
+      "#ㄎㄧㄤ精彩",
+      "#康熙隨選精華",
+      "#康熙大咖",
+      "#貓大大禮包",
+      "#貓大企劃",
+      "\\n\\n2016.01.11康熙來了　康熙十二年　終於等到你！Ⅰ\\n",
+      "https://www.youtube.com/watch?v=B4IuGHPgQHE",
+      "\\n\\n🌞2025不童凡響-中天小小主播夏令營 報名請點👉🏻",
+      "https://pse.im/AR369c",
+      " \\n🔥2025捍衛新聞&言論自由💪請加入中天新聞志工隊👉",
+      "https://bit.ly/3lW3xD9",
+      "\\n【聽‧人民的聲音】",
+      "https://www.youtube.com/playlist?list..",
+      ". \\n📣支持監督的力量，請加入中天電視會員👉",
+      "https://reurl.cc/pgZL9d",
+      "\\n\\n✨專屬優惠價請輸入代碼【cti888】✨\\n【618年中慶狂降↘】保健保養賺好康快點購：",
+      "https://pse.im/AR388c",
+      "\\n【618保養抗老】快閃價KS活膚露超值抗老：",
+      "https://pse.im/AR391c",
+      "\\n【618幫助入睡】買益生菌享好眠送千元好禮：",
+      "https://pse.im/AR384c",
+      "\\n【618養顏膠原】買膠原行動美顏送千元好禮：",
+      "https://pse.im/AR385c",
+      "\\n【618防曬抗老】KS抗光清爽高防曬凝露：",
+      "https://pse.im/AR393c",
+      "\\n【618蘆薈補水】KS蘆薈保濕舒緩凝膠：",
+      "https://pse.im/AR392c",
+      "\\n【618最夯掛繩】外出手機隨身買二送一：",
+      "https://pse.im/AR386c",
+      "\\n【618時尚穿搭】限量重磅白T買多優惠：",
+      "https://pse.im/AR394c",
+      "\\n【618文創超值】KEEP FIGHTING中天文創：",
+      "https://pse.im/AR387c",
+      "\\n【安心防護】旺旺水神專區：",
+      "https://bit.ly/AR274c",
+      "\\n【好食冰品】旺旺凍痴高人氣回購推薦：",
+      "https://pse.im/AR357c",
+      "\\n【精神滿滿】咖啡口含錠精神超給力：",
+      "https://pse.im/AR378c",
+      "\\n【主播美照】主播美照一次收藏：",
+      "https://pse.im/AR321c",
+      "\\n【酥脆挑豆】旺旺經典醬味青豌豆分享包：",
+      "https://pse.im/AR323c",
+      "\\n【絕對涮嘴】旺旺嚼代爽椒組合包：",
+      "https://bit.ly/AR276c",
+      "\\n【主播桌曆】2025珍藏主播桌曆：",
+      "https://pse.im/AR313J-2",
+      "\\n\\n精彩影音專區請入內👉👉\\n✔貓大◆大禮包→ ",
+      "https://reurl.cc/RYm5lD",
+      "\\n✔貓大◆熱門精選→ ",
+      "https://reurl.cc/2KV19E",
+      "\\n✔貓大◆特別企劃→ ",
+      "https://reurl.cc/dQANZ8",
+      "\\n✔康熙◆調查局系列→ ",
+      "https://reurl.cc/QYxrqq",
+      "\\n✔康熙來了◆大S→ ",
+      "https://reurl.cc/QYxrAq",
+      "\\n✔小S.佼佼《世紀破冰》之路回顧→",
+      "https://goo.gl/epYABV",
+      "\\n✔天后S的鮮肉清單→",
+      "https://goo.gl/8VbDdk",
+      "\\n✔老外在台灣→",
+      "https://goo.gl/Jjr7py",
+      "\\n✔女明星卸妝大公開→",
+      "https://goo.gl/hmv3cv",
+      "\\n✔問世間愛情啊→",
+      "https://goo.gl/8k1ABr",
+      "\\n✔康熙卡拉OK→",
+      "https://goo.gl/pZRzqr",
+      "\\n✔美食大集合→",
+      "https://goo.gl/H8DztR",
+      "\\n粉絲團按讚影音隨你看👉👉\\n✔康熙來了FB→",
+      "https://www.facebook.com/kangxiofficial/?ref=bookmarks",
+      "\\n\\n📢 按【⭐追蹤中天新聞】👉",
+      "https://reurl.cc/E6oZkA",
+      "\\n📢中天新聞網APP下載:",
+      "https://deep.ctinews.com/app-cti888",
+      "\\n📢請加入中天新聞志工隊推廣下載中天新聞網APP👉",
+      "\\n\\n💵線上贊助中天👉",
+      "https://bit.ly/ctidonate",
+      " (綠界金流/可用信用卡、ATM)\\n💵直接贊助中天👉彰化銀行台北分行:009-5012帳號:50128688988600戶名:中天電視股份有限公司 \\n🏧ATM：CHANG HWA COMMERCIAL BANK TAIPEI BRANCH(CCBCTWTP501) \\n🏦A/C NO:50128688988600 A/C NAME:CTI TELEVISION INCORPORATION\\n\\n⚠️未經著作權人事先書面同意，勿將內容用於商業性質之分享、連結。 \\n⚠️如有任何營業使用，必須事先取得書面同意。\\n\\n【貓大聊天室規範】歡迎留言互動，請尊重各自立場、理性發言，請遵守本聊天室規範。 違規者一經發現，將遭刪言或封鎖。\\n🚫禁止使用不雅、挑釁、謾罵、歧視、仇恨等言詞\\n🚫禁止任何形式洗版 🚫禁止散布不實訊息 \\n🚫禁止發表危害公共安全等涉及犯罪言論 \\n🚫禁止傳送鼓勵博弈訊息\\n🚫禁止色情服務訊息\\n🚫禁止騷擾管理員與其他使用者\\n📣管理員有權隨時修正規定 \\n\\n🎵YouTube音樂庫: ",
+      "https://goo.gl/Z6TsBI",
+      "在手机上混剪",
+      "扫描二维码或访问",
+      "正在加载…",
+      "YouTube 首页",
+      "搜索",
+      "创建",
+      "上传视频",
+      "开始直播",
+      "键盘快捷键",
+      "播放",
+      "在播放和暂停之间切换",
+      "快退 10 秒",
+      "快进 10 秒",
+      "上一个视频",
+      "下一个视频",
+      "上一帧（暂停时）",
+      "下一帧（暂停时）",
+      "减慢播放速度",
+      "加快播放速度",
+      "跳转至视频中的某个时间点（例如，输入 7 表示前进至总时长的 70% 处）",
+      "跳到上一章",
+      "跳到下一章",
+      "常规",
+      "切换全屏模式",
+      "切换影院模式",
+      "切换迷你播放器",
+      "关闭迷你播放器或当前对话框",
+      "静音/取消静音",
+      "如果视频支持字幕，开启/关闭字幕",
+      "调整文字不透明度",
+      "调整窗口不透明度",
+      "放大字体",
+      "缩小字体",
+      "全景视频",
+      "向上平移",
+      "向左平移",
+      "向下平移",
+      "向右平移",
+      "放大",
+      "缩小",
+      "关闭",
+      "跳过导航",
+      "正在听取…",
+      "没听清，请重试。",
+      "“播放 Dua Lipa 的音乐”",
+      "“显示我订阅的频道的视频”",
+      "点按麦克风重试",
+      "正在处理…",
+      "无网络连接",
+      "请检查你的网络连接，然后重试",
+      "等待授予权限",
+      "允许使用麦克风，以便通过语音进行搜索",
+      "通过语音搜索内容",
+      "要执行语音搜索，请转至浏览器的设置部分，然后授予麦克风使用权限",
+      "麦克风已关闭，请重试。"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:08.585652",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_watch_sequence?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "#clashofclans #gaming #clashroyale #gamer #العاب #كلاش_اوف_كلانس #coc",
+      "最热门",
+      "最新",
+      "保存",
+      "已保存"
+    ],
+    "content": [
+      "Буйно голова",
+      "@Dimashqigamer8",
+      "#clashofclans #gaming #clashroyale #gamer #العاب #كلاش_اوف_كلانس #coc",
+      "Буйно голова · Гио Пика",
+      "此视频未添加任何说明。",
+      "Гио Пика "
+    ],
+    "text": [
+      "点赞",
+      "不喜欢",
+      "说明",
+      "保存到播放列表",
+      "氛围模式",
+      "字幕",
+      "不推荐此频道",
+      "我们不会再向你推荐此频道中的视频",
+      "撤消",
+      "举报",
+      "发送反馈",
+      "分享",
+      "退订“",
+      "@Dimashqigamer8",
+      "”？",
+      "退订",
+      "取消",
+      "评论",
+      "69",
+      "#clashofclans",
+      " ",
+      "#gaming",
+      "#clashroyale",
+      "#gamer",
+      "#العاب",
+      "#كلاش_اوف_كلانس",
+      "#coc",
+      "在手机上混剪",
+      "扫描二维码或访问",
+      "正在加载…",
+      "YouTube 首页",
+      "搜索",
+      "创建",
+      "上传视频",
+      "开始直播",
+      "键盘快捷键",
+      "播放",
+      "在播放和暂停之间切换",
+      "快退 10 秒",
+      "快进 10 秒",
+      "上一个视频",
+      "下一个视频",
+      "上一帧（暂停时）",
+      "下一帧（暂停时）",
+      "减慢播放速度",
+      "加快播放速度",
+      "跳转至视频中的某个时间点（例如，输入 7 表示前进至总时长的 70% 处）",
+      "跳到上一章",
+      "跳到下一章",
+      "常规",
+      "切换全屏模式",
+      "切换影院模式",
+      "切换迷你播放器",
+      "关闭迷你播放器或当前对话框",
+      "静音/取消静音",
+      "如果视频支持字幕，开启/关闭字幕",
+      "调整文字不透明度",
+      "调整窗口不透明度",
+      "放大字体",
+      "缩小字体",
+      "全景视频",
+      "向上平移",
+      "向左平移",
+      "向下平移",
+      "向右平移",
+      "放大",
+      "缩小",
+      "关闭",
+      "跳过导航",
+      "正在听取…",
+      "没听清，请重试。",
+      "“播放 Dua Lipa 的音乐”",
+      "“显示我订阅的频道的视频”",
+      "点按麦克风重试",
+      "正在处理…",
+      "无网络连接",
+      "请检查你的网络连接，然后重试",
+      "等待授予权限",
+      "允许使用麦克风，以便通过语音进行搜索",
+      "通过语音搜索内容",
+      "要执行语音搜索，请转至浏览器的设置部分，然后授予麦克风使用权限",
+      "麦克风已关闭，请重试。"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:09.768299",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/smNKbbXM8HQ/frame0.jpg",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "\fQ\fïctç¢óÎâÏE:jÎÏ\u0007¡ã¶ªÒB\u0000\u0000lÐ®Åê££¦t¸4\u0000¹Yøÿ\u0000\u000e§ik"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:09.788490",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/M_rV_u2XkpM/frame0.jpg",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "\r~¦ 3þíå+®¾Ú)}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:09.792847",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/TqmzAiB35T4/frame0.jpg",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "ÿ\u0000î7òÇG\u0013{U¼©n{C)az= îÆÀ\u0001¹'\u0004Ñ©±!\u0006ìÞ\u0013+Î²Êjz·£ïÚ2¯vÝyéh3¬ U§~HîßsôÃq·)4ø\u0007$\u0014`îÂ\u0018TW¸HP¬K°\u001d\u0000ÁÐRQZJÙAntâ2³µ´JÝ\u000b_ÞÐoú`\u001a\\Ï.]UÕú\u0007[Æä Ãî+î\"¤ËPÏ#$$\u0011\u001d\u0003\u0005.e\u0019\u0000±\u0011\u000fh»=M\u0016*EüÌ/þ\\3ûs fÔÕß.åÿ\u0000Ë)¯\u000bø,±ÕÂü¶øwR\u000eØ­¯h{>¢Â³ÿ\u0000Eÿ\u0000ËÔdkî×[ÿ\u0000¤ÿ\u0000åÁoÈ;_Áa8M®1\u0007þÕä¿öïý'ÿ\u0000.\u0015þÖdcÿ\u0000~ÿ\u0000ÒòâoÉ6¿YáW\u001bdËcc~0\u001fûYÛôü¸ïö·$ÿ\u0000¶ÿ\u0000é?ùq[ üRø$)èÖ.0M¬1\rþÖäÚ·ÿ\u0000Iÿ\u0000\u0007µYKì+l?ùOü±\u0014¢¼l¾\tæ\t!Ü)UA\u0000[\u0015Y;C±Ú¼oü±ä\u001d¢Ë#2s\u000b `Mã~>$~I±\r\u001ffóØ£SPÙmtcCHãîÝ$ÿ\u0000C\u000föj«8¯JLÂ\u0014\u001dÝ4jÚÑÝ®Ûp\u0005öó¶2J~ÔPEÞhµØ°ð7SðÅ!öQC%\u001dt§-ûêv÷õ\u0006Û\u001f\\såqMBvÿ\u0000LèC.94ç\n+þÐ\u0005LNe\u0001V÷¸^\u0005ð\u001dAïäSªÛêp.gÚ\f¡ê¥4\f`f:\u0003#\\\u000eÛ\u0001EP*ïQfÒ\u0016ú\u001bmùã\u001b\u0014Õ\u0018ÚvM1\u0012L\tÚ\u0018°d\tÞ}ì»\u000fÂ¾C\u0015ôÏ2¾ð+TÚ\u0014÷Fñ\u001f3¶\fÿ\u0000ir /ö«!\u001bÿ\u0000,\u0012~AÚÉ³%Û\f%+V3á»\u001fL@´\u0019\\¦óVi_Ý\u0011¿òÂÇhrt\u0016Jÿ\u0000ñ¿òÄs_$ÚÏ¥=ö»íoÕ Ia\r,\u000f}oºüG?ðÆeK_<r²B\u0005üÏóÇÅt\u001d²¥Êª¡­Ë³Q\u0015L,\u001dtÅ'>^î>¡ö÷ìõ¨ 5] îç(;Å\u0014U\u0006ÍmÇ÷~xË:oº?ÿÙ"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:09.990174",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://i.ytimg.com/vi/w8wTZ75ldVI/frame0.jpg",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "ÂËvuèï-Ä¾¬¼ÚÎRèóóó®._M\u0013øN¯z*\u0018Ätá¿öFâ.%¸ÛøÌ·Åõ×¡!LÚBPþNËÒ1¸N:íR¼A\u001a7\u0012HU÷K%©Î[zJ\u001dJ}´­#¢³íyæ©<qybû*ß!å\u0014©H(.þÑé¤+Ä¾ÿ\u0000ìì´ZXºÈ5ØymÇ$jRÀ^û\fe]¼jW½øP^ß3G\u001dúWÕk\u0014í­NÛõTÏJD9Ã¼<ò2\u0012aÔ\u000fP¤¹¿çQ\u001c7}\n\u001ac4°Pu'\u0005@çäG«\u000f¦6á5\u0005mR×2\u001bNº¼¤u$<@éõ^³Z¦ÊµÉ\u000e:\\\u0005(T§#mZÀs^Ö6ß÷%g\u001c\u00070\u0007{þåXØhÏt¾á\nRÎêÁëT¨µ¥:\u0010\u0015\u0013Ü\n·7pj;\u000f¶ÃO6âR°\u0012êr\u0001\u0000íÔu«\u001cküË|\t\u0012WiJô\u0002\u0010¥­8\u001bg'}O3@ê;ð¯¹íc<E\u001d>\u0001\u0011.­°¨á9\u001d¼jÕèæÝ\nkfâë¨ZÉ\u000e°G/=\bV®¿ðª. ·]ßS3\u0014\u0011\"AÒ\u0014UÐàoñß\u00159Ã\u0016[¬5>ÜÈH¸FsH\u000bqJ\u0005$gI\nÎ:\u001aò¹ÃS;-FÚí­t\u000f²®\u0016\u0007¥·\u0002s\u0012-H!Ý\u0012ÖK\u0007ösµqK÷VoÖW§DJC,Ê\f\u0012\b!JÆN\u000fSñÅ]ø°ÚýQ6¹7éMË}´\u00054ÊÒFHÁW\u001bußj¡zFáÈ6Î\u0005fm­÷×\u0019×ùa·¥I ïÓcñ©LÓ¸i¨ñëóU\fAÍ;\u0004»6¨Ö¤8\u0014¸ëÚ \r`÷\u0000\u0013ãV¾\u0014¼G¸e\u0014¦ÂòÐt\u0000±<U7v]ê\u001ad¹H@m½Mê$\u0011ôÏz¼9:ß\u0016b\u0016ô"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:15.521255",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=N4dL1DVEni8kEtuH&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=z_LIaMD_O56csfIP1qCdmAE&event=streamingstats&plid=AAY-5DsG1Hx6XOep&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.006:B,9.682:N,9.684:SU,9.685:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1,wasmsw:t.9685;,profile:t.9685;winit.1.1&cmt=0.006:0.000,7.222:0.000,9.682:0.000,9.684:0.000,9.685:0.000&bwe=7.222:368747&bat=7.222:1:1,9.685:1:1&vis=7.222:0&bh=7.222:0.000,9.685:0.000&qclc=ChBONGRMMURWRW5pOGtFdHVIEAEaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:15.532877",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/api/timedtext?v=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xosf=1&xospf=1&hl=zh-CN&ip=0.0.0.0&ipbits=0&expire=1758025026&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cexp%2Cxoaf&signature=5A1FD1583AAA0C6110F77D191F70BB48EF1AC1E2.E05784CF5635E021A3903A32F53D48FE49AC266F&key=yt8&kind=asr&lang=ru&potc=1&pot=MlhNYhNLAw1jX00jNPCtG8Op8d0mv7-3c0LdYNF_vyUhlYGxkfqq1k_JaYQ-9yLsxGCuTc27Om0S3j0Hfb0ljCGQyTJHS8pD9BRo7U962WHZqXt2kTfapDSP&fmt=json3&xorb=2&xobt=3&xovt=3&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP",
+  "host": "www.youtube.com",
+  "path": "/api/timedtext",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:15.615782",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:19.988679",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://lh3.googleusercontent.com/F4FFHvYrpdLp132msmGsP-ZyJoAcVv3iGeyowTX3sOTGylHN4wMUhcUyMYwypmTlmLVxWsIbZxZKXJV3yA",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "WFÜîUä´_»çê¿»Ï~êsÂ \u001csQð¸\u00031±cþV\u001dþJÃ\u0000\u0003ëå@h¦áú0#õï@D\u001a\u0001\u001b\u000f0\u000f×?Ð\u0002²?9\u001c|¿ëù@B®ê\u0002ªô\u0006BK@\u001cÐ\u0016XP\u0016Í\u0000 \u0014\u0002P\n\u0001@w±¯\u0019\u0011kÐbs\u00136Ìç\u001d6Áàã²±a.(\f\u001fn/×\u00196ÿ\u0000Ü\u0005÷yHTmÛßº»°Æ<è\u000e \u0014\u0002P\n\u0001@(\u0006h\u0006h\nf¦h\u0005\u0001J\u0001@(\u0005\u0000 \u0014\u0002P\n\u0001@(\u0005\u0000 \u0014\u0002P\n\u0002qw\u001fQúÐ\u0014¹úÖ\u0001v ØP¬T\u0001@N:¤`O5SK#²Frx/6Ür<È>~¥Oà\u001f>µs#o¦j?\u0000]Ã\u001cãóôü8 6Qjä\u0010ú\u0002Oô (u\u000f2rO÷Ûè1øP\u0013]Cçýóúó@I¦ÈÁäz\u001eGäxþT\u0006®ÿ\u0000KB2ª\u0001ÿ\u0000t~]¿\u0001º)#çÑõ\u001fé@Y¸Ów_ÃÈ?>;qß×ó 1\u0002\u001fNüz\n\u0002\u0014\u0005h\n«P\u0017\u0003Ð\u0003@[\"¥\u0000 \u0014\u0002ffÜøWÄ\u001eï!c¥H8\u001cúzsß\u001dþx\u0014\u00078O\u0012Çs\u001b¦N\u0018muìÃ?ß\u0007\u0003xB%VG9'\u001b[\u0007?0Goíôí@qìÐ\fÐ\fÐ\u0014Í\u0000Í\u0000Í\u0001J\u0001@(\u0005\u0000 \u0014\u0002P\n\u0001@(\u0005\u0000 \u0014\u0002P\n\u0001@(\u0005\u0000 \u0014\u0004£î>£õ !+r~§õ *\r\u0001QBàÐRE\u0000 "
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:22.168773",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://rr2---sn-nx57ynsd.googlevideo.com/videoplayback?expire=1758021426&ei=0vLIaNDZCJC2quwPmYrb4Ag&ip=147.135.38.164&id=o-AJBGw5rjWH_pQ-oe_oyb9GJes4FopGoWNv-7kAzDb5SI&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1757999826%2C&mh=Fc&mm=31%2C26&mn=sn-nx57ynsd%2Csn-p5qs7nsk&ms=au%2Conr&mv=m&mvi=2&pl=23&rms=au%2Cau&ctier=SH&initcwndbps=815000&siu=1&spc=hcYD5SwQchmFyr0xZsMM-6OP_vv6_HSA5iC-owmxcjBpulLXnYkT8FOtgakA0P5Tvg&svpuc=1&ns=GA8GEMKjagmhcVc1_uXELP8Q&sabr=1&rqh=1&mt=1757999585&fvip=3&keepalive=yes&fexp=51355912%2C51552689%2C51565116%2C51565682%2C51580968&c=WEB&n=RA6pQ6zCV_hhJg&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cctier%2Csiu%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AJfQdSswRQIhAM6VXfNRIJXMyX_us4ekbgbZWpUCjdJhWkfTUlcUqZ6eAiB2oNzK9kH0diR63Thhcq2KWSdPl8qtMUmk97S56jwGuQ%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgbS2Ajc3GGRqNRJc1uRDRHiUxv-s4iUPeYFKYMVd9DLoCIQCIcskwpJoDgKkZlrYmRrxKL7l1rsgnIv2CqV9hSTpAqA%3D%3D&cpn=r3vuJ186eNOkMMnL&cver=2.20250912.02.00&rn=11&alr=yes",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "¯î9HÍWµD/¥µ.",
+      "f6y¦À\u0002ÃÜú\u0007êU\u001cÓØ·}\u001f\u000eÒ\rÿn;¶,½wùRÕ\t5z<wQ~ÚbvÉ\u0006å¸Î'ÅýîÖÚ¸g¬PÐ\u0005È5÷Ñæÿ\u000f¿ÏüÎD\u001e=^@",
+      "o³ÃõuýF\u000f\u0005\f\u000e\u0011Ð\u0018ãr£#³É3pkÎäH§\u001a»\u001cG£4`t+G©Øøzb\u0015Þãº±:´§Ááo \u001f*÷NJÙ÷\u000b\u001eÄòÞXmÀBíäú*ºhÛÄÜ$Ïä½ Þ Óµ\u0001Wß=å>0'Ö-;)\u00066\"{Â²IÐ0«þÔV×£J13Ëßú1AËf>E\u0011\u001f\u0014Æay:WÞ]ptÔ\u0005,T\u000bõq¯®¥Âå\u000b<7·GÛÅë\u0002ð;zÜÑýmH\u0018\u0010\u0002ó%_ºÆÿgz\"L@ªR+EÂiI£®\u0012p~ç\u001cº¾-*h}ãS \u0006:D\u0014÷\u001eÚ/Æ®NÂ¼ Õ\u001c¯iãÞ@Yý>þÔ\u001c¿·U¡ùb\u0016=Ï°\t\u0005([\u001dùJDT¦­.U(e¦ áY¶Ú'ìõÊFø½/ÇüSG»åó\u0004\u000f»Yl\u0014\u0006\u0017i\u0016uwgCJí\f\fEÁHÅ\u0003aÈÆFRâö-Å6¯¹9Åñ\u0017\bj%#Øbá±åªýj¥zºD>Õ3Þ\u0015iÈæ#/\b\u0001ûY©+(ôÊÙù§d÷gÃ$P\u0000ú;Ñ¥¹%p;\u0007êVÝ*¤TW½9P\u001ehãy\u0005pÆ#ç«7tva\u00014E\u0018?®ÂìÀ´\u0003\u001eh¸j39ï4+ic¨»²è9§iê*À62'¯75ÖÎÑ§¦ÖÀ3ÐóOxüø@ Ë¬\u0012{Y+·wõ'ÇÀ£î\u0019ßÌðÄÞ\u0018Ï¶\u0000Ó\u001bYÜþ\u0010?>",
+      "\u001a¤b)­`1Â|Ðí\u001e\u0002û8H]\u0014ý¦+Ïµx\u0018\u001f~Ý\u001cÒ­(Ð¸ìÁÍ\u0001ÆB¤â\u0002­\u0003âY5\u000e\tÏ,©½P**[eÁO\u001f_îâ\u000b3\u001f£·\u0006Ñ\u0019þ·K\u0004Ekô\u0006W©Õë\u0001þ\u001bw¢¸_¶®8æé\u0004æ7åÓ«´<Z\nï°{mºvA<Ð\u0019\u0010ü0¦ÿü@¢\ra(TÈ\u0014|lEymn½\u0010fºÞWÞXÊÌ\f¶Ö\u0014Öû}>~ÇeRì\u0013ÂáÐ\u0017íý\u0016ìè\\sKÿN?ô¸ü§+sú\u0013<~|\u0000d$\u0006¤xrpáòÍ3åúÂ½¶ðZ\"á+^ÜÆºjÜkãý\u0017\u0005÷\u001drøÌ$Ì\b\u000e0nÌ(ú\u000bËyóÐb\"¤\tHIì¥ñ3iò®ë¯ÞºùÞâ¹Úíµ5\u0000·ËåÁtJù¼\u0019\bÞÇ²ø]hÄ§´µU\u0017ÑÐÉü¹ »õ¬\u0004ãñ¡i\nIÚ¦«¾¶lê@«Ñ-N lè¿äx÷þ\u001e+cT#@\u0004$K£ÎÜk\u000føTqø«®=3Ì¦§YE¹øk%myè\u0003Þ)É\u001cûQ1ß\u0006\\°§\\v[MHÿ6©\u0011\u0017çðX09«Òòæ²C\u001f¬¨ÿ\u001cS½\u0003U]í\u0005éX\u001fÝ»8\u0005kóÉx7ÉÆ©è4\u00029¹3§ÐqU;µÆCü5×/´@..\u0005\u001dÑá\u001aLÜ\u0005¶<ýeó«ÂÙÎ®ì\u001dW©ëü\u001cäjÃ\u000eý«Ð\u0007z×ÀSY½q¿\u001d2ÿ\u0007ú«ð\u0012¾Íï",
+      "ØªôCîObÇÆéúÜ¾ºâóäü4C<\u0007\u0000äAoO®f@¸ò\u001b\néÎ~ÛOë³Ø\u001f\r3\u0004[Ú\u0019\u0018\u0018j¸\n",
+      "Û°Á¤úL°ÀøFÙúî_\u0001ÿ\u0010Î=Uä|\"¡Ey>?Ù©zxmè¢X³¦\u001cþ+84w:i+ì÷55nU5U¢{U\u001d\u001ff#ÃôBÄÆF\u0004|",
+      "äÍ'Ü\u0002\bw±\u001d¶e¹cÃ¼\u000fPr¾\u0005ãe\u0001ÉD}^zc÷à¥\u0002h:Ö¸T\fRF\u0006ùIÚVÒÞ$ÓÜÐü?tfT\\üÌúHªó6ÄN\u0002]õ¢{Ö5ç¦ËPþ}<éc",
+      "ÃP8Ë\u001ag®±W\\Ñ×äù7\u001bK©¬Ð\u0019",
+      "2Y¶\u001cÇðYXk\u0010º¿CNp*¿\u000b]Õ\u0012xV",
+      "£\u0000;û\u0015a·û{Êh\u000bJv\u0012Çõþ5\u0014\u0002$´\u000fKÖ¬ø\u0015ò\u001e¹G\u0019T«¤¨Ë·ìtKaÂ°I\u0018ÃÀ8?I­Û­_.RÕ\u0006Às?W;¦¶+¡ö\u0011ø\u0001\u001d\u0014©%y\u00182¸¹å(w\u0007\"g\ncÓm5+\u0014#¹2\rÏÕæoC;]»÷¤\u0016§\"ÇA#ò[Ãn\\øUå]²M8c ^(\u0011ÿêN±k\u0006]H´íµ",
+      "\u0013\"¶½`ÅòoµË²\u0014LÀEÞu¾«À\u0011rhnÑ±Ýx¹ÇO6ØÎå$º¶Çw7¨2ë\u00050,\u0010\u0003\u001fS\u0006Ðß¬´ <\u0000\u0000¼\u0002Å¹\u00149öéé'î2Þ(0ç¥W7\u0014Bc7±¡;y]Øä©Û:\u0002Ù\u001d2G@\u0019¤µèùCÙ6",
+      "\u001d±/®Kþ\u0005HØø5g»-T\u0005,R1oÚ\u0000(!½\u0001²\u0005CCæ\fëkp vÌKB;¿Æ.ê\u0005m²kþ©Jpêq9ÒÐß\u0003ðûj\u001b «;¢\u001a",
+      "þN/\u001b|­âáÿê¶w_º®Ôs3yB%,\u000f~£àÄ·$¾çÁGaUþtØ«û¦=Å®·ÈÎ,lk·R\u0011yõÊ\u0011*ÕE!\u000fÇNÝpæ/ÕDóÁYùZ8,ÍµÇd°\u001a}xjVÜÝ¡DáÈÔe¦¡KÞiP*É£íùí ?;£³ôRöm]x\u0001¿ÄÊòa\t¥+êåj¼\u0002-8%_\u0005\u0001\u001bÍUó épø\u0003tªyÚ%Ò\u0017÷Îýu³Z­¹éÛÒ<óº·¡",
+      "ÆOé2á\u0018åhc=º\u0002_ß[¢õX9b0\u001aHN]¾þjÆIÊ}m¢ïÆ^Î@\u001bD>\u001d3-\u000ebg¯PÎ\u001aw\"\u0017\bi_kãnuý\u0005[±ÐØþ)¦ÄU5©Moæ\u001c²E<Wüx*õi\u0011\u0006iUÑ¨\fëÀf \u0010\u0005@3û®9í\u0006îë³ïñlÁbAC9\u001d\u0002Ä:¥ót°]S½\tQ\u0011³ò\u000e0îxÖY\u0013\f~¤©ÃW´SÑRè\"tû×}ìÒß³x/ÿxOÁ\u0015",
+      "YR*<¦J÷¡\t\rçñÓ.",
+      "¿ãZ}\u000bwÈ±Ò=wþm`]nnñ\\k¶'?9Ü³u¸yr¡Y8OÐn¦nôÃè,³\\®ÙpÞ%Cº¶\u000blêi\u0011³Ý\u001cÂ©\\\u0002vÊ,*bC§ãnßµ*Èm­Í°%<\u000eûóêI-ZÖ2ït´\u0019°\u0007åuÃaÐÚe%Q²=.pÍG!]Ðiéä;Ör.»3§®¬î\u0005RÑ\u0000EI$\u0000.\u0001\u001b]D*Ý[\u0017\"\u001fN2vïa\u0000£Za¾\\ã\b¼¨èã\"~NoSÍsÊüuÂ±ìeG¢x\u001c8ÿF0èö\u0016Ó5^¶Î\u0013I\u0004EÏ©Î\u000b_b\u0002C\u000fºÇ¼\u001e\u001bÿN÷Úrî6w\\1.E¤\u001bòÊÞr\u001eÏý]H8l\u0000íhMvé+~ð\u0017Ü]ß9Ü\u00132êD\u0014ª\u000e\u00181'\b½ò¥]?bP\u0014\u0000a\u0014 Ë\u001a¸õbÂSé±xm×ä¦å8³\nÆ!Ð¤ûµö\u0019\\ÓÎù«xcÑò¬íI=§@s\\\u0015ýÚ¶ÛM)w,+Úu\u0015\u0019+ûgØ¿\u001d/î.VÓT\u001dì¡\"hIZ§ m|]þþ7 Õ»­\u00123üV\u0017\u0019îÊoÝ¬\f¥Õk\u001cX[Ë\n00eWcê¹å,ë¾.[\u000fûzþWrÉ[(ø ÊÆB\u0018\u001b4@ã~y´© ,Ý:Kí5\u0019xov\u000bÊo\u0003\fÓ\u0010l¡Þñ,ÙHñdÎ",
+      "\u0005\u0014\u001b\u001a\"\u0006}Qð±\u001cO_N=\u0001L;Âå\u0007xlÿnÃ¬»v \u0003\u0010\u0004qáÔmÚ_S0 ßëS·à5Â÷Æ|g÷^(\u0007\u0017åÏ,tJ\u001c: ®i¡é÷jð\u0005Ê»s1ÈÛÙ j?éb)ç;å\u0007ÅÈ:KmO²\\raÒÏ¸Ãj?\u001cºbl±é}\u000bu´Ó1cÈóéädÞw\u0015yÆë :í\\*ÞÔö\u0006kIl?ËéÅyKyj®\u001djjù­¦Øëz\u001b­Â\u0005³á\u0012ó\u000f\u000bé¬þ3F:¨î]$\u0003ÔÿMÍ×âT2\nÏË'W¹È[Ó´@\u0006DÃqáÆa\u0019\u0000Ø¬üqhð=.jæ©]BºÑáÊ32ÄwQÊóÓP]bk/a²£§Ý_Ãª\u0000ô 7\u0018ns»ää*\u0018w\u0017\u000fâWätý\u0003·\u0011GÖ9¾\u000b\u0003P\u0000Õn@Ú)W`4×x¤\u001b~\u0007O¶¢¾d\"eZ÷Å|(Züâ¥\u0011iªg$#ò¢\u000e<H»ØJÈJÎ\u0006þ¹â(ÜnFÊÍ;Ê¯Õ¦BtÀq¼E>£²Dñ·øaO­VH)Ö:Ò@.å[pk`\u000b¸Ýð¨Óôµ¾0\u0012'\nÍ\u0004}µf\u0015¸C\u0006ßm\u001bªCèÌl\u0012\\=Â)\u0014®)éÊuÔEèV\u0014%\u001a1\u0001^`À\bMa`ÐØ\u0015¢9\u001e4Ü®hÉp zÂ\u001cøé6¾º³<IQÉ\u0012GuÅ(u\u0004\u0019\n\u0019\u0011z5\u000bµxo­Õi32ð\u0018ÃÆva46áu=\u0010yL×û>ÂPÇ\u0006x\"|\u001f=@Û5Èx\u001e#d60Ñ«\u0010>v\u0018Y%ïÀgY×¿Tt¦¢µ6ÁD@¤+\bÓ\u0012Ü¨»¥\u001f\u0006«Í%\u001dÌG\flR½\u0001´*Q\u001aµêZQÙ\u0007­gs.Ý]\u001f\n«Þ\"¢\u0014Häþü80þ\u001fý\u0006¥j¾æK7/\u0006\nCç\u0006IñUé¥F~\u0007]þÙ(\u0004Y7sJn\"©nYÔH¿§}g·ªß7c#\u0012å¿f\u0012|\u0012QýÔÓ/ö¢Äãô)§\u0012x¸{ÎÜÓW\f>f\u001d\u0001G\u0003WÕÀ\u000e \u0014\fsß",
+      "Ñ©\u00128`\u00192fºd­Hc;.\fÛR5rÁÁd|BA¡ÚË\u0019Üº@\u0003\fÓ<ÉûPR^\u0010þdGÆ\u001aÆ\u001bÞQ<¡\\T¨ ØAdáqºª)X»ºjÑ\u001e¬(i\"",
+      "?u\u001bËk\u0007á­yöoâxÅ$Nwç\u0005yã\u0003ÛÍMå\fìëÿbeÃ¢uÇæ\u0006Tµ5ø|\u0012\u0010\u0001X~cÇé¨\u0019ûç»¹¶°\u0002ù¯u\u0004=5Öm´q\u0003\u0010pe\u0019l\u001a=À2¾å\u0012@ªºô¿BÌÉÙ3\u0003z\u0000»ä2\u001eµ\u0016ÜÕõÀyK{j\u001d\u0017º]ç²äî[ö?\u0013}T`aÃß,WK¸Å;7¦9Fûâ¦³ä\u000b\u001fì9¨Êr(bÃ T4÷öæ\u001b!ÃZäz?!_\u0002w@¸áÂÄa]\u00167-ÂGß[\u0010®\u001b¿\u0001dBè\u0002?«mKì[£A5\u001eyü-ó¯Î ;è\u0018<\u0016Q`±^R[Ó`zMÕÁj.6\f#ª3àe¤\u0007Ì\u0019²òR¤A4D¿äs6edªE>üç\u0013Õåaù\u001f^û7~\u0015Á\u0000\u0004\u0001D\u001e)\u0014\u000e«#^ôAù³WSÔ¥d|\u000fWý\u0006\u0005\u0018np@Ï´¤.¹\u001b\r0bã]|)*ÒÿWEÊÀ:Á¸\\8\tE\u001b2ð",
+      "aâR¢àÚµ$?FÏÿ\u0013­>úJu]]\"þDÖávÓÌ\u000e`{",
+      "³À«Aõ\u001c±*r*e×5Øì9\fV\u000f'ë±¶Í-æ±(²RÚ¬@\u001dºà°+¢GCRñB}ø\u0002ÞR\rìÒt/\u0002/5Zõ\u001d<Oê/­ý\u001aÊîò\u000f 2?ÞJ­@'¦|ì¸Yç_d\u0002ëI/T³®\u001a %z¨Mv%âÓQ*µ\u000e\u0006¹õbçUÍRÎ\t_:`¾\u0010K@³îüÛÐ®dgúj£ùm.Áå£é´52ý%^\"X|9Ô1\tÙ}gòÔ\u0017â×Âý'8\u001d\u0003\u0017²Yê¨$¿\u0004üÚ¨B{/FV±K48iÃÁcô³\u0014!+c)j\u001a@ñ0íh\u0019.ãDo^a\u0003¹*Ú\f^=V»\u0016ªÁÙ2²a\u001eNHP6\u0006uw© ÁeNÁô-\u001cÍßcY_\\OZd#È\u0007êðDãmúEÈVPª}",
+      "pï\r³q¼pb\u001c\n\u001eMFC\u0018Ù·\u0002°hp\\¬(Ð¾>nR\rä+\u0015+YiÐ''_4ñ7Å>öD·\u000fOiwÑ",
+      "\u0018ñg«ÆêÒØþ0ùÚb]ßø.ã¦TdÂåOZiW¤ñßÞ\rcðD\u001bh«Û[¿\rBÄß<I|6}é'¥ó,òº4³O8uÉ6aÏB\u0019É[@$è\u0002âzéÅèüÌ>f°/èPÚf¦¡iÙóJop±<BíTÏÑ\u0019õ\u0019Ò<Â6\u001bLò\f}DM]àhl\u0018¶7²È\u0016ÓaSçJLJÍ\u0018\u000e]åMßgF¨´#ù%Û\t\u001c\u00189l¼Ø$:{Æ£]HeØª²µ¥¯¾\\±ZOã¯x®0nnkE´NWkùGà\u00130\u001eTÙFð\u0000\u000eÒßðä¯þÂ\":OÅZÒÆ÷µL\u0014\u0019\u0007î\u0013úÅÄ³¦Ö¡¬ZT1.ÚER\\ªWkl³",
+      "'qCüVØ$\u001dV¡ªiNÇ<¥ÿ®¯\u001b®\u0013\u0014Jtìè\fï[þë¡Z¹À­õ~~°Uw/+½°;à7\u0012\u000f(Ã\u000bá2¼Ë7ã¬~rW\u0006pÎye\tn+èî¬ÐÄ\u0016-æiKÀ×FÂ¢W»®wÅ",
+      "¤¿·þ$\u000eåØý»\u00065è\u001dj\rU?ø£@¥äUØ\r)¹Ó$5Eç\u0016ã\u001f©S©½Ö½\r©Ûª¹s~Ú­E?ÎªíXªa\u000e/Ôis±êaRZJºÌ\u000fÜ?e2v\u0005 `÷Ò\u0015Î=BY\u0018$Ä\u0016C÷à Å¶vkrÚâ]êñÿjíêñÅ)\u0005Q\u0014pò/\u0011ë;v_\u0001¡V*Åi$]¤TÊ¦ \u001bà-N5»Wyú#*£Äbüª \u0013\u0007\u0000d\u0003ÛÛàºQ\u0005ÀÕ*QüL\u0017x\u0001/ïLíÍÍAur=\u0007MçÌö\u0007àÉ+\tÃ\u0013ØSCH\u0011J¤>\rð\u0010Å°¤ÚáÀ\u0010.Ú#ç.6\u000fs\u0004w\r\tÛ¶ \u0004õ)_¶B_ø\u001dxÿ\u0003\u0013Õñ»Âã¤m6/m\u001d\u0003½1ä¼FdY}ÑqÞÝk¢Ú\u0002FwÉÿ~Rnª'äÖ¾!ägýõ>ão)Oðf¯vÀ­\f\u001d>:©NÐVö\"â*ÏÑA¬\u001b\u000e\fÀ]u¼Vfµ¸6õf(_ßy´Ô\u0005¥TÜ9ùJ oç­Ý±¹\u0017D\u0005\u0014+ã¥MÆætÆ°³Ü\n°A´yþÖ¹\u000fÒÃåAFúDßN'PÆ\u0003\u001f¢¢+E^ÿ9]è.GZåRÑOsX>êXùòe/4Sfqs¾í\u001báhá·Ð\f¡¢^8",
+      "\b°\f{qª|x*#iA½Ä=\u0003F.`V\u0018E(WÒ1¡Å^>ªqî#4rí¼ô´¥/J,/£»­²\u001djy 0°Ðáê*·ì}aÇ%¶b*b/úÙ7\u001cf¶Ä.à±\u0004\u0018%ØÓË`\u001c>2)}\u0003Ü¶¥\u0011ÿ \u0015\u001bÄú­´äZý=|û\u000e\u0007v3¾ak~(ÝvgÃz!\u0018\u0010há4çÌ\u0012Q¬JRHR:ø\b¬l%>Åò5%¶K¡ar\u001f_1uÄÜ¦k[\u000b°^â,øò\u001dª{p\u0004Ã:ïj\u0001¨®¦ÄKWsî©óþåâ]}á#9¿SÃØ¤THl/\u001b*a:âäfÕÙùðK«âeF×\u0012zCO/´æ\u001dÒ\\_Qäü\u000bpÀ6wqÔ«Í\u0004zÒÃ\u001cg*ÔûäAxÍKK4à´­N£·ë­\u001fAäò­¸e,ÞRò ·\u0011\u001bò£*°/ñZ%8~Ó\u0013_ª¦\\ÐÛ\u0011E\u0010ÒÁ\u001eM\u0002£ü'~6¯\"k!à¢38",
+      "FÊª¾<ÂåA~Ó|¬í¥BTÁ\u0017ïq'M8=¾\u0011¤ s)\bZ\u0018XJÔ\n=À\u0005<ªn^¥\u0003?¿A±+M!\u0000gBÁ§Æ{\u0015Æ?ÂÅÎ\u0001\u001e]­\nª}ØÀÒ^ûÅÂ\u0018ái\u0001T\u0010øÿ\u0012ú,$$;\u0001Cêt©Nì\u0014/¨\f¶îLÄÏ¥´I*\u000be8½ÜÏû\u001eR\u001ae_Áîa°m~½°Êm_¸\u001bGE°ü\u0012\u0000\u001a\u0001¨\u0012\u00002Û\n(",
+      "8 mÇ%\r²$\u0004çøÙèjeQAZ\u0007.\u0017ÕWêA2\u00060z@\u0007:;C¾\u0001\t°ØöD(1(\u0000\u0000O\u0001PIavø.§ÚUÝhUÈ\u0014spú\u0010¢\u0019Iu\u001cî\u0011â!ü\u001aû^\\û¡EGD¶pÝW\u000e²0´âÁ$WLÍç¤¯÷ÐÔåÿRÀÅ\"±~/cá#\u0004Xr¯Ô¶ú<¯.@?}uh,/Õf½\u001aKLÖêD\u0003#µNwT¦]\u0002X«±KLÒ«­´a°$1I©¨y\bª}É~dé=¢\rrçY¢-\u0010\u0006\u0017Ð\u0014èòÄ¼\u001c\\ØÕÂ'oo7Ó\u0016^kd\u0014\b.P|-FµVbø\fØ2´å\u0016º±p\u0019\u0019Æ»aÆý)6S8%¸^|p³p%K\t\u001ehÔ\u001b\u000bÍÕÖ×»+¸)àò<W®goÒGGb\u0005·Pt5¹0j|C°XcëÑ«byàyH\u0019¡BËD?¡û(¯\u0005P\u0014+:íp,¬Åo~Â~ µÎ-ý#\nÙ\f\u0010¹)¨ÒHÂÇ1©ü> \n$)æ@\r\u0001õ",
+      "fg\f>ù­ïñ\u0018/³7V\u001d¯8\u0000%kE­­\u0003_JuP·écÎ*\u0005;|g",
+      " ±\u001aU¡(¯[Ê¡WÀ(nß(éG\"½[öä|u¼pßùE8\u0011²pÍ+\u0019Ì\u001d»ÕÎÒù·,3[Ò¾AÛêk\u0017ÏLÔË¿2EÃÌOÀ\u0005öì½Â½Yçªù#Ð\u000b):Pö¤Û¤øÚEÜ`\u0014âÈtÊ\u0005Ág\u0015! íT\u001a8\u0017Ô#lêP@Æ`êV³¶ôÅ·1\u001cî#ï9\u0012bÂî]/:)¾Sf\u0012¡#\u001eù}'óá³RÛC:s d\n5ùd¸ûÊ¶··\u000fèè Emóc[¾XYH!\u0007³.KµtpyæÕÁlÜÞ7\u001ebk+\u0004ÅO¬{[Ývþ¥\u000f¦ì¾ªó¼È959+\u0019Plw¨gûlÝbÖAÝä_§H¸ÉOËÄ\u0017*­;\fCI¼\bft\u0013\ræ%ßZg×QÀÆ\u0000î¢OÀó«ïÉ·Ý\\Æ\u0015É@{~\tx\u0002ÙõÈøL6!19Ñ¯2F\u0003×«äk.$Ö¤6]\u0000¤4\u0019S¦T\u0007Õ\u0012PCÉ\\R¶éâ}\u0007¶\u001cÎ×O",
+      "óM1iûªd¶\u0015\u001d(\u0015f\rÌÏ7|U\u0004N\rGÞýÃ,\"ë\\JÙ à§lº¶ô\u0018\ba*q6³Â]^¨NÐ ]\u0013\u001aÙÏ£\u0003<¸ä¯õq{:H§F³þxxø\u001eÌ¼\u000b\u0011sE°4Xä6)ÍÚBo\u0012?\u001b\u0018k\u0016\u0015I$ÚÞõ\nêØ²J¡Ø*úÕc'TrIFI±\t÷Ù×\u000e'ÛiZ^Ux\u000e3#Z\u0017\u0005²!",
+      "\u001cO#M\u0016¨²É9Ëiá¼±xÆ'>[ß\u0005,I?Ay\u0019¶:@\nb¤_2\u000fQT¼fUº4#xFÛÏ¨ºë~\r\fx@B\u001bBSÿMÔ¤M\u0006þ\u0013¬§ Ó\u0017Jôr%QHY\u0007³B\u0013EÆÙEVe\u0018Ç3æÕ3ÈÁ9ñäñÄ¡TM5sQ¾9ù)\u0003ítÃÎL¢Î6n;\fÅZÒgÜ'J30¯ë\r`%}\u00042ïGP­ûÖ",
+      "Å\u0000Ó@\"nÍOÔd\u001bÏÃrUÜ¿µsÂÂpØN5Aºá\u0001\u0002üèÂäm³RõÁ>o:\u0007Ü{xVQöyR2À^`ðëZåu",
+      "|Fù÷C.zWcÉÑ¸@üê¬­èãôö´íõ\u0001VåtDäëÔaø\u0013Ý\u001c¼<¿ç!å\u0000ÊoÑòÜ\u0003é?Ãþ³\u001f\u0002\u000eI-ÈR\u0003PÇ×«ZÖï}ëÆ÷Yp|Þ±3\u001dG\u001fÆÊ:¶Cd¼V¼\u0013ªYXu×ÈÛ\u0010\fD\u0014öø7,µéÐI\n\u0006z\u001cúã]\u001fy\u0007aEß,Æ\u0007õfx4tö·¾ü\u00001B<x¦D2çdªÇÚ\u001e2-¥u¬\u001bÝo9Ü?Ct²?%ê¼T!åÁ{\u0010)1u?$Ö#GöÍûMO\"\u000b@WÉòGoW\\Æ\u00141øC,mÊ·\u0012VÛÜ³áb\u0003èn÷H\u0010dïvr.UØ\t\u0018ÏBâX\\÷­b\u0004â÷ 9\u0018å«sù­kçE ",
+      "]%÷\u001b\u001eÆ¿8níDÃ=§]»¸\u000bm:",
+      "V\u0003¨¦\u0018 _¼Ã\u0015¹\u0004>J%GÇÈxÊç'lMíò g\u0016wíb\u0006ÿ­\u0015S7\u0002mètô¯^ªoä\u0016Çé´¡â²\u000eþÿfóåR14\u0001P÷",
+      "\u000eµÎHg©4¥K]¢I=\u0016Q[\u001fÉ¯aº^ËC)n§7`È±ÃçÝ]\u0013Pÿù¾¦Ã+Ç°ÃÄÓÇ Mý¢â§øk xc¸/ëx\u0005fº°u\u0004­åïD.\\\u0015Ùww/\u0015¸q¬tpÁ\u0013v\fV¶ª¢º¸å]v]M\u0019Ð¶o÷½%I#a CQÿôÚÊlÝV:w\u0007ã0`\f \\Kà\f'G\u0001ÖÚoùõ«\u0010\u0001{\nÇ%Þ~",
+      "<\u0007³Zø]¿GÑFdnßAA3µ\u001f\u0012\u0004\bFÝá¤\u0006°\u001cä\u0012RÈÚ@«XØ¢óH\u0013\u000eèY'5zu\u000fa\u001a¯®h7Ã03 ¤V]ä\u000fÈ´Uë#}iòcý\u0017G9-í\u0012_â·ÔfC_)\u0004G\u0007\u001eæyss\u0015'\u0015ZÞ}Ká\u0005X©W¶:ßcg£Jf\u001a¨~g6$ÐÁ2H\u0019cþ\u0018qµáñ\u0003` íOÙß`µ,\u0000¹=HY_,@sÃã#ç¶5\u0003\u0004=±'W<",
+      "\t'\nL\u001a-¢Å\u001c<6ÖÍvwÌ·$HûEm¯ý/D6©³ï;ð´ûÂ?)þåÛ^eúÅ_Ür°ñÐ\u0012\u001b2£\u0006g,ÐBRs9UMÂd·s·ýÃ*s­²Ð ÝÏ\u001c|»ay'GÉM·ÔQp¾;ÓîÌ¶´á;Gu¶é\u001a\u0006\u001b\u0013~ß\u001eI\tÂ¥)\u0006/èXéj[\u0016Bg]è¦is\u0006\u000ej",
+      "¬\tF7Î¤Á%½h>M\u0011ª}ÊçzH}^Ù,;»®òTcÒañ\u0015©8ã\u001f\u001c~rÑ_6t0ö\u0003¢\u000ehA¹ÕÊÃÛ¢\u0017÷5ÌUÔ\n\nâv\\ð\u001dø\u001bRÂ\u0006ýÆ\u001dî¼D8aE*Ú@>ÛÕôT­\nÌ^\u00139\u0013½©¢EÐ\u0010pY\u0004WXR}Tò¨åO³¤LÖ/6=\u0016S\u0001±ÞUàu¨\b VÈOu.Bø¿ÖêÝÒ¯0Xyû%knÕêÃ\u0014¯#ú<û¡¼¿ÞÝÿ7f=\u001f\u0002\u000ezû±vql\u0000\u001c1:Xy2Hg/×ÿÎ£þ\u0010\u001a<ãpÙ--f¦\u0002°³b*{òÜ\u0016ê\u0018á\u0013¤ga­³ °|¨FFL\u0014ABlÐ3¬¸,i\t7\u001aÝ\"Ä._¶4´I!2ÏÁ\\6M=Ì\u000bÿ¦¨áÕ\u0018ÑÏª^hVÄ-L\u0001p²wìíeì\u0014òn\u0017éiV6Ý°ø¡\u001fÙæô\\Y\u0010¥p4¾\f^`¨Ã7Û ñ°ØøÅÁ\u001d6ôUÎ±,°\u0000'£gõVÕ *w\u0019;Jï ÁUüÄ\u0003Ð¹õ7/1¹{Eß\n«^6½JÁË?",
+      "õ-\u0012ãTUý\u0005¶^®¿MÑOÒ¢iOkPCd\u00160Ú\u0018gò×Ý¦Ý\\É\nB",
+      "\u0016\u0000M¢\u0010£.S\u001fÓW@\u0016É\u0018K=\u0006A\u000bî½>ÃGIßÙ×GÅög2­dUwF+\\h\u0001¨Dà¡¶Ek±»áÀG¡ÍMª\u0004%¥BâÝpã\u0016¨©ºíª§¥2\b ë÷A`ÀÄ³ê÷-çAÐÉà¨Ø\bn\u0003ÑÂÊl:Â\u000e$0zÊ£¦Þé\u0015óØ\u0010È#é\boþlØ°¢àÃÉÁZ¢¾\u000bO¤üE½=|e.j»EÑvîFn\u000fbÂ¡¥Îq $´ý,¢Î­·\u001c+^h\\3®gÃÕ>}4\u001bÑ!Þ±L«+àrÙ\u0003c\"ó·\r\u0005Q\br3WÖØYIÇÖüïÜü\u0018ø$×\u0006=¿r3É\u0001Î³°D¾\"fRí\u0002",
+      "\n+`,ó$Ô\u0004\u0004¸4ÀF¶\u0013 ·ÒÓõ,×ÖÑ*í",
+      "{bYhj\u001c}<çªÙÛgkÓ\u0013àX<ßí[\u0013>\u0012\u001a;§Fõlý3±nb@`\u0019\u00044*FÔÏ\u001dq\u0015Ñ",
+      "¡7\béØéE#¾)/Èú»Çä­(-7°\u0005ÈÀ)£\u001c[ÝÒ^Ï",
+      "¤+Ri6Ü´Ûëw­\f-Í±[¬ÕØÖì-¡\fÑ[òµ~ÜùÊ\u0018¯gÛ\u0015^ø#|VÅáMÁY+ ;*W\u0007ðíò\u0004ÕB\\\t)\tÿÚSNûtÞRÁÐ\u0019~PÃiÖ;\r²",
+      "j@\u0013äå\u0010\u0017M\u001btÒ{tèo­ï£ÜlIXjE§ïUY\u001fVfì\u0011é³ó£D\u0018y$ªOÔÓå+sµêþ-R¹¼Àkþy1Î°dÇe\u001fÉ\fÀ\u0000ë ¹AR\u0007[\u0018$3zºÌ\u0013s²\u0018\u0010ÎnDÁÒ7ÎÈ\u0007Ä?iÝÕ\té«á»êÔR|ld6Õ0­%\u0015æS@ØmêsK¹2®ßD²Zâÿ\u0019./\u0011­UGóÀí>+\u0002ÒáX­²å³(!aDbºp>5\\ÿÒö¼Õ'Ù³rY½ëÓ.ä\u000b\u0005\u001cçÒA?g\\ç6¶ß\u0007É\u0000gõÏN j~R¯áÌðWHh\u0002å\u00129\u00130ø;©¯\u0012P\u0007!æv\u000b]Yd×ÊØòdz3î3ÍbZ/Ø3âó\u0012°wùyö3\u0018Ùluìãª~4y\t{a\u0014à\u0002wJÄ\u000bïëT[0}îK0_p£ü",
+      "îS\u0002}Ý]w[\u0013Õ8w¥x;ÜÐ\u0000\u0017 4;êb\r+×9\u0002+¦éõz)%¥äóÍ=Q\nè)CÂV\fW",
+      "xu_I _SÕ*À°©\\\u0016q£\u0006^\fUÍ',è©nÔ¿\u0000QÊ¾!6\nÀ+¬wÆ½\u001aæÆX»÷ó\u0014Zf{]ôâ!ª:\u001f0¬óÁ\u0007\u0001þú\r\u0011|\u0004z1ÕCLR\u0005\u0003ÅµâÒè\u000eAÊQõ@~gP«#r\u0006)¥¥mA®\u0005\u0015ûHl\u0010P<à*Ûß¦dé]´=Òy¾@«®*@AHÐ+ë¥ïkMIê,\u0004`¸!z\\'»RM|%à¡Iy\u001a²%í¬²!ÚQ\u0007â\u0015^Ô\u0016îø\u0011\u0002\u00190õ\u0011)ú°\u001d\u001cðôØ(íaëù¿ÄÆþ\u001ckbífIÌG,M«rwa8»äcµÄ¬\n#\f\tÿûé\u0000ÜKÃ hoÇý\u0013Õ¢Ì\u0002ø\u001e\u0002(Ì\u000eãªNBçãõ\"\u001dÇTÐ\u0006ÙEhe\"¾¯3*Ú®¥\u000bø Ñ^ø\"\u0019ü=ÿSÀÕHØ(\nðÏ\r \tT±ÌDú¼®\u0000V¡\u0004áìMÎJz\u0018)x^\u000bQMï%3õØ»|9Øeý°J\u000bwaÝÂc\u0006y#kúïã¹þÕ4Õ4Y¯Ä²bVûÍËFëdC\u000bÜ;§wya0ç¼[!W³+\u001a³qJº\u0000/cg«lÇC÷7)¿©z.C\u0006ÐM³æ\u0018É\u0006d\\¤Ú=Pö\u000bÍ¸[Â\baõ¬ N^-ò5·PÈ\u0000@#\u0016Ù\u0010\u0012³ôbøñ}Õ<\u0016¾àâU\u0003\u0002\u00115ç\u0015#ícT\u001bÑ{NàÐ§/ñÄ-3D#!ÿTD½Ù\u000bDo\fü\u001eT}Uh ¿EÆm\u001fìv³»\u00063oÁËn¢\u000eíñ;ÝÞÜ¼E\r\u0011\u000eo¥\u00030¬éÂßa\nOKD\u0014ßý.\u001c¸¹Ì\u0018?·\u0002hòØ~\u0002Éiðk»´±F¦ÆÄi×æd@ÔÂIHÑà(úåRYÎ\u0003¹GW~*\n",
+      "ý`.yÿ\u001døi§}P±A(è/)yÐ·5Z:>cók\u001dÖ\fküÿÌô2\b2M GDË¡ì\u0001Çe@x\u0000\u0000î\u00013¾Óè=·u9ºJ£~ûíü\u0007\u0003\u0002°ÔC*\rYv\u001dêÎwÚ",
+      "c{«\u0007\f¾q(<]kg^WÕVÞøâO:7á\u0014µø\u001b=\u0019q¾QMTwQ0N¦p`JH>.-YA\u001c3ë¢¦ÎÍ¹J\u0017¢Ñ½k=\u0005\u001eySÁ(éÁÛ\u001e[\u001bïyw'¦°(\u00069\u0016uÅ«Òí¥écnß\u000f;o\u0007Q{[l@qàm1Û\t|¼Ô=i2ù¥k¹\b×\nïSÊKL¸ïQ¦©s\u0013\u0013bX©[Ó¸è*|\u0004bÓ\u0004£6×ÙÂ7R\u001f:ë£\n«¡åÏtÃgù[É¶\"@u©|\u001böX%0OËÜ´\u00130è4ÌXÝÉ\u0001Ç*\u0007N·âq?~\u0002ü*QL\bÂì×cê¦\u0014^\u000b¢ÐF\u0013î\u0015l¿`\u001bxúÖ·LDÃ]Éb\u001d+\u000eçAØBþIâ6ÌMý~ÝÁ\u0003Á|K\u000bØÝ6X\u0015\u001b=Z0°ÃûüBÿDOõ6>mT\u000b½÷lMFéÎ¯Î!z\u000eh°ªÅ\u0010ó\u0011U\u0011F»»D\u0002 ©\\ì6U\u000e_Lt\u000eB\u0015ÃA¢»4}cg\u0004\u0007\fÑ\u0016c\u001chæjM`}=ó\u0018sÛÖ§<òÀdñ\u0003\u0007\u0010ý¸}i©Ó\u001eæ\u0018E¶Ì\u001d\u0005±çÜün\u0016û³ó\u0012êg\u00043K÷\"A¯¸F·¢]\u0019Èß56kÇî\u0017§CH\u0015\u0004\u0004ÎvÁ\u0002ö¼ßBÇÁÝâ\\§\u0002\u0013¦]UKrÜV\u0001ðòmsJÒ,òy\u0016~»x©$¹\u000buR[þò}\u0014cµ»\u0013`AÂOÅ)ê®±\u00164ÚCçä",
+      "îj1Í:-Ê´È¶_´çüµ©åe´ºÕ\u001cFÉ0µ\u0018ßÇglì\u0013L8·°Â\u0005í\u0004=pBiÄÍ/\u000f³\u0003cGXí{cÖ]+ei±\u0002\u001eGÉóÇþ\u001cÇÏá\u000b$ÊÁK\u0005eû\b\u0011\u0001FV°¹^s¬Ï ogvÓÝ³ji=±ÂABË¡®S#ì$Efe\nvà~¢\u0003Oo±Ú7Ë¬®AZés¬UH\u0001¸»Æ³\u0017;¸Xbs¹Êr5@V´À5|bðòü/A(ý`uákn¢Òµf,ª\u000eÍV{õ#ärõÇì4@§ÛÎN¢±Q¥qOKu\u0017ÕüÓ1GøèN¦®È½ÆV(ÅÇvt\u0013ªÌ\u001bG²#\u0007k)úÀ¦8\u000b¾A\u0019l¥³ë3Q\u0002,>ÖgT?èÃ:£\u001dcÄ¹è",
+      "ª\u0012E5:öºâP©Eý\u0000æZkF 6FòWt\u0005et'iÉ\b\u0000\u0015\u001a^â\u0003þLÌqùw¤Àß¡OCöûV8Ò}ï¡»#Ö\u0013\u0015ñ¤\u0014ðdó\u000e\u000fhqy\u0011r¤)\u0016m¿\u0006",
+      "6qíþ\u001dÇ²¤mt¦´±£ü\rÂ`ÂQjï\\ò­á=¹¼1þNKÐÁmíÈ.!ÇÝM³Þ\u0002)]ðNÁ³¼EØÔ\u0011«©'_GÝÎÔ:ãAßyi§\u001d²Drý\u0011@é\u0004c³£¨+h·f\u000f²¡I¼%Ð\r\tô¢ß\u0004ô{\u001eâ\"ý®]\u001aÍcýCÞýqP^Õã¬Nâ\u001b]÷ª ú`)Gs©õo<æ]2CWPéütÈ\\%=¡`øÆÚWÊS\u0001iöÚªW»J\u000f\u0000òaj¼^¼=BárNGa\u0003.ô¿íEÏ±7¯?³~n\u000b¢~\u0015á#\u0012-Q2Ká!7i$³­}tÂþýç\u0007ÖãT«BJ>gG\tÂ%",
+      ">\nFnÙO\u0016­ûºê}Ùô/#ëÁ©ñÈaHê»K\u0004B6ñ<3aGüº.î¶¶t§g·6¾Sæí\u001eaãVóµ\u000bÝ¾´T·ë.Ð³2\u0005§ã[:Òº9$]P¸:g\u0014\rÓÌðßÔ|\nÁØ?¹}²K¯þDÁQK©m-\u0016Mb§ä~HÿÖL,÷¸G.¾ó\u001ag!9ãh\u0004Q¦\u0001-SdðIÅé©D¹$ð¨V¬#\nÝN´\u001fqÇ.¿UöÜØ©¤¿U#\u0019íÎé½f±y\f\u0016a³«q vYÐbÅ×ÈTHX7qãH¶é\u0011]cÚèu\u0014iwúêI\u001d!6Â\u000fHö+èºø\u0007Ä÷'¥ZuVuÙLR^E*¥u£",
+      "ùìÀmwÒ;\ns­)Q<î'/¿¨.éß ©³7ü\t\u0003~¯Q\u0011:¸2|åm\u001a¼àØL+z~¯Ä\t \u0012BG\u0019ZßÇÊ\t\u000fv\u001b?zqQ0?áÃÈôâ|Ú1À\u0002v¤`q^p2\u000b%í\u0005Í\\\u0013ñºõYDs÷Âr)' ·\u0006\u0017)Þ\u0003ò\u001eP\"Á\"½\u0016p\u0013",
+      " Aµ4ÃLÚL'(pÞ!LTÎý§åÌÀ`÷ªØÞ¦äåíBLÆq²YñFrtPâ§ûX*>ñ\u0013Ë\u0003ß3µ\u000beFÛyå\u001eá\\¶Ï}ë«z\u0015ÌÉCøYùÝ^¼*¨\"?¥ªÒªD=cPî\u0017$L±»Y}ò\u001dAÝe2Y\u001b4³7èY\u0004*\u0000Á§Ó;\u000bÁs_)*;\u0012Ù£\bÝ\u0016c\u001eÚá`ä\u001b\u0004ÝÍö«\r\u0001èÊ.Ä\u001eÞ\twGð\u0014\"e§/Ù\u001bE\tºH°/'Q\u00112éì\n©eeÿ¦¡ÅîîrÉ»Mf\u0013!(+Ã·|5]Ü\n\u0018wsí©Yl\n>8¹\u000fò#Tpzoò\u001bqÏ«ND\r\u0006\u0018\u0004Ña^²\u0006;ñö1C]È¹\\¼H\u0017(J\u0000S#Ó¿ê¸Ö?Ñ¾\u000b$v\u001a'ÝÝ=w§¨wÃc¤¸Û'Q½ËòN\u0005â\u0015\u0013´##Ny^¯\u0018~çyùKÝ~¤üaÈoå\u0005cÀ­­*Ø,´þûÒ¡\u001beQÒ÷¡=ìG©\u001e\u000eßK#-\u0014këFÈÇß|]Z¥Nxõ©wò2*õÃ¢\u0000³YÝUtv\u0001ÃÉ\u0012¯ØÊõ)»BøqÎ2\u0007~;àð\u0006\u0007L]¹±á\u0010óÏí\r+#ëv\u0000=ËHz\u000e¢Sw\u0016ÌÍÒeëà)ÎÕM\u0018;ù¬çYåË_{ËRw\u0003¥@Ê-í®²x½?Ãq½a\u0019'xü\u0016jÿÊ\u0018\u0018¿ªá\u00004xgö$ç¡~%ÆÛ/t]ñ!à\u0006¶ßOô²DÅú\u0019\u0004>8]¿w¥<µÀðE\t04ÔuÙ:ã\u0010\\R®\u001dÈ\u0014K\u001b!<%ëlòQo7ÙHº)[Þi\u0012´?\u001577Å½!« O[½ò\u00059º,xJ5îS\u0006eÉF,AY\u0018Z|%\u0000ÒÉÎDnÛÆ$íÆÝwG|±Ì[5C?¦2·Lè×QÉµ*\u0018\u0011BÒôý\u0006È<ª-E\u000bE*\u001c\"ÃiÜ½Ï»kó¢¶U`J\u0012¥Üú\u0005©ò=ÜÁfY¾.ÏË\u0010@É\u0004ôæ¯ó\b#bçH¶ZÌ5\u0001R\u0011`f\u0001¶\u000fr«o¾\u001ea\r\f.\u0014¹DF\u0017\u001aò<\u0007ô½\u001aBÇ(\u0018:\u0003øB \u0019ê©+²Ý÷*\u0015ÈbùÝÐöRðÇ+ø\u0002\u001b\u0015\u0011Nrz\u0015Ùåz¢r2ð\u001eYXZâ¦md¤Ò\t®èdÒ!Éà\n¢\u001dßD¿\u0003å[I¢áÕ\fk\\<s¯pKãòo\nÕLÖ-z\u0019ÉX2,\b#VR ½y|ÜÕ\f%·[Àd*R!<«´p2Tè¨VÈoZå%Ðt8b^\u001f{¶Ý¼»h\u00146jRg\t®:`\f!Êd\u0019\n<\u0011Xüù£þ?lî\u001a5Ðòg¥2G\u000f[·H$°sBÞ\u0005²§®ý)Kú³C7ú¯ûwôê\u000f{2=ªÒ\bÑð÷Nªð·èçÓ¡örÚÖ\u0015ªlýO¸Ã¼\büðm{I^·~¿è³Ãé\u0018H¬_@³\bûNª\u001béº,cÌ^ºJ\u000e2ÙÐ¸íE\b3\u0013Óò²Å\u0010kÞzQ\u0018\u0011°0Á\u0015úJ\u001d\u0005\u000e«yfÈÒq·\u0019_kòá,o\u0019I$¸'`@\b12Y^P×\u001cwýÆ6\u001eë:\u001fDAÝq\u0003ÈsA\u0001Uó\\.¤}!Ö*A,\u0001Õ\u0015¼\u0005cöy$s}úKòf.ØWkL¸^¶FLF\u0003¯Öq\u0000\u00181Ì\rw,¥©äv*®¿q\u0000¢Õµ(¾av©\u00032àhÃ\u0013»ýØ5>Ù$Ø§Dë(cþËv3'ìåÛæ\u000fêßdt¾ß3ò¾\u001e\u000e­£GRZ\\~XïÑsHC÷~P2K/Éu©M;W\u001f5\"I\u001a]ôÛö§aÚî©2¯d4r\u000bPTþ¯¿\u0005!M¥°d\u0006É[\u0019µ³1\u0012\u0007È>UîäüwÍ\u0017\u001biÍ\bár×ÓÓ^ª3#2k];B²ÞP¶\u001abÊr+ÁÚßUgBÅZÕ¸+\u0016¾â¬Ïn_\u000fV¸\"Ù'TO®åÈ¯Y¬7°@¦:ð\u0017@)¦ÊÅ\u0001@\u000fàÒ\u0011\u000fd\u00008§W\u0018<ú¢ØMó\u0006cÃÁÑ¬?\u000eò/ä!¸\u0015\n\u0013Ã·]uC\\´ÁkÜÏDò?2.@b¦\u0016)ú­Â©o\u0007Z\u001a:Ea¬§MúùªZ\u00004ú_^õxWÛo\\ü¸\r¾qúÂå´?KJ|8¸ótmü4®ÀqÙ",
+      "·8Héé¾Ê¡T0>¯µD]Á©çÊ×qûy/ûx\u0007ÿZ?\u00175\u0018Þº×\u000fÇ\r\u0016$T_ËwÉ\u00155áýÖÉi\u0012ÑÿÄãé\u0003\tRó]ÊòÛ\u0011<\u0012Û§BÉ¤\u0012\u0017\\Í=K\"³bìøÛB=×\u0013\u001cÏ1=`1xÄt\u0013À>\u0004º: 9è«ný-Ö$ë>´ÒAÝ\u0012\u001c6È%_J÷°q»¬!0L\r±\u0006`Ö?÷P¶¿\u0004KG\u0002q/R",
+      "QV]¨ùè\b7zÃD\tQÝn^ß®ôá7!t\u0006ç¸p\u0006ï\u000eáºüubÈë\u0011BéËñ÷^k\u001b§x\u0001÷a\u001b®¾ì|·ÚC\u001aÙD\u0015.Ú¶ÂJ À-V¯\u0010\u0012+¯¾\u0015QED\u0018¹n8E\u001aPë=\u0002\u001d¿¼Ü Æö!ñèÍ^â¸µÜÌTÅ4s",
+      "-Þ|N¥.a:\u0001Óºv+n5\u0016âãýØe)\u0016^øE× æZµ\u0013@rü£*7]\u0003p¯/=Ñ¥\u0017yÚ \u0000HÕ/pvãØ«pYöq\u0016\u0019*¨àzdßbùnô¾ál1}u\u0001+\b\bDc>/\u000b¡ù\u0018Þ\u001bö\u0005ù%³\fR7ÓìF\u0014gf\u000fxqRÖwîò\u0011¸1W[í\u0013®öcËìÜhqÓP0!y\rÈ¤áÖf_ÞýÎ\u000b\r¢4ÙÒ\u000b\u000b\u0012«Üý']\u0013\tÛÈb^NVµã¶fk¤ì\túQ\u0001ÔÆ¥õÎ}~óÞèØî\u0001L=\u001cç0F,Î£þÌÅ,g_",
+      "È¶¬ÿÔª_P0L]\u000fäDr\u001b\u000b0Éã6áeÊ¾UK¡IÄ\u0002¨L:Sk\u000f)«âòÂ¼hb\u0014Àob\u001aòËeót_îí\rä¥d¤y\u0006ÂÓ¦ó[Uº!M'\u0010\u0007ZØ\u0014l¯ÞFß¸\u0006M#§k\u0002>_ý\u0003^¦Oø\u001cÿz²Ü]í\u0016e\u0000ÉàGZwH\f\u001bÏ6n1_h±|lÉw\u0011úñ\nlBhcá]ðY#v\u0010ÎfyXéc½X\u0000í\u0015M ¹%\u001dÅ|ÄØw_\u001d\fô\nÍ¯Òï¿úU\\#¬fÅmð£ä\\¿Ú³éJ\u0004QÇâÑì¢pP$`;Ð/ÊDo6Åý¨®0¹²\u0010@3»/'ÙËØé\u001aùÌì?qK\t²)a¤·¶qÅ/ZÿóÎû8Ê¤S\u0001«u¥·¹>¥HRò\u0006<:ªúÞ\\VW÷=%Ï8p¸¶ü~\u0010ãM6\u001f.º\t=w ?fðã.¼`uuWí®@Bav#/Ò\u0005*¥¯óÚÀs\u0016ÓÓ,S\u001b ³¹¤/\u001b¥k\u0005î"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:22.234162",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?fmt=398&cpn=r3vuJ186eNOkMMnL&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&event=streamingstats&plid=AAY-5Dsn2LFk8M_0&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.007:B,6.711:B,6.711:B&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.007:0.000,6.711:0.000&cfs=1.181:a.ru:::s&vfs=6.711:398:398::s:CAsoAQ&view=6.711:451:801:1.5&bwm=6.711:65528:6.707&bwe=6.711:210485&bat=6.711:1:1&vis=6.711:0&bh=6.711:0.000&qclc=ChByM3Z1SjE4NmVOT2tNTW5MEAEaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:22.244710",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/api/timedtext?v=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xosf=1&xospf=1&hl=zh-CN&ip=0.0.0.0&ipbits=0&expire=1758025026&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cexp%2Cxoaf&signature=5A1FD1583AAA0C6110F77D191F70BB48EF1AC1E2.E05784CF5635E021A3903A32F53D48FE49AC266F&key=yt8&kind=asr&lang=ru&potc=1&pot=MliFS5GNMDa0XIUKtjaeIBSqOfSkeYyMpEEVSVO5jB72lkmYEzyZ7ZjKoa28MRHXE2NmZE99CVbF3fUu_3sWt_aTARvFjfl4IxegxM1757s-rCUMYSpdYwzQ&fmt=json3&xorb=2&xobt=3&xovt=3&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP",
+  "host": "www.youtube.com",
+  "path": "/api/timedtext",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:22.365935",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/api/stats/playback?ns=yt&el=shortspage&cpn=r3vuJ186eNOkMMnL&ver=2&cmt=0.001&fmt=398&fs=0&rt=6.837&euri=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FciqNb0E0tYs&lact=457&cl=805451301&mos=0&volume=32&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&delay=4&hl=zh_CN&cr=US&uga=m21&len=59.421&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&rtn=17&afmt=251&muted=0&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&plid=AAY-5Dsn2LFk8M_0&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=3zGasEqcnosSMqmNImWmxA&vm=CAQQARgCOjJBSHFpSlRMdnctdTVMMWJnMWdkcy1UVmkwamRCVjk1OFBiN1BSTEFTZ0hYdFF0bzhiUWJeQUZVQTZSVFZuS2JROGpvY1dtdTlCWFY0UWxCZnoxc1BubXg1SlVWUmkzXzIyTjUtaWFhSWVUei1ZenVONHJZWUJxUS04eVlCbmpidDBqY2pGQnZRR2xuVzRlOU95Zw",
+  "host": "www.youtube.com",
+  "path": "/api/stats/playback",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:23.385188",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=shortspage&cpn=r3vuJ186eNOkMMnL&ver=2&cmt=0.989&fmt=398&fs=0&rt=7.855&euri=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FciqNb0E0tYs&lact=991&cl=805451301&mos=0&volume=32&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&delay=4&hl=zh_CN&cr=US&uga=m21&len=59.421&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&afmt=251&muted=0&cc=a.ru&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&plid=AAY-5Dsn2LFk8M_0&vm=CAQQARgCOjJBSHFpSlRMdnctdTVMMWJnMWdkcy1UVmkwamRCVjk1OFBiN1BSTEFTZ0hYdFF0bzhiUWJeQUZVQTZSVFZuS2JROGpvY1dtdTlCWFY0UWxCZnoxc1BubXg1SlVWUmkzXzIyTjUtaWFhSWVUei1ZenVONHJZWUJxUS04eVlCbmpidDBqY2pGQnZRR2xuVzRlOU95Zw",
+  "host": "www.youtube.com",
+  "path": "/api/stats/atr",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:23.405381",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/player",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"memoryTotalKbytes\":\"8000000\",\"clientScreen\":\"WATCH\",\"mainAppWebInfo\":{\"graftUrl\":\"/shorts/smNKbbXM8HQ\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[{\"encryptedTokenJarContents\":\"AKreu9vkbUqq3cI2QM9kZBZkmbHc_Awtt6zii83pN3gArMu0XRNCMO5sxgtyx3ocw-Uxr-qjMY_VIaoMgE_gcXovI9nT8guImSxLtMZjbQ2iVuAvY6zhf50lAdM\",\"expirationSeconds\":\"600\"}],\"isPrefetch\":true},\"clickTracking\":{\"clickTrackingParams\":\"CAoQ7fkGGAEiEwig96XYw9yPAxXnFXYGHexLDA6aAQUIJBCOHsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"3\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"884\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"videoId\":\"smNKbbXM8HQ\",\"params\":\"8AEByAMTwASd3uCsgdyj03uiBhUBdpLKYNVe2YO7bKact25FLpRR5mqqBkNBT0FyQkZ0V3RQdTZxS3pCa3RkUnhzZWI3TTNVbE9wRC14M2x6OTFBVmRZSnJpUlAyZnBxWHY0ODRyUWdMMlVsWjJ3kAcCuAf35KbYw9yPAw==\",\"playbackContext\":{\"contentPlaybackContext\":{\"currentUrl\":\"/shorts/smNKbbXM8HQ\",\"vis\":0,\"splay\":false,\"autoCaptionsDefaultOn\":false,\"autonavState\":\"STATE_NONE\",\"html5Preference\":\"HTML5_PREF_WANTS\",\"signatureTimestamp\":20341,\"referer\":\"https://www.youtube.com/shorts/TqmzAiB35T4\",\"lactMilliseconds\":\"-1\",\"watchAmbientModeContext\":{\"hasShownAmbientMode\":true,\"watchAmbientModeEnabled\":true}},\"prefetchPlaybackContext\":{},\"devicePlaybackCapabilities\":{\"supportsVp9Encoding\":true,\"supportXhr\":true}},\"racyCheckOk\":false,\"contentCheckOk\":false,\"serviceIntegrityDimensions\":{\"poToken\":\"MlgJGFRrVdA6eQlZc9D7xpqPtadhn-lqKmSZGpZf6fh4s8XL1tr8CxbvLf5513QxnUbqN4qbbLBL-Hl9Op1zUXi2jUgAa5yerTIslwjN07gETExSmqBNt08l\"}}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:23.696215",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://rr2---sn-nx57ynsd.googlevideo.com/videoplayback?expire=1758021426&ei=0vLIaNDZCJC2quwPmYrb4Ag&ip=147.135.38.164&id=o-AJBGw5rjWH_pQ-oe_oyb9GJes4FopGoWNv-7kAzDb5SI&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1757999826%2C&mh=Fc&mm=31%2C26&mn=sn-nx57ynsd%2Csn-p5qs7nsk&ms=au%2Conr&mv=m&mvi=2&pl=23&rms=au%2Cau&ctier=SH&initcwndbps=815000&siu=1&spc=hcYD5SwQchmFyr0xZsMM-6OP_vv6_HSA5iC-owmxcjBpulLXnYkT8FOtgakA0P5Tvg&svpuc=1&ns=GA8GEMKjagmhcVc1_uXELP8Q&sabr=1&rqh=1&mt=1757999585&fvip=3&keepalive=yes&fexp=51355912%2C51552689%2C51565116%2C51565682%2C51580968&c=WEB&n=RA6pQ6zCV_hhJg&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cctier%2Csiu%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AJfQdSswRQIhAM6VXfNRIJXMyX_us4ekbgbZWpUCjdJhWkfTUlcUqZ6eAiB2oNzK9kH0diR63Thhcq2KWSdPl8qtMUmk97S56jwGuQ%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgbS2Ajc3GGRqNRJc1uRDRHiUxv-s4iUPeYFKYMVd9DLoCIQCIcskwpJoDgKkZlrYmRrxKL7l1rsgnIv2CqV9hSTpAqA%3D%3D&cpn=r3vuJ186eNOkMMnL&cver=2.20250912.02.00&rn=12&alr=yes",
+  "is_youtube": false,
+  "sensitive_content": {
+    "query": [
+      "Òº¸\u0003æÛ\u0003\u0006¯c:ìmy6sÊLîÙ¥Á\bÇÕCË\u000bæòèwl¥GA/_±LI¶8©p37«LºbiVÉl4£Ø\u001a,ÇÛ,aÇþ\u001dë^##pdï\u0013Ýë#Êc°d>\u001a|\u0014úù",
+      "Ve$oð\u0000\u0011\\-Ò«]£wò¢hXuè#\u0000Óô÷ÛåTÝ\\Û¨{ÓV-ji\u0012\u0005°é\u0007Å\u0004Kà¿Á§\u0005\u0005ïß\t4%â­ò#\u0016\u001d\u0019yi6£±4®¼»Í+Tøü4\fzào(° ;µ\u001dN'Iå<\u001e\u0010ï\u0006üÊ\u00067~½>Ñ15É\u001ayI'-EHDì6\u0014£\u001f®·iÇç(\u0011u\\²yæN´\u001eäCw³ \u000euï\u00025á",
+      "!ÿ $üæ\u001fÑb`;è@£Aõ\u001fÌü|°$Bz\u0015]¹Fj·W\u0003þ=\u001eøùèf\bû½¸ë\u001c\u001e`òxÄ\r]ÛDQ¾Ré´hÐ\fî\u0014Õ\u0001(Áà.ÜßümØW\n½4[~Èý_B}#68ËÞÐÆiÖ'^£\u0014+a.æ;\u0005Cðü]û\u0017\u000e_\u001f®\u001bq^X7\u0017ç\fm\"½$%)¤®î\u0011e\u0002õwìÃ¯õa¢\u001bo\u001cÞêSMÍ\u0003YðaíÝßèó±OôZ\u0007N­£\u001f\"\u001b\\E]ú(ußÖ\u0006øQâ\u001e\u000e\\ëèïNÑ\u0006N\nÞ\fÇÚ¶Õr¥K%rbLµ\tòðè¦ëÖ`/±\bEÊ1Â\u0019~jè0\u0002]Ôz2ÄM\u0017\u00039UAä¸g\u000bèÙ\u001a\u000eGRx.¬¬\u0007ãõ|\u0015mz¼ìa{«õòÞ@³XðÈ?ô4¢EZI¿²Ðñ©\u0003N]yTmUJ\u000f2Ó\u0015Ú8¾´sp\u0000\u0019¥Ò(5ýÙ±÷^Ç5;\u001cÓÌ#6\u001en?X;As© Üj®§´\u0000ü\u0019\u0005ß÷îE\u0003Û{Àâ×Ïyd\u0001Üs\u0006\f4º¬ö©ûÂM\tÁ]Àå\u0014=Æ8zÐP»\u001e5ïÃØÜLó!\u000bh\u0014\u001a¯bpþî-I(\u0007Ö\u0012ø\u0003¯=2¿Z2\nO\u0001%\u0017BlÍ\\ê {¥³`õvRnæÑ*JÆ©ØZ¹[A\u001f²?(\u0000\u0011\u0006Ô¶ø¾\u001c£A\u0005\u001fàüL«\"ü\u0017Aâå×\t¨)ÒemA%K\u0007ä5q3x\u0003gÐ0U¼\rPaúbîøi£Vá/_ÁfaÀ\u000fTr²l\u0014ÿò\u0019äg5¿^~ç^\u0016JÙ\rP![\u001f»\u0014DCùÒb§+TæóÈm¿íõï#in\fÐJ¶ÐgÊßdàM%çÍE(\fÞ¾:×vOø+ xúMÝÓëvÉ\u0006NË½øy\b®~ääÿ\u0015t\u000fÂ\u0014~§Áà6döiò=\u001dduËþJë1Þ³=)Æ\b(ÍqH](í\f\u0017U´\u0000ýM\u0016Ç\u0004÷\"÷ÊåÅ´ï\u0001ù¬+Ó\u001a½®\fº¦\u000fT¬_¬-a\u0019hF\u001e{5H6\u0006ä\u000bº4ª£A\u0017\u001fôü1¢;otÆv~ ^'CJØ¬äîR¼8sdY°·¡\u0015©U^K¿û",
+      "SF\u000f»tj-'­'²H²¢O©IA=õ\u001faIûPÛ±ÙÔ\u0018D¼ ç9;¤<Ä\u0018Õ}ÏÂ\u001cÊs>\u0006S\bù\u0005µÞáò Nú\u001fdDå,liÈáP´aò\u0000\u0001ÙOYÏ£°ÒI|ù7Üåh¡yTù$v`\u0011²A\rcèj)0\tf\u000b]!rb÷\u000e÷DÕeo³\bH.FËrÜÕÁZ;ý$sõ~Ú²-\u0005uË\u0017L§ÓZåIK\u0007k*\\¬\u000et°\"È`~æçÀÞ·òù\u0003\u0007ù«o;¾+\"\u0015Ð±Âø31¥Þ\u0012¶¸\u00026\u0001\u00075Q£~*)JãÜ\"JHlý âp\u0007`\ftDâò·\bòw\u000f7F_¾MÚRz_»¬mCÒé\b\u00135^iÛ5\ra>Àa\u001fe,»{\u0001ìh\u0005êY\u000blv7©!K7Sà\u001f­âV5ö®8K\u00021Ø>\u0011ë\u0007\u0014/Ü<\u001bL 0\u0000ÃkûÈOö",
+      "¡MÛá\u0005ôñòºg\u0002qLSÅD\u0001Ò²|ý´¼C\u001eqòËî={¤@Xù!Áö>\u0011=§O(1ùª5þÈJpùèrôÜ©@+ú~ØúÕd£\u0001UÀÿ4+\u001ah(®\u001coçé°±\u001aÝ¦ÕW\u000fW£ö\u0006Pq%]û@q;\u000b¬åâ¤áÜh47¤\u0005qÓ\fäâí§ñ\u0007^æD5tpøâÞ'øÏ6Óvjõt{ó\nTÞóRvv«û\u00009NÌÙ:ÿGîÁççum%\u0003>þfÀCáSóQüx\t¥nS_xo³ML\u001fvsË\nqz,_ÿ\u001c¬\u00195ºÂWìêÓ}Xýý!,ÅpÛ8òKµfN",
+      "y\\\u0010L¬¢ÄåQM9EÏ*þ(",
+      "qa\u001e\u0007¡FÄìÀd\u0017<M<$÷csÕ¥º¸ï\t\u0006\u00186´îÄ\u0017:ü$Ul.þBÖp9\u0019`È\u0004f\nñ\u0011à;ï\u000f £hãßÓÛÜ\"r\u0018%!\u0005s\u00057TÊIðë\u0017\b\u0005¾>£$)Õà³]½GÕÖ»¬¬ÎrÏ@%¸Å\u0016\u0005ákD£#2î\u0003\u000eô¯ÍÐS\u0002M'\u0003# ÒfC~?óàH\u001cÂf/r\u0011w° È±1\u0007Vð\u0017ò\u0013êË:nÜ] Î½\u0018\u001bàë¬1_Íl\u0005±'y¸\"Èqú\u0012Q$3kîî\u0016C.}e£­²enWßuÄ,Ø)²\u0000\u001eH\u0004Vþ8pZ\u0014hõFLo^\u001e?¶«ÔI£V\f\f­\u0000§ÿý\u001bÏ³Åð2ËÕ\u0003¡(Êô¥Û:ÊßT0èUãª!hi°",
+      "\u001f8)-¬ädÁ\nß`®ØúÑ\fun¬W\u0005f\"óC¿ÿ\u0016zÊ\"¸\nÈf\u0015Ð7%Ùú¥OIÆ0)<Jø>z\u001cYMjë\u0000¾l\u000f1ü\"ÝììØ²Ü¿}¥ß5£7\u0004\u0004¦\u0002°§ÿ?1BÄé\b)\u000f\u001dÌø®k\u0017²´kÐôÉç°5cçQ±yÛ¿\u0018â\u0015]í\u0016åÖëõ\u0010a\u001aUª_Y3b\u0015¡`ljÝ1ÕcËi´-S»\u0003ù­iéS~5ôaãyC*1bD\u001d^v,xü½a\u0011Æ¸<z\\p\u000eçüjf¿(üæ7¸[µ\u0004k ç\tuóªKìMjVjè\u0015zå¼s`ë½{-õ²1Ñ\u0016¬¹\u0011C5jwJ\u0014E¤msæcâÓl)ÿ<öÇ ùÇ\u0002DD\u0006§\"+\\lË3]x\"H%¤;Úò¡cìñ:å$h~÷¤Ôv\u00022C H\u0006ÐqÄM<j(%o:\r¯·!W\u001bÔ5XP<fLV\u0017ØÀ\u0002ÕòÀEò7].ÏÍ¥Rª»D?wH8\u0000X5¨Yo\r\u001e\u0002\u0018SDª0B0##Ø¦fÄFé°û\b®\u001azëÏ\r\u001d\u0000¥-¨\u0006t+\u001d/3Ð\tÙ°`\u0013¹\f[;S\u000eÙè@\u0002 ü+\u0013|w8\rG®JÚ#¶oÞ",
+      "¦vN}ÆÃÏ!\u001cÈ\u0012¢{ø\u0017ÉY |ÅÄË×¦Hç\u000e¾Éøê\t\u001b[Õý\u0010\u000b\u000bj.\u0014T\u000b)¡ÎR;ß[T´[¶zUÒD\u0002¯ãw«.ï`{2æè\f2\u0000;ÎeCUøÒ6É\u0001~z\tøyíÎ«/íæøt?×U0vly)Ô>2\u000b³üøÊ#EÇ×û0¿Sí\nüøuÏ\u0002\u001f9S¼õ\u0013\u001c2¹m8\u000eð¸îZk$kùMÊÉOQu`X­/?)\u001b`\u0002\u0013ØAH>SÃyBT°±Ö1%D«Ã\u000eLà�#d?Ö[·Õmc4\u0005ï×÷\u0011 ov\u001d!Øbi\u0011Â\u0016¦ê\u000bçe§;\nùñ4\u001aT½ê\u001czS\u0006C\u001ef+\u0013âF\u0007ÝåxëM\bïìÒñAh+\u0003\u000fK8\u001b$¨{¶wÄÿÈôÉ¨´©Ý »´/B¡\"½{AKëW¦\u000ec¯öm0+\u001d}\u0019ã\u001dú\u001c\u0000Íÿ/\\EÔÛl¿\u001c~­\u0006èò\f\rk°\\õXpÜw´!¹\tcé\n\\¸|Cíý\u001bÈHB»\u0016{Îï®8ôGb«$YÕ6dÒB\u001a®¶Ep`P£Ìd\u00109òìð½×Kn\n\u0007jÛE+± 6;Yd\u001cè/oLfÜm>¥0ÈÜ\fx¢jZ(\r)1(©\u001a\u000bÛy\u001ft\u0016IÁ\u0013§6OiÆPZiü\u0014È\u0011ÒM¾ßÓ¤¨«à\u0005\u001d¢ô/Ía\u0003¿t¬h3ÚÞ-\u0007WÍâa?Ðjm­ç×³ÊÃ¬Q§.ÓæZ¹¿±NÅ\u001bÙðSã¦ £\"¤í\t\u0018ÁDutk óåÃM.ÂQ>üOÑ\u0004Fº§Ã\u0011B^pÏ",
+      "\u0017¿T,Lß¡dð\u0007£Ý\\ô¦ÿ°Çí\u0000oqmg\u001b2Î±s/ãsòOj\t\u0015Ø}ZÖXÑ\u0019EáÄL°5%M=z\u0015÷ÖB´\u0005ÍZ\u0002\b^Qáÿ\u0001ëàHØÍ5,X¶\u000e\u0013ÛBÁèÃùè°pß\u0014®äcÇ5 c¾©;®EÎ^#vã",
+      "S)Ã\t^î\u0014ªÔ2\u0006°vo)c}\"Ïñ\u0016Æu\u000e»iµA\u000eÛB\u0006\u0004%s^Í\f\rÙdB·TM`\u0003~×Nác<\u0003¡v/\u0005DÆ\u000bÌ¬.^\u00112Ú\u0000\u0007ÚícÁ:p£«ÎCÆëû\b\\ûâ#àðî\nyÜæûåöMÖ­mÛâ~2d\u0012!´§XúÕ@ËoÚ8óC¡\u001a­$Î\u0004ó\u0012G\u0011¾ýW\u000e/s\u0011°â#1^7\u001b,ÁJHxÏ·ô¥åOéë¸ÖÒ½´K\u0015\u001dìµµ´Þ\u0005å(WÂ\u0004Y\u0007yE+T\u001eñ2ß80ú\u0002P¦Ñ0þZÁÉ\u0017c©$Ú=¦¿©¾Àÿ\u0000Vå\u001b?¿ûv\u000e)xÇ(iC±+@Î\u0002 +\u0012\u0014;\u0002á¡\u001c;»ÍØèWÃ\u0014\u0000äõQ\u001cî9¬.oü\u001a\u000b\u001a32zäýÚï+]4\u0003¦ÓÊ\u001d·È+Z\u0003pÛe\u001b5³%mÛÇ´}gà8è)¤GçS7AË_õ¶÷NÁB\"|ÜòX\u000fââR¸ÁX+X\u0018\"ªnÕÖÜ \u001dl\u001böië$âmÛ\t±N\u0019HAw2æ´ñ>\tlíÐ©ç\u001fm\u001a­o¡kÈI*òå\u000b\u0003\f\u001bs@lm¶ä\u000b\u001b\u001d\n\\\u0005¶\rÏSà2G1²=Àéé/\u0013ç\u0011\nHª\u001bk)^â+Ø°1×\u0016mnÚ\u0011Æ\u0000\u0004MÞNÏ×RsÒ,JB|^kô\u000ef!0ß ïNLr@\u001eÓ5êÝêàGJè½~+E4^4¾Ñ§ø½l*òæ¦0ëÎ\u0018C\u0010\u000fBW\u0007\u0003î¡µ#ßY¦?ú\u0000Ñ'õ±\nx¤!zJà¥¨ZµÕ~pÀ\"\u000f6\u0019¿ÜIOâ¶\u0003?¬<s5~êVÐ¶«í\u0018h\u0019¨Ï¼\u001b)\u0003óö\u0002â\u000fÝ³IÂÂélµïÍvd5Aw¿\u0013F\u001ceÄ0ª\"÷\f[ÑßiÉúWÓäº\u000eÈ\u0005\f\u0011ô<ð»¡''¦®Øû¤\u0001¡x\t\u001eîÙ!ÇmâHq\u0004êíEã6\fõ\u000fþZ\u0018ÃÉteG°D\u001b>Ôöáy\u0002ä®µ¡¦CÓÎÌ ¬#z(¹\u001b52î>¯Á|Õ@HÔ`´LÚt©\u001bæî¤fX=Xoé»È\u0019ìZÌp\u001a\u0010û}¨Ra[é\u001118_\u001c\u0004\\äí\ta­­Lq\u001aûîÈz\u0000¶ý[ßî»\u0010ça«è>ÖþM®f«\u000fÛ \u0000\u0012ìs=Û¤9ªÜÅÚ£Éê\r\u0007:°Ï5Á{-5Y}ãlûÝ®ä",
+      "æoKª÷ÓBúù\u001cgîjÀ*°¼©¸»T\u0010}j\u000bú-B±Ñ\u001eÐ¿O\u001dj§Þ\rÒ³\u0005o\u000e\u0007O)~\u0015\u0010Ë3\u0011TìÕ\u001e\u0013êKä¢ù\bí5áø>\u0015¯J\u000bÄÍ×R*;6Ù4Ö",
+      "g\u0016\fâ®4äÇ\bàè ×\u000e\u0000)£ý¾d\u001d\u0010\u0006­æCÐ\u0015å2¤×\u0014UrzYH>gº\u0005\u001aEïò°¯uWUÐ)>z\u0000¥\u0003\b@\u001c2w±-Ú3\bà\u001dÚ^6µýô¸MUü|§ø8Ýº\u0007%: Ùy)5V-\r~ì4Ï",
+      "\r_y\",§Cp ¯¦±ðÜ\ng¥\u0017",
+      "Ê\u001då­vEªÈËÊ¼R^¾çç-¼Å \nz\u00120T\u0007Ø\u001d¥V[0áòC*\u0006Û\u0006éP¦¬G¤\u0017\u0014a#øßÅ2 `æeúø\u0000­·tôðë> "
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:24.475013",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "揭秘老千最阴险的一招！ 看到最后你会明白为什么不要和陌生人玩牌！"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:25.530016",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?fmt=398&afmt=251&cpn=r3vuJ186eNOkMMnL&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=2&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&event=streamingstats&plid=AAY-5Dsn2LFk8M_0&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&afs=6.718:251;CggKA2RyYxIBMQ::i:CAsoAQ&ctmp=atrkchg:t.6722;id.und;m.0&user_intent=0&bh=6.836:20.001,10.006:22.935&cmt=6.836:0.001,7.602:0.736,10.006:3.140&vps=6.836:PL,10.006:PL&bwm=10.006:5744761:1.479&bwe=10.006:311606&bat=10.006:1:1&df=10.006:6&qclc=ChByM3Z1SjE4NmVOT2tNTW5MEAIaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:25.755879",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_item_watch?prettyPrint=false",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/reel/reel_item_watch",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "query": [
+      "0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"deviceExperimentId\":\"ChxOelUxTURVMU1UWTNNRGc0TXpFd016azJNdz09EL3lo8YGGL3lo8YG\",\"rolloutToken\":\"COfOm46S0_jdexCl7dSa19qPAxip5Jic19qPAw==\",\"screenWidthPoints\":884,\"screenHeightPoints\":897,\"utcOffsetMinutes\":480,\"connectionType\":\"CONN_CELLULAR_4G\",\"memoryTotalKbytes\":\"8000000\",\"mainAppWebInfo\":{\"graftUrl\":\"https://www.youtube.com/shorts/TqmzAiB35T4\",\"pwaInstallabilityStatus\":\"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED\",\"webDisplayMode\":\"WEB_DISPLAY_MODE_BROWSER\",\"isWebNativeShareAvailable\":true}},\"user\":{\"lockedSafetyMode\":false},\"request\":{\"useSsl\":true,\"internalExperimentFlags\":[],\"consistencyTokenJars\":[{\"encryptedTokenJarContents\":\"AKreu9vkbUqq3cI2QM9kZBZkmbHc_Awtt6zii83pN3gArMu0XRNCMO5sxgtyx3ocw-Uxr-qjMY_VIaoMgE_gcXovI9nT8guImSxLtMZjbQ2iVuAvY6zhf50lAdM\",\"expirationSeconds\":\"600\"}]},\"clickTracking\":{\"clickTrackingParams\":\"CAoQ7fkGGAEiEwig96XYw9yPAxXnFXYGHexLDA6aAQUIJBCOHsoBBGqOXrI=\"},\"adSignalsInfo\":{\"params\":[{\"key\":\"dt\",\"value\":\"1757999809967\"},{\"key\":\"flash\",\"value\":\"0\"},{\"key\":\"frm\",\"value\":\"0\"},{\"key\":\"u_tz\",\"value\":\"480\"},{\"key\":\"u_his\",\"value\":\"3\"},{\"key\":\"u_h\",\"value\":\"1067\"},{\"key\":\"u_w\",\"value\":\"1707\"},{\"key\":\"u_ah\",\"value\":\"1019\"},{\"key\":\"u_aw\",\"value\":\"1707\"},{\"key\":\"u_cd\",\"value\":\"24\"},{\"key\":\"bc\",\"value\":\"31\"},{\"key\":\"bih\",\"value\":\"897\"},{\"key\":\"biw\",\"value\":\"884\"},{\"key\":\"brdim\",\"value\":\"2,6,2,6,1707,0,898,992,884,897\"},{\"key\":\"vis\",\"value\":\"1\"},{\"key\":\"wgl\",\"value\":\"true\"},{\"key\":\"ca_type\",\"value\":\"image\"}],\"bid\":\"ANyPxKqrtPrUEvLvOWW_qc0f7Cykett-sXz--rzrOzxbrKUwTUQHPyS9_PzjB9LW0tW675-l9uMwM_4-yLtTsXzlRxgHcgX04Q\"}},\"playerRequest\":{\"videoId\":\"smNKbbXM8HQ\",\"params\":\"8AEByAMTwASd3uCsgdyj03uiBhUBdpLKYNVe2YO7bKact25FLpRR5mqqBkNBT0FyQkZ0V3RQdTZxS3pCa3RkUnhzZWI3TTNVbE9wRC14M2x6OTFBVmRZSnJpUlAyZnBxWHY0ODRyUWdMMlVsWjJ3kAcCuAf35KbYw9yPAw==\"},\"params\":\"CAUaEwj35KbYw9yPAxVEfUwIHTugJx0qAKIBEwiA0q_Pw9yPAxWH3j8EHbJ8PQ66ARhVQzB2cFRrdXdaYkd2dXBRUW1lRGotRGc=\",\"disablePlayerResponse\":true}"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:25.779131",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/api/stats/watchtime?ns=yt&el=shortspage&cpn=r3vuJ186eNOkMMnL&ver=2&cmt=3.369&fmt=398&fs=0&rt=10.237&euri=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FciqNb0E0tYs&lact=225&cl=805451301&state=paused&volume=32%2C32&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&delay=4&hl=zh_CN&cr=US&uga=m21&len=59.421&afmt=251&idpj=0&ldpj=-2&rti=17&st=0%2C3.338&et=3.338%2C3.369&muted=0%2C0&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&plid=AAY-5Dsn2LFk8M_0&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=3zGasEqcnosSMqmNImWmxA&vm=CAQQARgCOjJBSHFpSlRMdnctdTVMMWJnMWdkcy1UVmkwamRCVjk1OFBiN1BSTEFTZ0hYdFF0bzhiUWJeQUZVQTZSVFZuS2JROGpvY1dtdTlCWFY0UWxCZnoxc1BubXg1SlVWUmkzXzIyTjUtaWFhSWVUei1ZenVONHJZWUJxUS04eVlCbmpidDBqY2pGQnZRR2xuVzRlOU95Zw",
+  "host": "www.youtube.com",
+  "path": "/api/stats/watchtime",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:25.785830",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?fmt=398&afmt=251&cpn=r3vuJ186eNOkMMnL&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=3&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&event=streamingstats&plid=AAY-5Dsn2LFk8M_0&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&cmt=10.238:3.369,10.239:3.369&vps=10.238:SU,10.239:SU&bwe=10.239:311606&bat=10.239:1:1&bh=10.239:0.000&qclc=ChByM3Z1SjE4NmVOT2tNTW5MEAMaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:25.792409",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/api/stats/watchtime?ns=yt&el=shortspage&cpn=r3vuJ186eNOkMMnL&ver=2&cmt=3.369&fmt=398&fs=0&rt=10.241&euri=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FciqNb0E0tYs&lact=229&cl=805451301&state=paused&volume=32&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&final=1&delay=4&hl=zh_CN&cr=US&uga=m21&len=59.421&afmt=251&idpj=0&ldpj=-2&st=3.369&et=3.369&muted=0&docid=TqmzAiB35T4&ei=0vLIaNDZCJC2quwPmYrb4Ag&plid=AAY-5Dsn2LFk8M_0&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=3zGasEqcnosSMqmNImWmxA&vm=CAQQARgCOjJBSHFpSlRMdnctdTVMMWJnMWdkcy1UVmkwamRCVjk1OFBiN1BSTEFTZ0hYdFF0bzhiUWJeQUZVQTZSVFZuS2JROGpvY1dtdTlCWFY0UWxCZnoxc1BubXg1SlVWUmkzXzIyTjUtaWFhSWVUei1ZenVONHJZWUJxUS04eVlCbmpidDBqY2pGQnZRR2xuVzRlOU95Zw",
+  "host": "www.youtube.com",
+  "path": "/api/stats/watchtime",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "TqmzAiB35T4",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:26.659771",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/reel/reel_item_watch?prettyPrint=false",
+  "is_youtube": true,
+  "sensitive_content": {
+    "title": [
+      "最热门",
+      "最新",
+      "保存",
+      "已保存"
+    ],
+    "content": [
+      "原创音效",
+      "@yuanmagicstudio",
+      "揭秘老千最阴险的一招！ 看到最后你会明白为什么不要和陌生人玩牌！"
+    ],
+    "text": [
+      "点赞",
+      "不喜欢",
+      "说明",
+      "保存到播放列表",
+      "氛围模式",
+      "字幕",
+      "不推荐此频道",
+      "我们不会再向你推荐此频道中的视频",
+      "撤消",
+      "举报",
+      "发送反馈",
+      "分享",
+      "退订“",
+      "@yuanmagicstudio",
+      "”？",
+      "退订",
+      "取消",
+      "评论",
+      "1916",
+      "揭秘老千最阴险的一招！ 看到最后你会明白为什么不要和陌生人玩牌！",
+      "免费学习魔术看这里：\\nDuck Change：",
+      "https://youtu.be/nbJWJ5haCGo?si=I5i7TR8yvmM4CNCi",
+      "\\nBiddle Trick：",
+      "https://youtu.be/HH__oziEeIM?si=zesViZiKXuDR-OGm",
+      "\\n电影飞牌：",
+      "https://youtu.be/BOhqR55M0C0?si=yHpZgqSQMigHy5UM",
+      "\\n幽灵找牌：",
+      "https://youtu.be/fWFdcf5RrrE?si=P-cB5hh0NCcioNsP",
+      "\\n骗倒世界首富的魔术：",
+      "https://youtu.be/IGbQltdYE5w?si=FWR_figqG51f8aW7",
+      "\\n最简单的pass：",
+      "https://youtu.be/sFDLAyf53Xs?si=UH1SwKsvX2isfWXt",
+      "\\n骗倒Penn&Teller的流程：",
+      "https://youtu.be/HPf-p-4_r3U?si=7RfMhcA7msaIAcfp",
+      "\\n骗倒丘吉尔的流程：",
+      "https://youtu.be/VxOqG4BPzDM?si=5_naRkuRjoP5eVK5",
+      "\\n超简单胜利者：",
+      "https://youtu.be/-_AHRZwXMCQ",
+      "\\n纸牌入门读心术：",
+      "https://youtu.be/GeCb3p1CzR4",
+      "\\n纸牌空间扭曲术：",
+      "https://youtu.be/ckdlkJQ-TVM",
+      "\\n镭射牌教学：",
+      "https://youtu.be/q-_Uo1qX9rM",
+      "\\n专业版胜利者（Dai Vernon版本）：",
+      "https://youtu.be/uEbg7qLKCYg",
+      "\\n拿下初恋的表白魔术：",
+      "https://youtu.be/_wgOJtZoy28",
+      "\\n刘德华4A：",
+      "https://youtu.be/Z6-ScXkOGqc",
+      "\\n停不下来的转牌：",
+      "https://youtu.be/BSjdxeX1jwI",
+      "\\n百分百缘分测试：",
+      "https://youtu.be/Mv3fcJPic-4",
+      "\\n鸽尾洗牌：",
+      "https://youtu.be/9-3BqXBUR6I",
+      "\\n完美洗牌：",
+      "https://youtu.be/h8tro0BTgXc",
+      "\\n失传已久的占卜术：",
+      "https://youtu.be/eEcoEog8nUE",
+      "\\n经典四段假切：",
+      "https://youtu.be/EYRTy0xvEKQ",
+      "\\n超视觉心理魔术：",
+      "https://youtu.be/UmzX-TM3rW4",
+      "\\n皇阿玛的心灵魔术：",
+      "https://youtu.be/t6ZYdwGfBFk",
+      "\\n最潇洒找4A：",
+      "https://youtu.be/YIBmbf9kqkQ",
+      "\\n精神病多重预言：",
+      "https://youtu.be/nhTpj8Z92EM",
+      "\\n二十世纪最好的纸牌魔术《out of this world》：",
+      "https://youtu.be/VxOqG4BPzDM",
+      "\\n混沌的秩序：",
+      "https://youtu.be/xqhs-9DYQ3Q",
+      "在手机上混剪",
+      "扫描二维码或访问",
+      "正在加载…",
+      "YouTube 首页",
+      "搜索",
+      "创建",
+      "上传视频",
+      "开始直播",
+      "键盘快捷键",
+      "播放",
+      "在播放和暂停之间切换",
+      "快退 10 秒",
+      "快进 10 秒",
+      "上一个视频",
+      "下一个视频",
+      "上一帧（暂停时）",
+      "下一帧（暂停时）",
+      "减慢播放速度",
+      "加快播放速度",
+      "跳转至视频中的某个时间点（例如，输入 7 表示前进至总时长的 70% 处）",
+      "跳到上一章",
+      "跳到下一章",
+      "常规",
+      "切换全屏模式",
+      "切换影院模式",
+      "切换迷你播放器",
+      "关闭迷你播放器或当前对话框",
+      "静音/取消静音",
+      "如果视频支持字幕，开启/关闭字幕",
+      "调整文字不透明度",
+      "调整窗口不透明度",
+      "放大字体",
+      "缩小字体",
+      "全景视频",
+      "向上平移",
+      "向左平移",
+      "向下平移",
+      "向右平移",
+      "放大",
+      "缩小",
+      "关闭",
+      "跳过导航",
+      "正在听取…",
+      "没听清，请重试。",
+      "“播放 Dua Lipa 的音乐”",
+      "“显示我订阅的频道的视频”",
+      "点按麦克风重试",
+      "正在处理…",
+      "无网络连接",
+      "请检查你的网络连接，然后重试",
+      "等待授予权限",
+      "允许使用麦克风，以便通过语音进行搜索",
+      "通过语音搜索内容",
+      "要执行语音搜索，请转至浏览器的设置部分，然后授予麦克风使用权限",
+      "麦克风已关闭，请重试。"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:26.773732",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "name": [
+      "SLI_NAME_YOUTUBE_WEB_SESSION_PARTITION",
+      "SLI_NAME_YOUTUBE_WEB_APP_BOOTS",
+      "SLI_NAME_YOUTUBE_WEB_YT_INITIAL_DATA_PRESENT",
+      "SLI_NAME_YOUTUBE_WEB_STFE_GREATER_THAN_ONE_MINUTE",
+      "SLI_NAME_YOUTUBE_WEB_STFE_GREATER_THAN_TEN_MINUTES",
+      "SLI_NAME_YOUTUBE_WEB_NETWORK_REQUEST",
+      "SLI_NAME_YOUTUBE_WEB_SERVICE_WORKER_REGISTRATION",
+      "SLI_NAME_YOUTUBE_WEB_YT_GUIDE_DATA_PRESENT",
+      "SLI_NAME_YOUTUBE_WEB_WARM_PAGE_NAVIGATION"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:26.900261",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=WwePspHR16PqVol8&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=smNKbbXM8HQ&ei=4vLIaJTgLMOKjbYPmIugoQE&event=streamingstats&plid=AAY-5Dwk__OaXLbb&sdetail=p%3A%2Fshorts%2FTqmzAiB35T4&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.002:SU,1.273:N,1.279:B,2.405:N,2.408:SU,2.408:SU&cat=prefetch,streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.002:0.000,1.273:0.000,1.279:0.000,2.405:0.000,2.408:0.000,2.408:0.000&bat=2.408:1:1&vis=2.408:0&bh=2.408:0.000&qclc=ChBXd2VQc3BIUjE2UHFWb2w4EAEaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "smNKbbXM8HQ"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:29.371345",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=J_BRi_3eI99lqM0s&el=shortspage&ns=yt&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&cl=805451301&seq=1&docid=ciqNb0E0tYs&ei=z_LIaMD_O56csfIP1qCdmAE&event=streamingstats&plid=AAY-5DsG1Hx6XOep&sdetail=p%3A%2F&sourceid=y&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.004:B,2.463:B,2.463:B&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.004:0.000,2.463:0.000&user_intent=0&bwe=2.463:212898&bat=2.463:1:1&vis=2.463:0&bh=2.463:0.000&qclc=ChBKX0JSaV8zZUk5OWxxTTBzEAEaDENnSUlEQSUzRCUzRA",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs"
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:29.385454",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "path": "/youtubei/v1/log_event",
+  "is_youtube": true,
+  "video_info": {
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  },
+  "sensitive_content": {
+    "name": [
+      "SLI_NAME_YOUTUBE_WEB_NETWORK_REQUEST",
+      "SLI_NAME_YOUTUBE_WEB_WARM_PAGE_NAVIGATION",
+      "SLI_NAME_YOUTUBE_WEB_STFE_GREATER_THAN_ONE_MINUTE",
+      "SLI_NAME_YOUTUBE_WEB_STFE_GREATER_THAN_TEN_MINUTES",
+      "SLI_NAME_YOUTUBE_WEB_SESSION_PARTITION"
+    ]
+  }
+},
+{
+  "timestamp": "2025-09-16T13:17:29.417585",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=shortspage&cpn=J_BRi_3eI99lqM0s&ver=2&cmt=0&fs=0&rt=2.481&euri=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FciqNb0E0tYs&lact=2128&cl=805451301&mos=0&volume=32&cbr=Chrome&cbrver=139.0.0.0&c=WEB&cver=2.20250912.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&hl=zh_CN&cr=US&uga=m21&len=110&fexp=v1%2C23843878%2C142151%2C18615%2C49740%2C645515%2C14625955%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C9939%2C572%2C23206%2C15179%2C2%2C20221%2C19252%2C12345%2C2842%2C2550%2C5656%2C2625%2C1904%2C12017%2C6109%2C4324%2C5396%2C2888%2C2497%2C6004%2C12963%2C4994%2C1098%2C4174%2C1059%2C17911%2C800%2C5947%2C3928%2C802%2C2280%2C687%2C966%2C10099%2C3108%2C458%2C853%2C61%2C73%2C120%2C1011%2C723%2C560%2C963%2C1184%2C1825%2C6612%2C473%2C6072%2C2015%2C3447%2C2501&muted=0&docid=ciqNb0E0tYs&ei=z_LIaMD_O56csfIP1qCdmAE&plid=AAY-5DsG1Hx6XOep&vm=CAEQARgEOjJBSHFpSlRJV21CbWotbXJvWldVZXQwNjAzdm1lTnYzYWFrVUVQSjhVNzFZN3ZoTEdzUWJeQUZVQTZSUThQbFYtNXFGNkd6SFp2UVd0OHliaWtkNWE5Mzg1ZkFqRGhuSjkxd21scVRoamtocWl5eE5Hb3dLZ1d3QzNNeWtfejJWSjRFTjNsUkR6bzJVbk1jY0xZZw",
+  "host": "www.youtube.com",
+  "path": "/api/stats/atr",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "ciqNb0E0tYs",
+    "client_name": "1",
+    "client_version": "2.20250912.02.00"
+  }
+},
