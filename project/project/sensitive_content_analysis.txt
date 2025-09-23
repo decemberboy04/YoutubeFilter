@@ -1,0 +1,1922 @@
+YouTube敏感内容审查日志
+==================================================
+开始时间: 2025-09-22T23:51:45.932763
+
+审查策略: 敏感词匹配次数 >= 1 时拦截内容
+==================================================
+
+{
+  "timestamp": "2025-09-22T23:51:46.521617",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=6&CI=1&TYPE=xmlhttp&zx=4iywcw8f36c&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:51:57.757033",
+  "type": "request",
+  "method": "POST",
+  "url": "https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID1PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID3PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c&authuser=0&format=json",
+  "host": "play.google.com",
+  "path": "/log",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:02.375914",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=9&CI=1&TYPE=xmlhttp&zx=ekhqy4k1duaw&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:02.728401",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=9&CI=1&TYPE=xmlhttp&zx=ekhqy4k1duaw&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.610697",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=03E5vXDy-4DpBuEQ&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.006:B,0.067:N,0.069:SU,0.069:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.006:0.000,0.012:0.000,0.067:0.000,0.069:0.000,0.069:0.000&bwe=0.012:206205&vis=0.012:5&bh=0.012:0.000,0.069:0.000&bat=0.069:0.95:1&qclc=ChAwM0U1dlhEeS00RHBCdUVREAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "4waF_72IyJg"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.654129",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/account/get_setting_values?prettyPrint=false",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.676181",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=tS9vQ-Vv-2JQG0rc&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.102:N,0.103:SU,0.103:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.102:0.000,0.103:0.000,0.103:0.000&bat=0.103:0.95:1&vis=0.103:5&bh=0.103:0.000&qclc=ChB0Uzl2US1Wdi0ySlFHMHJjEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "PzPtAbgqCpI"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.753051",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.761051",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=03E5vXDy-4DpBuEQ&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.006:B,0.067:N,0.069:SU,0.069:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.006:0.000,0.012:0.000,0.067:0.000,0.069:0.000,0.069:0.000&bwe=0.012:206205&vis=0.012:5&bh=0.012:0.000,0.069:0.000&bat=0.069:0.95:1&qclc=ChAwM0U1dlhEeS00RHBCdUVREAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.818471",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=tS9vQ-Vv-2JQG0rc&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.102:N,0.103:SU,0.103:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.102:0.000,0.103:0.000,0.103:0.000&bat=0.103:0.95:1&vis=0.103:5&bh=0.103:0.000&qclc=ChB0Uzl2US1Wdi0ySlFHMHJjEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:10.894456",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=2aEOqN0goqYsNqmp&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.198:N,0.199:SU,0.199:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.198:0.000,0.199:0.000,0.199:0.000&bat=0.199:0.95:1&vis=0.199:5&bh=0.199:0.000&qclc=ChAyYUVPcU4wZ29xWXNOcW1wEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "OG-ZagkcuyQ"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:11.038277",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=2aEOqN0goqYsNqmp&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.198:N,0.199:SU,0.199:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.198:0.000,0.199:0.000,0.199:0.000&bat=0.199:0.95:1&vis=0.199:5&bh=0.199:0.000&qclc=ChAyYUVPcU4wZ29xWXNOcW1wEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.504392",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/pagead/adview?ai=CGv33qnDRaPnFJeCl4bMP4IbF0Ar4rfTtgQHowoeehROxkB8QASAAYImDgID0E4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH9yYDNA6gDBMgDCqoE-AFP0Fi6uYhOgLdD2JI4UHbEgLX9tkuHPRpOKxN9I1nIL7fmvNhW4fOOkDZjRLOsyHIAWw9SjObva2F-ihViS10pG4pAopg9yNl7ZhtUi2GpXvZJR24w5QDwMwFdBWUfeKegsZQ9Y4wvfyYdQbGdP9ny3pFCMyncupOL2N0ILiA_BCORKpPqKm8100jbcRF4wsGpil_VD59jfjkO2s2XZLaRQcYB9Fzz8sey3fISa-C6MYNaUwZIesS-rz4tr4JA7v11cio2afHTc-keH_idWHi0EACCVkSNeZGuBEUQR3SjbnQrgnxlFzck-veIIkzKRU6CUvsLYUVPisAE3PTniJMFiAWA49TyUZIFCQgTaAF4spubd6AGboAH7Iz8dogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHndexAqgHgcYbqAf8r7ECqAerxRuoB4aysQKoB9fNsQKoB-PZG6gHt6mxAqgHl7qxAqgH6auxApIIC0FBQUFBQUFBQUFBsAgM0ggsCAAQAhhaMgEAOhGP0ICAgIAEgMCAgICAgIACKkjZoNI1UBRYoKqd69zsjwPICQDICYoCugtfCAIQBRgEIAgoATAZQAFIAFglYABoAHABiAEAmAEBogEpCh4gA9q4BBgyFjoUChIoMEj-vJiHwgaYF4GNpz2YGQDQAQGoAgXAAgKoAQHYAQaAAgGIAgaoAgC1AsyYEj-4E____________wGwFALAFYGAgEDSFg0IrsOmCRAAGAEoATgAihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXjWoWom5L2Je6FwgIASgBMABIAdIXDgoDobhfEgKLVBhuIgEAgBkD&sigh=cICFvXVUjbg&cid=CAESD-D2bMGQtxXpTz3O4Wp27A",
+  "host": "www.youtube.com",
+  "path": "/pagead/adview",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.647863",
+  "type": "request",
+  "method": "GET",
+  "url": "https://yt3.ggpht.com/proxy/uZIlIoQVPeyc0gMCx3CtRK4OFHOsoNL61JqqDLRuyKUfZOdASIgCCtdCTp7Cj2rQuDmY4FkSxy5NnchytO7JkUIRR64v-SJDH5AtrTRR-H3klSiskqCsgDYj90i4C_hT0JA=w1152-h603-nd",
+  "host": "yt3.ggpht.com",
+  "path": "/proxy/uZIlIoQVPeyc0gMCx3CtRK4OFHOsoNL61JqqDLRuyKUfZOdASIgCCtdCTp7Cj2rQuDmY4FkSxy5NnchytO7JkUIRR64v-SJDH5AtrTRR-H3klSiskqCsgDYj90i4C_hT0JA=w1152-h603-nd",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.652285",
+  "type": "request",
+  "method": "GET",
+  "url": "https://yt3.ggpht.com/Mndcz62VBy8GxgR4K1xIOav8yDyuApbTYKm8Hb7EGBiPzos312LOOgWw1m-k5vccVNMmT7FRjA=s68-c-k-c0x00ffffff-no-rj",
+  "host": "yt3.ggpht.com",
+  "path": "/Mndcz62VBy8GxgR4K1xIOav8yDyuApbTYKm8Hb7EGBiPzos312LOOgWw1m-k5vccVNMmT7FRjA=s68-c-k-c0x00ffffff-no-rj",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.655198",
+  "type": "request",
+  "method": "GET",
+  "url": "https://yt3.ggpht.com/proxy/W4VyWhiD6WYsGW2GsTNundeAS2ZJHT_yox3Y3Gg-zf_GQMCpAirfYUxsrxYuz12edDMOb7NAhnBgz03M9FRRbtzjmtgSs1f2QrKxY582C3Q_PaKB4BogfNDvrNr0YgcFfQ=w128-h67-nd",
+  "host": "yt3.ggpht.com",
+  "path": "/proxy/W4VyWhiD6WYsGW2GsTNundeAS2ZJHT_yox3Y3Gg-zf_GQMCpAirfYUxsrxYuz12edDMOb7NAhnBgz03M9FRRbtzjmtgSs1f2QrKxY582C3Q_PaKB4BogfNDvrNr0YgcFfQ=w128-h67-nd",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.734564",
+  "type": "request",
+  "method": "GET",
+  "url": "https://i.ytimg.com/vi/ERQoM39i5t8/hq720.jpg?v=68d0b85f&sqp=CKjgxcYG-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBJ8pmfgM8EoGewpi9p8oROkwDNig",
+  "host": "i.ytimg.com",
+  "path": "/vi/ERQoM39i5t8/hq720.jpg",
+  "is_youtube": false,
+  "video_info": {
+    "video_id": "68d0b85f"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.740223",
+  "type": "request",
+  "method": "GET",
+  "url": "https://i.ytimg.com/vi/5c9EjRKyAFk/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCMMnsF9HhLw0gL8Gf99sPicpmJ7Q",
+  "host": "i.ytimg.com",
+  "path": "/vi/5c9EjRKyAFk/oardefault.jpg",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.743733",
+  "type": "request",
+  "method": "GET",
+  "url": "https://i.ytimg.com/vi/YO4UooQQEzo/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA8GkfuL1w-UmlsQV6mIvsRjjqrvA",
+  "host": "i.ytimg.com",
+  "path": "/vi/YO4UooQQEzo/oardefault.jpg",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.744732",
+  "type": "request",
+  "method": "GET",
+  "url": "https://i.ytimg.com/vi/lddbbUbB7MM/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLD56IC56uVrOMvj1-xlxaQKz2v4KA",
+  "host": "i.ytimg.com",
+  "path": "/vi/lddbbUbB7MM/oar2.jpg",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.773525",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:12.778869",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/pagead/adview?ai=CGv33qnDRaPnFJeCl4bMP4IbF0Ar4rfTtgQHowoeehROxkB8QASAAYImDgID0E4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH9yYDNA6gDBMgDCqoE-AFP0Fi6uYhOgLdD2JI4UHbEgLX9tkuHPRpOKxN9I1nIL7fmvNhW4fOOkDZjRLOsyHIAWw9SjObva2F-ihViS10pG4pAopg9yNl7ZhtUi2GpXvZJR24w5QDwMwFdBWUfeKegsZQ9Y4wvfyYdQbGdP9ny3pFCMyncupOL2N0ILiA_BCORKpPqKm8100jbcRF4wsGpil_VD59jfjkO2s2XZLaRQcYB9Fzz8sey3fISa-C6MYNaUwZIesS-rz4tr4JA7v11cio2afHTc-keH_idWHi0EACCVkSNeZGuBEUQR3SjbnQrgnxlFzck-veIIkzKRU6CUvsLYUVPisAE3PTniJMFiAWA49TyUZIFCQgTaAF4spubd6AGboAH7Iz8dogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHndexAqgHgcYbqAf8r7ECqAerxRuoB4aysQKoB9fNsQKoB-PZG6gHt6mxAqgHl7qxAqgH6auxApIIC0FBQUFBQUFBQUFBsAgM0ggsCAAQAhhaMgEAOhGP0ICAgIAEgMCAgICAgIACKkjZoNI1UBRYoKqd69zsjwPICQDICYoCugtfCAIQBRgEIAgoATAZQAFIAFglYABoAHABiAEAmAEBogEpCh4gA9q4BBgyFjoUChIoMEj-vJiHwgaYF4GNpz2YGQDQAQGoAgXAAgKoAQHYAQaAAgGIAgaoAgC1AsyYEj-4E____________wGwFALAFYGAgEDSFg0IrsOmCRAAGAEoATgAihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXjWoWom5L2Je6FwgIASgBMABIAdIXDgoDobhfEgKLVBhuIgEAgBkD&sigh=cICFvXVUjbg&cid=CAESD-D2bMGQtxXpTz3O4Wp27A",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:13.172480",
+  "type": "request",
+  "method": "POST",
+  "url": "https://lang-detect.immersivetranslate.com/api/predict/batch",
+  "host": "lang-detect.immersivetranslate.com",
+  "path": "/api/predict/batch",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:13.741944",
+  "type": "request",
+  "method": "POST",
+  "url": "https://translate-pa.googleapis.com/v1/translateHtml",
+  "host": "translate-pa.googleapis.com",
+  "path": "/v1/translateHtml",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:13.744937",
+  "type": "request",
+  "method": "POST",
+  "url": "https://translate-pa.googleapis.com/v1/translateHtml",
+  "host": "translate-pa.googleapis.com",
+  "path": "/v1/translateHtml",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:22.126256",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=11&CI=1&TYPE=xmlhttp&zx=ogcujxg4eg5a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:22.385012",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=11&CI=1&TYPE=xmlhttp&zx=ogcujxg4eg5a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:42.261102",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=13&CI=1&TYPE=xmlhttp&zx=u047awazzu2a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:52:42.535948",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=13&CI=1&TYPE=xmlhttp&zx=u047awazzu2a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:02.267286",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=15&CI=1&TYPE=xmlhttp&zx=tfkip3oqhc7y&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:02.528921",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=15&CI=1&TYPE=xmlhttp&zx=tfkip3oqhc7y&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:22.339564",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=17&CI=1&TYPE=xmlhttp&zx=ldvgmmaljt7&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:22.603907",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=17&CI=1&TYPE=xmlhttp&zx=ldvgmmaljt7&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:42.353482",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=19&CI=1&TYPE=xmlhttp&zx=pigo3bisay5a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:53:42.610850",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=19&CI=1&TYPE=xmlhttp&zx=pigo3bisay5a&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:02.403260",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=21&CI=1&TYPE=xmlhttp&zx=k74405bem5p5&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:02.667166",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=21&CI=1&TYPE=xmlhttp&zx=k74405bem5p5&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:22.442798",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=23&CI=1&TYPE=xmlhttp&zx=x14wcpzdmz3f&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:22.714220",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=23&CI=1&TYPE=xmlhttp&zx=x14wcpzdmz3f&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:42.474456",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=25&CI=1&TYPE=xmlhttp&zx=fqbjicla2p4i&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:54:42.738466",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=25&CI=1&TYPE=xmlhttp&zx=fqbjicla2p4i&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:02.467579",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=27&CI=1&TYPE=xmlhttp&zx=tkpivt9rz45m&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:02.727983",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=27&CI=1&TYPE=xmlhttp&zx=tkpivt9rz45m&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:10.667347",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:11.482889",
+  "type": "request",
+  "method": "GET",
+  "url": "https://www.youtube.com/pcs/activeview?xai=AKAOjsvOq1T9YK9-q32V5uAKHEK9syB2p_2vl5_CWMxPtAMVFmwUczo8GqzZdjA0_mcZkv53KRs1ldTphJJYZIN6Z8xBTWWt1SgsIlgQoQx8HGyVgIOoxEJynkqjxlkeoWQlnPFc3jjNUEESKRlvtEjPRHt_CA&sig=Cg0ArKJSzIfLfZA5iadAEAE&ad_cpn=%5BAD_CPN%5D&acvw=id%3Dlidar2%26mcvt%3D1001%26p%3D136,264,569.2395935058594,721.3229370117188%26tm%3D178973.79999995232%26tu%3D177927.80000001192%26mtos%3D1001,1001,1001,1001,1001%26tos%3D1046,0,0,0,0%26v%3D20250919%26bin%3D17%26avms%3Dnio%26bs%3D1692,880%26mc%3D1%26rs%3D17%26la%3D0%26vs%3D4%26r%3Dv%26pv%3D1%26pbe%3D0%26fle%3D0%26vae%3D0%26spb%3D0%26sfl%3D0%26io2%3D0&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTQwLjAuNzMzOS4xODUiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDAuMC43MzM5LjE4NSJdLFsiTm90PUE%2FQnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjE0MC4wLjczMzkuMTg1Il1dLDBd",
+  "host": "www.youtube.com",
+  "path": "/pcs/activeview",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:11.591967",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/pcs/activeview?xai=AKAOjsvOq1T9YK9-q32V5uAKHEK9syB2p_2vl5_CWMxPtAMVFmwUczo8GqzZdjA0_mcZkv53KRs1ldTphJJYZIN6Z8xBTWWt1SgsIlgQoQx8HGyVgIOoxEJynkqjxlkeoWQlnPFc3jjNUEESKRlvtEjPRHt_CA&sig=Cg0ArKJSzIfLfZA5iadAEAE&ad_cpn=%5BAD_CPN%5D&acvw=id%3Dlidar2%26mcvt%3D1001%26p%3D136,264,569.2395935058594,721.3229370117188%26tm%3D178973.79999995232%26tu%3D177927.80000001192%26mtos%3D1001,1001,1001,1001,1001%26tos%3D1046,0,0,0,0%26v%3D20250919%26bin%3D17%26avms%3Dnio%26bs%3D1692,880%26mc%3D1%26rs%3D17%26la%3D0%26vs%3D4%26r%3Dv%26pv%3D1%26pbe%3D0%26fle%3D0%26vae%3D0%26spb%3D0%26sfl%3D0%26io2%3D0&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTQwLjAuNzMzOS4xODUiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDAuMC43MzM5LjE4NSJdLFsiTm90PUE%2FQnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjE0MC4wLjczMzkuMTg1Il1dLDBd",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:20.887618",
+  "type": "request",
+  "method": "POST",
+  "url": "https://accounts.google.com/RotateCookies",
+  "host": "accounts.google.com",
+  "path": "/RotateCookies",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:22.500662",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=29&CI=1&TYPE=xmlhttp&zx=xnc0w53p8zm8&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:22.764235",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=29&CI=1&TYPE=xmlhttp&zx=xnc0w53p8zm8&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:42.504632",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=31&CI=1&TYPE=xmlhttp&zx=h8aof74qtc8&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:42.805278",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=31&CI=1&TYPE=xmlhttp&zx=h8aof74qtc8&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:44.517464",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/v1/refreshCreds?key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/v1/refreshCreds",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:55:44.782284",
+  "type": "request",
+  "method": "POST",
+  "url": "https://signaler-pa.clients6.google.com/punctual/v1/refreshCreds?key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/v1/refreshCreds",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:02.535590",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=33&CI=1&TYPE=xmlhttp&zx=ixao1xox3au3&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:02.810293",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=33&CI=1&TYPE=xmlhttp&zx=ixao1xox3au3&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:10.777672",
+  "type": "request",
+  "method": "POST",
+  "url": "https://accounts.youtube.com/RotateCookies",
+  "host": "accounts.youtube.com",
+  "path": "/RotateCookies",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:11.003812",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://accounts.youtube.com/RotateCookies",
+  "host": "accounts.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:18.004229",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.googleapis.com/oauth2/v4/token",
+  "host": "www.googleapis.com",
+  "path": "/oauth2/v4/token",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:18.499466",
+  "type": "request",
+  "method": "GET",
+  "url": "https://history.google.com/history/api/lookup?client=aesb",
+  "host": "history.google.com",
+  "path": "/history/api/lookup",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:22.559712",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=35&CI=1&TYPE=xmlhttp&zx=sshbtcndlfm7&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:22.826916",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=35&CI=1&TYPE=xmlhttp&zx=sshbtcndlfm7&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:42.609123",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=37&CI=1&TYPE=xmlhttp&zx=ow8oj47t6fgo&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:56:42.874199",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=37&CI=1&TYPE=xmlhttp&zx=ow8oj47t6fgo&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:02.710754",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=39&CI=1&TYPE=xmlhttp&zx=c9i3p3y4n947&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:02.972329",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=39&CI=1&TYPE=xmlhttp&zx=c9i3p3y4n947&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:22.678355",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=41&CI=1&TYPE=xmlhttp&zx=3loigcmpd855&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:22.944320",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=41&CI=1&TYPE=xmlhttp&zx=3loigcmpd855&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:42.736205",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=43&CI=1&TYPE=xmlhttp&zx=cz2vpfb55oiq&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:57:42.994218",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=43&CI=1&TYPE=xmlhttp&zx=cz2vpfb55oiq&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:02.716791",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=45&CI=1&TYPE=xmlhttp&zx=3twueq5a3vsk&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:02.979757",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=45&CI=1&TYPE=xmlhttp&zx=3twueq5a3vsk&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:22.752600",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=47&CI=1&TYPE=xmlhttp&zx=a9n1cjk9dn1g&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:23.016269",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=47&CI=1&TYPE=xmlhttp&zx=a9n1cjk9dn1g&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:42.800510",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=49&CI=1&TYPE=xmlhttp&zx=3x4co07vg3iy&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:43.061986",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=49&CI=1&TYPE=xmlhttp&zx=3x4co07vg3iy&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:51.763704",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:58:59.146725",
+  "type": "request",
+  "method": "POST",
+  "url": "https://translate-pa.googleapis.com/v1/translateHtml",
+  "host": "translate-pa.googleapis.com",
+  "path": "/v1/translateHtml",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:00.846393",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:02.896149",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=51&CI=1&TYPE=xmlhttp&zx=ii76mdsowyvz&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:03.150235",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=51&CI=1&TYPE=xmlhttp&zx=ii76mdsowyvz&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.631180",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=2Upv3rhgBSTOvTcZ&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.009:B,0.034:N,0.035:SU,0.035:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.009:0.000,0.034:0.000,0.035:0.000,0.035:0.000&bat=0.035:0.95:1&vis=0.035:5&bh=0.035:0.000&qclc=ChAyVXB2M3JoZ0JTVE92VGNaEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "OG-ZagkcuyQ"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.712470",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=HFJJfHmMk-G5neJq&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.069:N,0.069:SU,0.070:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.069:0.000,0.069:0.000,0.070:0.000&bat=0.070:0.95:1&vis=0.070:5&bh=0.070:0.000&qclc=ChBIRkpKZkhtTWstRzVuZUpxEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "PzPtAbgqCpI"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.773877",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=2Upv3rhgBSTOvTcZ&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.009:B,0.034:N,0.035:SU,0.035:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.009:0.000,0.034:0.000,0.035:0.000,0.035:0.000&bat=0.035:0.95:1&vis=0.035:5&bh=0.035:0.000&qclc=ChAyVXB2M3JoZ0JTVE92VGNaEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.791016",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=v5K0cgTW54ghTZ65&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.066:N,0.067:SU,0.067:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.066:0.000,0.067:0.000,0.067:0.000&bat=0.067:0.95:1&vis=0.067:5&bh=0.067:0.000&qclc=ChB2NUswY2dUVzU0Z2hUWjY1EAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "4waF_72IyJg"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.865556",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=HFJJfHmMk-G5neJq&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.069:N,0.069:SU,0.070:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.069:0.000,0.069:0.000,0.070:0.000&bat=0.070:0.95:1&vis=0.070:5&bh=0.070:0.000&qclc=ChBIRkpKZkhtTWstRzVuZUpxEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:20.935823",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=v5K0cgTW54ghTZ65&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.066:N,0.067:SU,0.067:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.066:0.000,0.067:0.000,0.067:0.000&bat=0.067:0.95:1&vis=0.067:5&bh=0.067:0.000&qclc=ChB2NUswY2dUVzU0Z2hUWjY1EAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:22.960332",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=53&CI=1&TYPE=xmlhttp&zx=yn15xyisnjli&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:23.218215",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=53&CI=1&TYPE=xmlhttp&zx=yn15xyisnjli&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.435786",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=Ywep3PLEGQpmIfkS&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.005:B,0.019:N,0.020:SU,0.020:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.005:0.000,0.019:0.000,0.020:0.000,0.020:0.000&bat=0.020:0.95:1&vis=0.020:5&bh=0.020:0.000&qclc=ChBZd2VwM1BMRUdRcG1JZmtTEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "OG-ZagkcuyQ"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.471828",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=XC-yAek6v0ljbZaI&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.026:N,0.027:SU,0.027:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.026:0.000,0.027:0.000,0.027:0.000&bat=0.027:0.95:1&vis=0.027:5&bh=0.027:0.000&qclc=ChBYQy15QWVrNnYwbGpiWmFJEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "PzPtAbgqCpI"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.507888",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=eF11ylzRRpQwiJ-n&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.009:N,0.010:SU,0.010:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.009:0.000,0.010:0.000,0.010:0.000&bat=0.010:0.95:1&vis=0.010:5&bh=0.010:0.000&qclc=ChBlRjExeWx6UlJwUXdpSi1uEAE",
+  "host": "www.youtube.com",
+  "path": "/api/stats/qoe",
+  "is_youtube": true,
+  "video_info": {
+    "video_id": "4waF_72IyJg"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.580527",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=Ywep3PLEGQpmIfkS&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=OG-ZagkcuyQ&ei=qXDRaLKwFL3h1d8PgoOe6AE&event=streamingstats&feature=search&plid=AAY_Zc1UVNrqnisd&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.005:B,0.019:N,0.020:SU,0.020:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.005:0.000,0.019:0.000,0.020:0.000,0.020:0.000&bat=0.020:0.95:1&vis=0.020:5&bh=0.020:0.000&qclc=ChBZd2VwM1BMRUdRcG1JZmtTEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.644484",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=XC-yAek6v0ljbZaI&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=PzPtAbgqCpI&ei=qXDRaN_hGPWz1d8PtpzNqQY&event=streamingstats&feature=search&plid=AAY_Zc1VPGrQHd62&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.026:N,0.027:SU,0.027:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.026:0.000,0.027:0.000,0.027:0.000&bat=0.027:0.95:1&vis=0.027:5&bh=0.027:0.000&qclc=ChBYQy15QWVrNnYwbGpiWmFJEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:28.682529",
+  "type": "response",
+  "status_code": 204,
+  "url": "https://www.youtube.com/api/stats/qoe?cpn=eF11ylzRRpQwiJ-n&el=detailpage&ns=yt&fexp=v1%2C23971175%2C14851%2C18618%2C49741%2C445148%2C14826321%2C11684381%2C53408%2C9105%2C22730%2C2821%2C106030%2C18644%2C14869%2C47210%2C15124%2C65%2C13917%2C26504%2C9252%2C3479%2C2519%2C10511%2C6258%2C16948%2C7466%2C7713%2C2%2C20222%2C19251%2C12346%2C5391%2C5656%2C2625%2C1904%2C9204%2C2813%2C6109%2C4324%2C5396%2C287%2C5098%2C6004%2C12963%2C1864%2C1453%2C1676%2C1099%2C4174%2C1059%2C8240%2C5747%2C4724%2C5301%2C647%2C3928%2C800%2C1475%2C806%2C1548%2C7388%2C2816%2C2895%2C213%2C458%2C852%2C61%2C194%2C161%2C55%2C1518%2C300%2C263%2C2144%2C1825%2C6611%2C475%2C6071%2C535%2C818%2C189%2C473%2C136%2C548%2C2763%2C3044&cl=807881020&seq=1&docid=4waF_72IyJg&ei=qXDRaJ_OHbCX1d8P94ml2Qc&event=streamingstats&feature=search&plid=AAY_Zc1WxEPoX1GB&sourceid=ys&cbr=Chrome&cbrver=140.0.0.0&c=WEB&cver=2.20250919.00.00-canary_control_2.20250922.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.003:B,0.009:N,0.010:SU,0.010:SU&cat=streaming,sabr&ctmp=esfw:usbc.1;hsu.1&cmt=0.003:0.000,0.009:0.000,0.010:0.000,0.010:0.000&bat=0.010:0.95:1&vis=0.010:5&bh=0.010:0.000&qclc=ChBlRjExeWx6UlJwUXdpSi1uEAE",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:29.775189",
+  "type": "request",
+  "method": "POST",
+  "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+  "host": "play.google.com",
+  "path": "/log",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:34.055019",
+  "type": "request",
+  "method": "POST",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WC57KJ50ZZ&gtm=45je59h0v9134258191z89113054662za200zb9113054662zd9113054662&_p=1758556278775&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=388123767.1748763813&ul=zh-cn&sr=1707x1067&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.185%7CNot%253DA%253FBrand%3B24.0.0.0%7CGoogle%2520Chrome%3B140.0.7339.185&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105359938~115480710~115616986&dl=https%3A%2F%2Fgemini.google-b197145817.com%2Fapp%2F0c79a0e89cd633d5%2F&sid=1758554706&sct=228&seg=1&dt=Google%20Gemini&en=173898&ep.page_locale=default&ep.user_agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F140.0.0.0%20Safari%2F537.36&ep.is_eea=false&ep.user_onboarding_status=available&epn.conversation_mode=2&ep.event_type=IMPRESSION&_et=27&tfd=496041",
+  "host": "www.google-analytics.com",
+  "path": "/g/collect",
+  "is_youtube": false,
+  "video_info": {
+    "video_id": "2"
+  },
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:38.800969",
+  "type": "request",
+  "method": "POST",
+  "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+  "host": "play.google.com",
+  "path": "/log",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:42.952263",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=55&CI=1&TYPE=xmlhttp&zx=96e5umxoy01c&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:43.215552",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=55&CI=1&TYPE=xmlhttp&zx=96e5umxoy01c&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:46.534556",
+  "type": "request",
+  "method": "POST",
+  "url": "https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID1PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID3PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c&authuser=0&format=json",
+  "host": "play.google.com",
+  "path": "/log",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:48.621216",
+  "type": "request",
+  "method": "POST",
+  "url": "https://signaler-pa.clients6.google.com/punctual/v1/refreshCreds?key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/v1/refreshCreds",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-22T23:59:59.233699",
+  "type": "request",
+  "method": "POST",
+  "url": "https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID1PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c+SAPISID3PHASH+1b39b6d45c7997d4213e3fdf5e691b2ff4cde21c&authuser=0&format=json",
+  "host": "play.google.com",
+  "path": "/log",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:03.031204",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=57&CI=1&TYPE=xmlhttp&zx=wuqtceob6wsi&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:03.299548",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=57&CI=1&TYPE=xmlhttp&zx=wuqtceob6wsi&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:23.051473",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=59&CI=1&TYPE=xmlhttp&zx=55r0ci21i0sj&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:23.318297",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=59&CI=1&TYPE=xmlhttp&zx=55r0ci21i0sj&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:43.084019",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=61&CI=1&TYPE=xmlhttp&zx=vo7ktnfl2mz4&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:00:43.356092",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=61&CI=1&TYPE=xmlhttp&zx=vo7ktnfl2mz4&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:03.101792",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=63&CI=1&TYPE=xmlhttp&zx=lg8xrec70v5x&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:03.371600",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=63&CI=1&TYPE=xmlhttp&zx=lg8xrec70v5x&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:16.742490",
+  "type": "response",
+  "status_code": 200,
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "host": "www.youtube.com",
+  "is_youtube": true,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:18.962169",
+  "type": "request",
+  "method": "GET",
+  "url": "https://history.google.com/history/api/lookup?client=aesb",
+  "host": "history.google.com",
+  "path": "/history/api/lookup",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:23.146421",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=65&CI=1&TYPE=xmlhttp&zx=7yft3kp6j7kv&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:23.410552",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=65&CI=1&TYPE=xmlhttp&zx=7yft3kp6j7kv&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:43.179804",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=67&CI=1&TYPE=xmlhttp&zx=dveivf7b2sbo&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:01:43.452724",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=67&CI=1&TYPE=xmlhttp&zx=dveivf7b2sbo&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:02:03.249142",
+  "type": "request",
+  "method": "OPTIONS",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=69&CI=1&TYPE=xmlhttp&zx=s9ldidxtnr6h&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+{
+  "timestamp": "2025-09-23T00:02:03.519850",
+  "type": "request",
+  "method": "GET",
+  "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8&gsessionid=0P0BrB-ybow4n9Kqhf6jupKnMJMgiMyvKe_HWswnZ9k&key=AIzaSyBWW50ghQ5qHpMg1gxHV7U9t0wHE0qIUk4&RID=rpc&SID=kB1li7t6uvxil94LzOiVZg&AID=69&CI=1&TYPE=xmlhttp&zx=s9ldidxtnr6h&t=1",
+  "host": "signaler-pa.clients6.google.com",
+  "path": "/punctual/multi-watch/channel",
+  "is_youtube": false,
+  "sensitive_check": {
+    "total_matches": 0,
+    "is_sensitive": false,
+    "checked_fields": 0,
+    "threshold": 1,
+    "action_taken": "passed"
+  }
+},
+
+==================================================
+审查统计信息:
+{
+  "total_requests": 121,
+  "youtube_requests": 27,
+  "sensitive_blocks": 0,
+  "start_time": "2025-09-22T23:51:45.932763",
+  "total_matches": 0,
+  "automaton_size": 0,
+  "sensitivity_threshold": 1
+}
+==================================================

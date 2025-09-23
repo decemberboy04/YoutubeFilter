@@ -213,39 +213,32 @@ class SensitiveFilter:
             "content_sample": content[:100] + "..." if len(content) > 100 else content
         })
 
-    # ==================== 代码修改部分 START ====================
-    def replace_sensitive_content(self, data: Any) -> Any:
+    def replace_sensitive_content(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """
-        递归替换敏感内容为占位符。
-        只替换实际包含敏感词的字符串，而不是所有内容字段。
-        :param data: 原始数据 (可以是字典, 列表, 字符串等)
+        替换敏感内容为占位符（保持数据结构不变）
+        :param data: 原始数据
         :return: 替换后的数据
         """
-        # 如果是字典，递归处理它的所有值
-        if isinstance(data, dict):
-            return {key: self.replace_sensitive_content(value) for key, value in data.items()}
 
-        # 如果是列表，递归处理它的所有元素
-        elif isinstance(data, list):
-            return [self.replace_sensitive_content(item) for item in data]
-
-        # 如果是字符串，检查它是否包含敏感词
-        elif isinstance(data, str):
-            # 使用 Aho-Corasick 自动机检查字符串是否包含任何敏感词。
-            # next() 和 iter() 结合是一种高效的检查方式，只要找到第一个匹配就停止。
-            has_match = next(self.automaton.iter(data), None) is not None
-
-            # 如果有匹配，则替换；否则返回原字符串
-            if has_match:
-                print(f"🚫 正在替换含有敏感词的内容: '{data[:100]}...'")
-                return "⚠️ 该内容已被过滤"
+        def _recursive_replace(obj, path=""):
+            if isinstance(obj, dict):
+                result = {}
+                for key, value in obj.items():
+                    current_path = f"{path}.{key}" if path else key
+                    result[key] = _recursive_replace(value, current_path)
+                return result
+            elif isinstance(obj, list):
+                return [_recursive_replace(item, f"{path}[{i}]") for i, item in enumerate(obj)]
+            elif isinstance(obj, str):
+                # 检查字段路径是否包含内容关键词
+                content_patterns = {'title', 'description', 'content', 'text', 'message', 'name'}
+                if any(pattern in path.lower() for pattern in content_patterns):
+                    return "⚠️ 该内容已被过滤"
+                return obj
             else:
-                return data
+                return obj
 
-        # 对于其他数据类型 (如数字、布尔值等)，直接返回
-        else:
-            return data
-    # ==================== 代码修改部分 END ====================
+        return _recursive_replace(data)
 
 
 # 创建全局过滤器实例

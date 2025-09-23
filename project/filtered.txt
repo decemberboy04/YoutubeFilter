@@ -1,16 +1,2773 @@
 被拦截内容记录
 ==================================================
-开始时间: 2025-09-22T23:51:45.932763
+开始时间: 2025-09-23T23:42:49.039772
 
 敏感度阈值: 1
 格式: {时间戳, URL, 匹配次数, 敏感词详情}
 ==================================================
 
+{
+  "timestamp": "2025-09-23T23:43:09.011425",
+  "type": "response",
+  "url": "https://www.youtube.com/results?search_query=%E9%98%85%E5%85%B5",
+  "host": "www.youtube.com",
+  "match_count": 4,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[93]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[110]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:21.705946",
+  "type": "request",
+  "url": "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 1,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.query[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1
+},
+{
+  "timestamp": "2025-09-23T23:43:23.614644",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 142,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[12]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[20]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[21]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[24]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[38]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[44]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[50]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[54]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[92]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[94]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[95]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[96]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[97]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[103]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[106]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[114]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[115]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[116]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[118]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[119]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[120]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[123]",
+      "matches": 4,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[129]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[131]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[133]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[137]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[138]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[139]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[140]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[147]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[148]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[149]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[150]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[155]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[165]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[174]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[177]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[187]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[196]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[198]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[200]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[203]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[212]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[215]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[223]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[245]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[254]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[256]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[259]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[260]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[261]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[262]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[268]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[270]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[271]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[273]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[274]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[275]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[276]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[282]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[283]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[295]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[303]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[11]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[24]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[36]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[50]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[60]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[71]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[82]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[93]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[104]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[115]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[125]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[158]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[168]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[179]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[201]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[211]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[2]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[3]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[4]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[5]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[6]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[7]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[8]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[10]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[11]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[12]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[13]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[14]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[15]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[17]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[18]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[19]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[20]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[21]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[22]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[23]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[24]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[25]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:26.852795",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:28.177592",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 20,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:28.453243",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 15,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.ownerChannelName[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:28.640744",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 22,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 10,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 10,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:30.060983",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 3,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.simpleText[157]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.ownerChannelName[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:31.227851",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 4,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.simpleText[157]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[158]",
+      "matches": 1,
+      "content_sample": "1. YouTube 会员平台\n成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。\n点击链接了解详情并加入：https://www.youtube.com/channel/UCBK..."
+    },
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "1. YouTube 会员平台\n成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。\n点击链接了解详情并加入：https://www.youtube.com/channel/UCBK..."
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:31.437573",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 4,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:31.676501",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:31.966271",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 10,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:32.100330",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 4,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:32.251314",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 40,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 19,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 19,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:34.950834",
+  "type": "response",
+  "url": "https://www.youtube.com/results?search_query=%E9%98%85%E5%85%B5",
+  "host": "www.youtube.com",
+  "match_count": 4,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[93]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[110]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:35.683387",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/navigation/resolve_url?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 1,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.query[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:40.064122",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 38,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[84]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[92]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[136]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[230]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[268]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[298]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[308]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[314]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[320]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[322]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[334]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[344]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[374]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[394]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[402]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[404]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[471]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[67]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[117]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[217]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[258]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[291]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[317]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[327]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[363]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[386]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[398]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[465]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:45.257532",
+  "type": "request",
+  "url": "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 1,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.query[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1
+},
+{
+  "timestamp": "2025-09-23T23:43:48.603795",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 151,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[12]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[20]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[21]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[24]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[38]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[44]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[50]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[54]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[92]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[94]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[95]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[96]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[97]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[103]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[106]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[114]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[115]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[116]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[118]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[119]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[120]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[123]",
+      "matches": 4,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[129]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[131]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[133]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[137]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[138]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[139]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[140]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[147]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[148]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[149]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[150]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[155]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[165]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[174]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[177]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[187]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[196]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[198]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[200]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[203]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[212]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[215]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[223]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[235]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[244]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[246]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[249]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[250]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[251]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[252]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[258]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[260]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[261]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[263]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[264]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[265]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[266]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[272]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[273]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[275]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[283]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[293]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[303]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[304]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[305]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[306]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[11]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[24]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[36]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[50]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[60]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[71]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[82]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[93]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[104]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[115]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[125]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[147]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[157]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[168]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[179]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[189]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[200]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[212]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[2]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[3]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[4]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[5]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[6]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[7]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[8]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[10]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[11]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[12]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[13]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[14]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[15]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[17]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[18]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[19]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[20]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[21]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[22]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[23]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[24]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.query[25]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:53.360043",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:53.708338",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:43:55.568858",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 35,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[2]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[3]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[78]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[80]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[81]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[30]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[55]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[65]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[70]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[75]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[88]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[18]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[28]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[32]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[34]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[36]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[38]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[42]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[61]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[81]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[89]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[93]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[97]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[13]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[43]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[55]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[61]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[67]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[73]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[85]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[122]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:44:03.933690",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:44:06.196179",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 27,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[2]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[3]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[78]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[80]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[81]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[25]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[30]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[70]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[88]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[18]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[34]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[38]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[42]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[57]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[61]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[93]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[7]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[13]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[61]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[73]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[85]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[122]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:44:10.063909",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 20,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:09.024219",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 22,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 10,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 10,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:09.113284",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 15,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 6,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.ownerChannelName[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:09.701511",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 8,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:10.690124",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 36,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[2]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[3]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[78]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[80]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[81]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[25]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[40]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[65]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[88]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[22]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[32]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[40]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[44]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[46]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[50]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[57]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[69]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[89]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[0]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[7]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[25]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[55]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[74]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[79]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[91]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[97]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[109]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[122]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:36.973158",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 20,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.title[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.shortDescription[0]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[1]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:38.747030",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 67,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.text[0]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.text[108]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[114]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[127]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[132]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[135]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[138]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[140]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[159]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[168]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[174]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[180]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[184]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[222]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[238]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[244]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[250]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[254]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[292]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[304]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[306]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[307]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[308]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[313]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[317]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[318]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[319]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.simpleText[320]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[37]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[41]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.label[157]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[0]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[66]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[78]",
+      "matches": 2,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[85]",
+      "matches": 8,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:49.273901",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 7,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.content[3]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[14]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[15]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
+{
+  "timestamp": "2025-09-23T23:47:52.395918",
+  "type": "response",
+  "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+  "host": "www.youtube.com",
+  "match_count": 7,
+  "is_sensitive": true,
+  "sensitive_matches": [
+    {
+      "field": "extracted_content.content[3]",
+      "matches": 3,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[9]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[14]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[15]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    },
+    {
+      "field": "extracted_content.content[16]",
+      "matches": 1,
+      "content_sample": "⚠️ 该内容已被过滤"
+    }
+  ],
+  "action_taken": "content_replaced",
+  "threshold": 1,
+  "status_code": 200
+},
 
 ==================================================
 拦截统计:
-总拦截次数: 0
-总请求数: 121
-YouTube请求数: 27
+总拦截次数: 31
+总请求数: 445
+YouTube请求数: 119
 最终敏感度阈值: 1
 ==================================================

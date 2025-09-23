@@ -322,121 +322,38 @@ class YouTubeContentCapture:
             self._log_filtered_content(flow, checked_request, "request")
             ctx.log.warn(f"🚨 敏感请求拦截: {flow.request.url}")
 
-    # def response(self, flow: mitmproxy.http.HTTPFlow):
-    #     # ==================== 核心修复：全局缓存禁用 ====================
-    #     # 检查是否是YouTube流量
-    #     is_youtube = "youtube.com" in flow.request.host or "youtu.be" in flow.request.host
-    #     if not is_youtube:
-    #         return
-    #
-    #     # 对来自YouTube的所有响应强制应用最严格的无缓存策略。
-    #     # 这是解决刷新问题的关键：确保浏览器从不缓存任何资源（HTML、API数据、JS等）。
-    #     flow.response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0"
-    #     flow.response.headers["Pragma"] = "no-cache"
-    #     flow.response.headers["Expires"] = "0"
-    #
-    #     # 为了更彻底地清除顽固缓存（特别是Service Worker），
-    #     # 在返回HTML页面时，我们要求浏览器清除该站点的所有存储数据。
-    #     # "storage" 包括 Service Workers, localStorage 等。
-    #     if "text/html" in flow.response.headers.get("Content-Type", ""):
-    #         flow.response.headers["Clear-Site-Data"] = '"cache", "storage"'
-    #         ctx.log.warn(f"🔥 已为HTML页面 {flow.request.url} 添加 Clear-Site-Data 头，强制清除缓存和Service Worker")
-    #
-    #     ctx.log.info(f"📋 已为 {flow.request.url} 强制设置全局无缓存头")
-    #     # =================================================================
-    #
-    #     ctx.log.info(f"🔍 分析YouTube响应: {flow.request.url}")
-    #
-    #     response_info = self._parse_response(flow)
-    #
-    #     # 打印提取的内容用于调试
-    #     if response_info.get("extracted_content"):
-    #         ctx.log.info(f"📋 提取的内容字段: {list(response_info['extracted_content'].keys())}")
-    #         for field, values in response_info["extracted_content"].items():
-    #             for i, value in enumerate(values[:3]):  # 只显示前3个值
-    #                 ctx.log.info(f"   {field}[{i}]: {value[:100]}...")  # 截断长文本
-    #
-    #     # 进行敏感词审查
-    #     checked_response = check_and_filter_data(response_info)
-    #
-    #     # 打印审查结果
-    #     match_count = checked_response.get("sensitive_check", {}).get("total_matches", 0)
-    #     threshold = get_sensitivity_threshold()
-    #     ctx.log.info(f"🎯 敏感词匹配次数: {match_count} (阈值: {threshold})")
-    #
-    #     if match_count > 0:
-    #         ctx.log.info(f"🔍 匹配详情: {checked_response.get('sensitive_matches', [])}")
-    #
-    #     self._write_to_file(checked_response)
-    #
-    #     # 记录所有响应到被拦截文件（无论是否敏感）
-    #     if checked_response.get("sensitive_check", {}).get("total_matches", 0) > 0:
-    #         self._log_filtered_content(flow, checked_response, "response")
-    #
-    #     # 如果响应内容敏感，进行拦截处理
-    #     if checked_response.get("sensitive_check", {}).get("is_sensitive", False):
-    #         self.stats["sensitive_blocks"] += 1
-    #
-    #         ctx.log.warn(f"🚨 拦截敏感响应: {flow.request.url}")
-    #         ctx.log.warn(f"   匹配次数: {checked_response['sensitive_check']['total_matches']}")
-    #         ctx.log.warn(f"   当前阈值: {threshold}")
-    #
-    #         # 尝试将响应文本作为JSON进行细粒度过滤
-    #         if flow.response.text:
-    #             try:
-    #                 # 1. 将原始响应文本解析为Python字典
-    #                 original_data = json.loads(flow.response.text)
-    #
-    #                 # 2. 使用 sensitive_filter.py 中的函数替换敏感内容
-    #                 #    这个函数会递归遍历数据，将包含敏感词的字符串替换掉
-    #                 modified_data = sensitive_filter.replace_sensitive_content(original_data)
-    #
-    #                 # 3. 将修改后的字典转换回JSON字符串，并设置为新的响应体
-    #                 flow.response.text = json.dumps(modified_data, ensure_ascii=False)
-    #                 flow.response.headers["X-Content-Filtered"] = "true"  # 添加一个头，表示内容已被过滤
-    #
-    #                 ctx.log.info(f"✅ 成功过滤响应中的敏感内容，页面可正常加载。")
-    #
-    #             except json.JSONDecodeError:
-    #                 # 如果响应不是有效的JSON，无法进行细粒度过滤，执行回退策略
-    #                 ctx.log.warn(f"⚠️ 响应不是有效的JSON，无法进行内容替换。返回通用过滤消息。")
-    #                 flow.response.text = "Content filtered due to sensitive material (non-JSON response)"
-    #                 flow.response.status_code = 403
-    #             except Exception as e:
-    #                 ctx.log.error(f"响应过滤时发生未知错误: {e}")
-    #                 flow.response.text = "Error during content filtering"
-    #                 flow.response.status_code = 500
-    #
-    #     # 记录统计信息
-    #     if checked_response["is_youtube"]:
-    #         content_count = len(checked_response.get("extracted_content", {}))
-    #         ctx.log.info(f"📺 YouTube响应: 状态码 {flow.response.status_code}, 内容字段 {content_count}")
-
     def response(self, flow: mitmproxy.http.HTTPFlow):
-        # 仅处理 YouTube 流量
+        # 首先检查是否是YouTube流量
         is_youtube = "youtube.com" in flow.request.host or "youtu.be" in flow.request.host
         if not is_youtube:
             return
 
-        # 强制无缓存（保留原有逻辑）
+        # ==================== 核心修改点 ====================
+        # 主动为所有YouTube API响应添加禁止缓存的头信息
+        # 这是解决刷新问题的关键：确保浏览器从不缓存API数据
+        # 这样每次刷新都会经过我们的代理进行过滤检查
         if "youtubei/v1/" in flow.request.path:
             flow.response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
             flow.response.headers["Pragma"] = "no-cache"
             flow.response.headers["Expires"] = "0"
             ctx.log.info(f"📋 已为API响应 {flow.request.url} 强制设置无缓存头")
+        # ====================================================
 
         ctx.log.info(f"🔍 分析YouTube响应: {flow.request.url}")
 
         response_info = self._parse_response(flow)
 
+        # 打印提取的内容用于调试
         if response_info.get("extracted_content"):
             ctx.log.info(f"📋 提取的内容字段: {list(response_info['extracted_content'].keys())}")
             for field, values in response_info["extracted_content"].items():
-                for i, value in enumerate(values[:3]):
-                    ctx.log.info(f"   {field}[{i}]: {value[:100]}...")
+                for i, value in enumerate(values[:3]):  # 只显示前3个值
+                    ctx.log.info(f"   {field}[{i}]: {value[:100]}...")  # 截断长文本
 
-        # 审查响应
+        # 进行敏感词审查
         checked_response = check_and_filter_data(response_info)
+
+        # 打印审查结果
         match_count = checked_response.get("sensitive_check", {}).get("total_matches", 0)
         threshold = get_sensitivity_threshold()
         ctx.log.info(f"🎯 敏感词匹配次数: {match_count} (阈值: {threshold})")
@@ -446,95 +363,47 @@ class YouTubeContentCapture:
 
         self._write_to_file(checked_response)
 
-        # 记录所有包含敏感匹配的响应
+        # 记录所有响应到被拦截文件（无论是否敏感）
         if checked_response.get("sensitive_check", {}).get("total_matches", 0) > 0:
             self._log_filtered_content(flow, checked_response, "response")
 
-        # 如果响应被判定为敏感，采取更严厉的处理：
+        # 如果响应内容敏感，进行拦截处理
         if checked_response.get("sensitive_check", {}).get("is_sensitive", False):
             self.stats["sensitive_blocks"] += 1
+
             ctx.log.warn(f"🚨 拦截敏感响应: {flow.request.url}")
             ctx.log.warn(f"   匹配次数: {checked_response['sensitive_check']['total_matches']}")
             ctx.log.warn(f"   当前阈值: {threshold}")
 
-            # 判断是否为流媒体/播放相关端点或视频数据（通过路径/Content-Type）
-            path = flow.request.path.lower()
-            content_type = flow.response.headers.get("Content-Type", "").lower()
-
-            stream_indicators = (
-                "videoplayback", "get_video_info", "/player", "watch", "playback",
-                "manifest", "dash", "hls", "m3u8", "mpd"
-            )
-            is_stream_endpoint = any(ind in path for ind in stream_indicators) or \
-                                 any(k in content_type for k in
-                                     ("video/", "mpegurl", "dash+xml", "application/vnd.apple.mpegurl"))
-
-            # 如果是明显的流媒体或播放页，直接返回不可用（破坏流，让用户无法点进）
-            if is_stream_endpoint:
-                ctx.log.warn(f"⚠️ 检测到流/播放端点，直接屏蔽流：{flow.request.url}")
-                flow.response.status_code = 410
-                msg = "⚠️ 此视频因内容审查被屏蔽，无法播放。"
-                # 根据客户端期望，返回短文本（浏览器/播放器将无法取得有效流）
-                flow.response.text = msg
-                flow.response.headers["Content-Type"] = "text/plain; charset=utf-8"
-                flow.response.headers["Content-Length"] = str(len(msg.encode("utf-8")))
-                flow.response.headers["X-Content-Filtered"] = "true"
-                # 禁止缓存
-                flow.response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-                flow.response.headers["Pragma"] = "no-cache"
-                flow.response.headers["Expires"] = "0"
-                return
-
-            # 否则尝试对 JSON 进行细粒度过滤并移除流相关字段
+            # 尝试将响应文本作为JSON进行细粒度过滤
             if flow.response.text:
                 try:
+                    # 1. 将原始响应文本解析为Python字典
                     original_data = json.loads(flow.response.text)
-                    # 先做文本替换（保持原有 sensitive_filter 行为）
+
+                    # 2. 使用 sensitive_filter.py 中的函数替换敏感内容
+                    #    这个函数会递归遍历数据，将包含敏感词的字符串替换掉
                     modified_data = sensitive_filter.replace_sensitive_content(original_data)
 
-                    # 递归移除可能包含播放/流地址的字段，阻断前端拿到播放地址
-                    def remove_streaming_keys(obj):
-                        if isinstance(obj, dict):
-                            for k in list(obj.keys()):
-                                lower_k = k.lower()
-                                if lower_k in {
-                                    "streamingdata", "formats", "adaptiveformats", "dashmanifesturl",
-                                    "hlsmanifesturl", "dashurl", "hlsurl", "playerresponse", "streaming",
-                                    "playbackurls", "playurl", "signaturecipher"
-                                }:
-                                    del obj[k]
-                                    continue
-                                # 递归
-                                if isinstance(obj.get(k), (dict, list)):
-                                    remove_streaming_keys(obj[k])
-                        elif isinstance(obj, list):
-                            for item in obj:
-                                remove_streaming_keys(item)
-
-                    remove_streaming_keys(modified_data)
-
-                    # 写回响应
+                    # 3. 将修改后的字典转换回JSON字符串，并设置为新的响应体
                     flow.response.text = json.dumps(modified_data, ensure_ascii=False)
-                    flow.response.headers["X-Content-Filtered"] = "true"
-                    # 额外设置状态或头以确保前端注意到被过滤
-                    flow.response.headers["X-Proxy-Filter-Action"] = "content_removed"
-                    flow.response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-                    ctx.log.info(f"✅ 对JSON响应进行敏感内容替换并移除流字段: {flow.request.url}")
+                    flow.response.headers["X-Content-Filtered"] = "true"  # 添加一个头，表示内容已被过滤
+
+                    ctx.log.info(f"✅ 成功过滤响应中的敏感内容，页面可正常加载。")
 
                 except json.JSONDecodeError:
-                    # 非JSON响应，回退到通用的屏蔽文本+状态（此前逻辑）
-                    ctx.log.warn(f"⚠️ 响应不是有效的JSON，返回通用过滤信息并设置403/410。")
+                    # 如果响应不是有效的JSON，无法进行细粒度过滤，执行回退策略
+                    ctx.log.warn(f"⚠️ 响应不是有效的JSON，无法进行内容替换。返回通用过滤消息。")
                     flow.response.text = "Content filtered due to sensitive material (non-JSON response)"
                     flow.response.status_code = 403
-                    flow.response.headers["X-Content-Filtered"] = "true"
                 except Exception as e:
                     ctx.log.error(f"响应过滤时发生未知错误: {e}")
                     flow.response.text = "Error during content filtering"
                     flow.response.status_code = 500
 
-        # 最后记录一些统计信息（保留原有统计日志）
-        if response_info.get("is_youtube"):
-            content_count = len(response_info.get("extracted_content", {}))
+        # 记录统计信息
+        if checked_response["is_youtube"]:
+            content_count = len(checked_response.get("extracted_content", {}))
             ctx.log.info(f"📺 YouTube响应: 状态码 {flow.response.status_code}, 内容字段 {content_count}")
 
     def done(self):
